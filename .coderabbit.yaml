@@ -1,20 +1,41 @@
 # yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
 language: ko-KR
 tone_instructions: >-
-  한국어로 간결하게 리뷰하세요. 문제의 발생 조건, 영향, 최소 수정안을 설명하고
-  실제 결함과 선택적 개선을 구분하세요. 기존 ESLint·Prettier가 처리하는 형식 지적과
-  근거 없는 추측, 불필요한 추상화 제안은 피하세요.
+  리뷰와 채팅은 항상 한국어로 작성하세요. 코드·식별자·로그 원문만 예외입니다.
+  근거가 확인된 버그·보안·데이터 손실·기능 실패와 명시적 규칙 위반만 지적하세요.
+  각 지적은 발생 조건·영향·최소 수정안을 3문장 이내로 작성하세요.
+  인사·칭찬·잡담·반복·추측·선택적 개선·불필요한 추상화·ESLint/Prettier 형식 지적은 생략하세요.
 
 reviews:
-  profile: chill
+  profile: quiet
   request_changes_workflow: false
   allow_author_approval: false
   high_level_summary: true
+  high_level_summary_instructions: >-
+    한국어로 핵심 변경만 최대 3개 항목, 항목당 1문장으로 요약하세요.
+    영어 제목, 파일별 나열, 반복 설명, 칭찬은 생략하세요.
+    코드에서 확인할 수 없는 테스트 결과는 추측하지 마세요.
   high_level_summary_in_walkthrough: true
   collapse_walkthrough: true
+  review_status: false
+  review_details: false
+  changed_files_summary: false
   sequence_diagrams: false
+  estimate_code_review_effort: false
+  assess_linked_issues: false
+  related_issues: false
+  related_prs: false
+  suggested_labels: false
+  suggested_reviewers: false
+  in_progress_fortune: false
   poem: false
+  enable_prompt_for_ai_agents: false
   auto_apply_labels: false
+  finishing_touches:
+    docstrings:
+      enabled: false
+    unit_tests:
+      enabled: false
   auto_review:
     enabled: true
     auto_incremental_review: true
@@ -28,13 +49,8 @@ reviews:
     title:
       mode: off
   path_filters:
-    - '!pnpm-lock.yaml'
-    - '!next-env.d.ts'
-    - '!public/mockServiceWorker.js'
-    - '!node_modules/**'
-    - '!.next/**'
-    - '!coverage/**'
-    - '!.playwright-cli/**'
+    - 'src/**'
+    - 'app/**'
   path_instructions:
     - path: 'src/**/*.{ts,tsx}'
       instructions: >-
@@ -80,12 +96,6 @@ reviews:
         mock 준비 전 API 호출 경쟁 상태와 초기화 실패 시 복구 가능한 오류 UI를
         검토하세요. 서버에서 전달한 children이 Client Provider 아래 있다는 이유만으로
         모두 Client Component라고 판단하지 마세요.
-    - path: 'tests/**/*.{ts,tsx}'
-      instructions: >-
-        Vitest·React Testing Library·MSW로 사용자 행동과 실패 경계를 검증하세요.
-        HTTP 실패, 잘못된 응답, 캐시/store 격리, 폼 실패 유지, 중복 제출, 모달 포커스,
-        production mock 차단의 회귀를 우선합니다. jsdom 보완을 production 코드로
-        옮기지 말고 구현을 그대로 복제하는 테스트나 단순 스타일 테스트는 요구하지 마세요.
 
 chat:
   auto_reply: true

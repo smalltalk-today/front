@@ -1,0 +1,104 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+language: ko-KR
+tone_instructions: >-
+  한국어로 간결하게 리뷰하세요. 문제의 발생 조건, 영향, 최소 수정안을 설명하고
+  실제 결함과 선택적 개선을 구분하세요. 기존 ESLint·Prettier가 처리하는 형식 지적과
+  근거 없는 추측, 불필요한 추상화 제안은 피하세요.
+
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  allow_author_approval: false
+  high_level_summary: true
+  high_level_summary_in_walkthrough: true
+  collapse_walkthrough: true
+  sequence_diagrams: false
+  poem: false
+  auto_apply_labels: false
+  auto_review:
+    enabled: true
+    auto_incremental_review: true
+    auto_pause_after_reviewed_commits: 0
+    drafts: false
+  pre_merge_checks:
+    # 주석은 코드로 드러나지 않는 이유를 설명할 때만 작성합니다.
+    docstrings:
+      mode: off
+    # PR 제목은 기존 pr-conventions CI가 검사합니다.
+    title:
+      mode: off
+  path_filters:
+    - '!pnpm-lock.yaml'
+    - '!next-env.d.ts'
+    - '!public/mockServiceWorker.js'
+    - '!node_modules/**'
+    - '!.next/**'
+    - '!coverage/**'
+    - '!.playwright-cli/**'
+  path_instructions:
+    - path: 'src/**/*.{ts,tsx}'
+      instructions: >-
+        guide/architecture/fsd.md와 guide/conventions/code.md를 기준으로 검토하세요.
+        의존 방향은 _app → widgets → features → entities → shared이며 아래 레이어를
+        건너뛰어 참조할 수 있습니다. 역방향과 같은 레이어의 다른 slice 직접 참조는
+        금지합니다. _app과 shared 내부 segment 간 참조는 허용합니다.
+        slice 외부는 public entrypoint, 내부는 상대 경로를 사용합니다.
+        index.server.ts의 server-only 경계와 index.client.ts의 클라이언트 경계를
+        확인하세요. UI의 직접 fetch와 불필요한 shared 이동을 지적하세요.
+    - path: 'app/**/*.{ts,tsx}'
+      instructions: >-
+        guide/architecture/rendering.md를 기준으로 Server Component를 기본으로 하고
+        hook·이벤트·브라우저 API가 필요한 최소 영역에만 use client를 사용하세요.
+        page.tsx는 default export 함수의 JSX로 페이지를 조합하며 페이지 전체를
+        re-export하지 않습니다. API 구현은 slice에 두고 페이지에서 직접 fetch하지
+        않습니다. 개인별 응답의 공용 서버 캐시, 직렬화 불가능한 props, metadata와
+        robots/sitemap의 SITE_URL을 확인하세요. app/dev/demo는 production에서
+        404여야 합니다. 설치된 Next.js 16.4의 문서와 실제 API를 기준으로 판단하고
+        이전 버전의 관례만으로 수정을 요구하지 마세요.
+    - path: 'src/**/{api,model}/**/*.{ts,tsx}'
+      instructions: >-
+        guide/data/api.md와 guide/data/state.md를 기준으로 검토하세요.
+        외부 JSON은 unknown에서 Zod로 검증하고 공통 request/serverRequest를
+        사용합니다. HTTP status와 오류를 보존하고 브라우저 조회에는 AbortSignal을
+        전달합니다. 서버 데이터는 TanStack Query, 공유 UI는 Zustand, 폼은
+        React Hook Form으로 관리합니다. mutation 성공 후 관련 query를 invalidate하고
+        실패 시 오류 표시와 입력값을 유지하며 중복 제출을 방지합니다.
+        현재 데모의 이름은 trim 후 1~40자이며 실제 서비스 DTO와 혼합하지 않습니다.
+        SSR prefetch는 향후 예제이므로 현재 브라우저 MSW 데모에 강제하지 마세요.
+    - path: 'src/shared/**/*.{ts,tsx}'
+      instructions: >-
+        QueryClient와 Zustand store의 서버 요청 간 singleton 공유를 금지하고
+        브라우저 캐시 재사용과 provider별 store 격리를 확인하세요.
+        API_BASE_URL·비밀값의 클라이언트 유출과 인증 정보의 무분별한 전달을
+        검토하세요. UI는 guide/ui/design-system.md의 토큰을 따르고 기존 Button,
+        Input, Modal을 재사용합니다. label·오류 안내·키보드 이동·Escape·모달 닫기 후
+        포커스 복귀·44px 버튼 높이·reduced-motion을 확인하세요.
+    - path: 'src/_app/**/*.{ts,tsx}'
+      instructions: >-
+        provider의 요청별 캐시와 store 격리를 확인하세요. MSW는 개발 환경에서만
+        초기화하고 production에서 mock worker를 요청하거나 등록하지 않아야 합니다.
+        mock 준비 전 API 호출 경쟁 상태와 초기화 실패 시 복구 가능한 오류 UI를
+        검토하세요. 서버에서 전달한 children이 Client Provider 아래 있다는 이유만으로
+        모두 Client Component라고 판단하지 마세요.
+    - path: 'tests/**/*.{ts,tsx}'
+      instructions: >-
+        Vitest·React Testing Library·MSW로 사용자 행동과 실패 경계를 검증하세요.
+        HTTP 실패, 잘못된 응답, 캐시/store 격리, 폼 실패 유지, 중복 제출, 모달 포커스,
+        production mock 차단의 회귀를 우선합니다. jsdom 보완을 production 코드로
+        옮기지 말고 구현을 그대로 복제하는 테스트나 단순 스타일 테스트는 요구하지 마세요.
+
+chat:
+  auto_reply: true
+
+knowledge_base:
+  code_guidelines:
+    enabled: true
+    filePatterns:
+      - '**/AGENTS.md'
+      - 'guide/architecture/*.md'
+      - 'guide/conventions/*.md'
+      - 'guide/data/*.md'
+      - 'guide/ui/*.md'
+      - 'guide/workflow/quality.md'
+  learnings:
+    scope: local

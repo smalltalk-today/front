@@ -1,0 +1,74 @@
+name: Discord PR Notifications
+on:
+  # Fork PRs can notify, but this workflow must never check out or execute PR code.
+  pull_request_target:
+    types: [opened, ready_for_review, closed]
+  workflow_dispatch:
+permissions: {}
+jobs:
+  notify:
+    name: discord-pr
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        shell: python
+        run: |
+          import json
+          import os
+          import re
+          import urllib.error
+          import urllib.request
+
+          with open(os.environ["GITHUB_EVENT_PATH"], encoding="utf-8") as event_file:
+              event = json.load(event_file)
+
+          if os.environ["GITHUB_EVENT_NAME"] == "workflow_dispatch":
+              embed = {
+                  "title": "🔔 PR 알림 연결 테스트",
+                  "description": f"{os.environ['GITHUB_REPOSITORY']}의 Discord 알림 연결이 정상입니다.",
+                  "color": 3447003,
+              }
+          else:
+              pr = event["pull_request"]
+              action = event["action"]
+              merged = action == "closed" and pr.get("merged", False)
+              review_ready = action in ("opened", "ready_for_review") and not pr["draft"]
+              if not (merged or review_ready):
+                  print("No notification for this PR event.")
+                  raise SystemExit(0)
+              status = "✅ 머지 완료" if merged else "🔍 리뷰 요청"
+              embed = {
+                  "title": f"{status} · #{pr['number']} {pr['title']}"[:256],
+                  "url": pr["html_url"],
+                  "color": 3066993 if merged else 3447003,
+                  "fields": [
+                      {"name": "작성자", "value": pr["user"]["login"], "inline": True},
+                      {"name": "브랜치", "value": f"{pr['head']['ref']} → {pr['base']['ref']}"},
+                  ],
+                  "footer": {"text": os.environ["GITHUB_REPOSITORY"]},
+              }
+
+          webhook_url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+          if not webhook_url:
+              print("::warning::Add the DISCORD_WEBHOOK_URL repository secret to enable notifications.")
+              raise SystemExit(0)
+          if not re.fullmatch(r"https://discord\.com/api(?:/v\d+)?/webhooks/\d+/[\w-]+", webhook_url):
+              raise SystemExit("::error::Use the copied Discord webhook URL without /github or query parameters.")
+
+          payload = {"embeds": [embed], "allowed_mentions": {"parse": []}}
+          request = urllib.request.Request(
+              webhook_url + "?wait=true",
+              data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+              headers={"Content-Type": "application/json", "User-Agent": "GitHub-Actions"},
+              method="POST",
+          )
+          try:
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  print(f"Discord notification sent (HTTP {response.status}).")
+          except urllib.error.HTTPError as error:
+              raise SystemExit(f"::error::Discord notification failed (HTTP {error.code}).") from None
+          except (urllib.error.URLError, TimeoutError):
+              raise SystemExit("::error::Discord notification failed due to a network error.") from None

@@ -6,6 +6,23 @@ PR 제목은 `type: 내용` 또는 `type(scope): 내용` 형식으로 작성합�
 
 GitHub 원격은 [smalltalk-today/front](https://github.com/smalltalk-today/front)입니다. 최초 main은 빈 초기 커밋으로 생성하고 프로젝트 설정은 feature 브랜치의 PR로 반영합니다. main 보호 ruleset은 PR 반영, 작성자 외 승인 1개, 변경 후 기존 승인 취소, 리뷰 대화 해결, force push·삭제 금지, 선형 이력을 적용합니다. 두 명 팀에서 작성자 외 다른 한 명이 승인합니다. 관리자도 우회하지 않습니다. 병합은 squash만 허용합니다. 작업 브랜치 이름은 별도 ruleset으로 검사합니다. 추가 승인 조건은 사용하지 않습니다. 필수 CI check 지정은 첫 PR 실행 결과에서 실제 이름과 GitHub Actions 출처를 확인한 뒤 적용합니다. 준비한 check 이름은 `quality`, `pr-conventions`입니다. 템플릿·CI 파일은 저장소에 준비되어 있습니다. 배포 URL/비밀값은 GitHub/배포 플랫폼 설정으로 주입합니다.
 
+## Discord PR 알림
+
+`#프론트엔드`는 대화용, `#프론트-pr`은 자동 알림용으로 사용합니다. `.github/workflows/discord-pr.yml`은 일반 PR 생성, Draft에서 리뷰 준비 완료 전환, 머지 시 알림을 보냅니다. Draft 생성, 수정 커밋, 리뷰 댓글, 머지 없이 종료한 PR은 알림을 보내지 않습니다. 자동 멘션은 모두 차단합니다. 리뷰·승인은 알림의 PR 링크를 통해 GitHub에서 진행합니다.
+
+### 최초 연결
+
+1. Discord 관리자가 `#프론트-pr` 채널의 웹훅을 생성합니다. 채널 설정 → 연동 → 웹훅에서 생성·수신 채널을 확인합니다.
+2. [저장소 Actions Secrets](https://github.com/smalltalk-today/front/settings/secrets/actions)에서 `New repository secret`을 선택합니다.
+3. 이름은 `DISCORD_WEBHOOK_URL`, 값은 복사한 웹훅 URL로 저장합니다. `/github`를 붙이지 않습니다. URL은 코드·채팅·`.env`에 기록하지 않습니다.
+4. workflow 변경을 기본 브랜치 `main`에 반영합니다. 반영 전에는 자동 PR 알림과 기본 브랜치의 수동 테스트가 활성화되지 않습니다.
+5. [GitHub Actions](https://github.com/smalltalk-today/front/actions) → `Discord PR Notifications` → `Run workflow` → `main`을 선택해 실행합니다. Discord의 `PR 알림 연결 테스트` 메시지를 확인합니다.
+6. 이후 일반 PR 생성 또는 Draft의 `Ready for review` 전환 시 리뷰 요청, 머지 시 머지 완료 메시지를 확인합니다. 기존 PR 알림은 소급 전송하지 않습니다.
+
+Secret이 없으면 경고를 남기고 전송을 건너뜁니다. 전송 실패는 `discord-pr` job에서 확인하며, 이 job을 머지 필수 check로 지정하지 않습니다. 웹훅이 삭제·교체되면 GitHub Secret 값도 갱신합니다. GitHub 저장소의 `Settings → Webhooks`에 같은 Discord 연결을 추가하면 알림이 중복될 수 있으므로 Actions 방식만 사용합니다.
+
+외부 fork PR에서도 Secret을 사용할 수 있도록 `pull_request_target`을 사용하되, PR 코드를 checkout하거나 실행하지 않습니다. 이벤트 JSON만 읽고 GitHub 토큰 권한은 부여하지 않습니다. 이 workflow에는 PR 코드 실행 단계를 추가하지 않습니다.
+
 ## 이슈·PR 라벨
 
 | 이름     | 내용                           |

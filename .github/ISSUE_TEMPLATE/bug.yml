@@ -1,18 +1,29 @@
 name: 버그 제보
-description: 재현 가능한 오류를 기록합니다.
+description: 재현 가능한 오류와 수정 완료 조건을 기록합니다.
 title: '[Bug] '
 labels: [bug]
 type: Bug
 body:
+  - type: markdown
+    attributes:
+      value: 수정 브랜치는 `fix/이슈번호-설명`으로 dev에서 분기하고, dev 대상 PR을 생성합니다.
   - type: textarea
     id: steps
     attributes:
       label: 문제와 재현 방법
+      description: 발생 페이지, 실행 환경, 재현 순서를 적습니다. 비밀값은 포함하지 않습니다.
     validations:
       required: true
   - type: textarea
     id: behavior
     attributes:
       label: 기대 결과와 실제 결과
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 수정 완료 조건
+      placeholder: '- [ ] 같은 재현 절차에서 정상 동작 확인'
     validations:
       required: true

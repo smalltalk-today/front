@@ -1,0 +1,20 @@
+# 품질 검증
+
+| 명령                       | 역할                                   |
+| -------------------------- | -------------------------------------- |
+| pnpm check                 | lint·format·typecheck·테스트 통합 검사 |
+| pnpm lint                  | Next.js·TypeScript·FSD 규칙            |
+| pnpm format / format:check | Prettier 작성 / 검사                   |
+| pnpm typecheck             | Next 타입 생성 + strict 검사           |
+| pnpm test / test:run       | Vitest watch / 단일 실행               |
+| pnpm build / start         | production 빌드 / 실행                 |
+
+pre-commit은 staged 파일만 ESLint --fix와 Prettier 적용. 전체 검증은 CI 수행. `pnpm check`는 로컬 기본 검사 명령이며 production build와 서버 경계 검사는 별도 실행합니다. Quality workflow는 동일 PR/브랜치의 새 실행이 시작되면 이전 실행을 취소합니다. PR Convention workflow는 제목 편집 시에도 다시 실행합니다. CI는 Node 22, pnpm packageManager 버전, frozen lockfile 사용. 예제 SITE_URL은 CI용이며 실제 배포 주소로 교체해야 합니다.
+
+기반 테스트는 외부 JSON·HTTP status·환경값·production mock 차단·store/cache 격리. 데모 테스트는 로딩·조회·빈 목록·오류·폼 검증·수정·캐시 갱신·중복 제출·실패 유지·모달 포커스. FSD 테스트는 위/동일 레이어 및 deep import 차단과 정상 public import를 확인합니다.
+
+새 로직은 실패 테스트 먼저 작성하고 구현 후 통과 확인. 생성 파일·단순 스타일은 불필요한 구현 복제 테스트를 추가하지 않습니다. jsdom dialog 보완은 테스트 환경에서만 적용하며 실제 브라우저 키보드 동작도 검증합니다.
+
+production 수동 점검: 홈 200, 데모 404, metadata·robots·sitemap URL, mock worker 요청/등록 없음. 서버 모듈 client import는 임시 테스트 라우트에서 build 실패 확인 후 파일 제거하고 정상 재빌드합니다.
+
+`app/**/*.tsx`도 직접 fetch 금지 규칙 적용 대상입니다. API 구현은 api segment, 서버 페이지는 entity API 호출과 화면 조합을 담당합니다. 브랜치·PR 제목 검증기는 node 기반이라 추가 패키지 설치 없이 CI에서 실행됩니다.

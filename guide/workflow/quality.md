@@ -19,4 +19,4 @@ production 수동 점검: 홈 200, 데모 404, metadata·robots·sitemap URL, mo
 
 `app/**/*.tsx`도 직접 fetch 금지 규칙 적용 대상입니다. API 구현은 api segment, 서버 페이지는 entity API 호출과 화면 조합을 담당합니다. 브랜치·PR 제목 검증기는 node 기반이라 추가 패키지 설치 없이 CI에서 실행됩니다.
 
-dev·main에는 `quality`, `pr-conventions`를 필수로 설정합니다. main에는 같은 저장소의 dev 출발을 확인하는 `main-source`도 필수입니다. 출발 검사 테스트는 잘못된 대상·작업 브랜치의 main 직행·fork의 dev·필수 정보 누락을 차단하고, 실제 검사 스크립트의 head SHA 상태 등록 및 API 오류 시 실패를 확인합니다. [Git·PR 가이드](git.md)에 병합 흐름과 검사 활성화 순서를 설명합니다.
+dev·main에는 `quality`, `pr-conventions`를 필수로 설정합니다. main에는 같은 저장소의 dev 출발을 확인하는 `main-source`도 필수입니다. 출발 검사 테스트는 잘못된 대상·작업 브랜치의 main 직행·fork의 dev·필수 정보 누락을 차단하고, 실제 검사 스크립트가 같은 head SHA의 정상·작업 브랜치·fork PR을 각각 판정하며, 토큰이나 commit status API 호출 없이 종료 코드로 결과를 반환하는지 확인합니다. [Git·PR 가이드](git.md)에 병합 흐름과 검사 활성화 순서를 설명합니다.

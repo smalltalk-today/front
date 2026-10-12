@@ -25,7 +25,9 @@ GitHub 원격은 [smalltalk-today/front](https://github.com/smalltalk-today/fron
 
 main 대상 PR은 같은 저장소의 dev에서만 허용합니다. 다른 작업 브랜치 또는 fork의 dev에서 온 PR은 `main-source`가 실패해 병합할 수 없습니다. PR 생성 자체는 가능하지만 승인만으로 실패한 검사를 우회할 수 없습니다.
 
-`main-source.yml`은 `pull_request_target`으로 보호된 기본 브랜치 dev의 코드만 실행합니다. PR 코드를 checkout하거나 실행하지 않으며, 검증 결과는 PR head SHA에 commit status로 등록합니다. 기본 브랜치에 검사 파일이 병합되기 전에는 필수 `main-source` 상태가 없어 main 병합이 대기합니다. 운영 전환 PR을 dev에 승인·병합한 후 main PR을 열거나 기존 PR을 다시 열어 검사를 실행합니다.
+`main-source.yml`은 `pull_request` 이벤트의 `main-source` job으로 출발 브랜치를 검사합니다. 검증 코드는 보호된 기본 브랜치 dev에서만 checkout하며, PR 코드를 실행하지 않습니다. 결과는 해당 PR의 test merge commit에 GitHub Actions check로 연결되고, head SHA에 공유 commit status를 등록하지 않습니다. 따라서 같은 head SHA를 가진 다른 PR의 성공·실패가 검사 결과를 덮지 않습니다. 토큰은 contents 읽기 권한만 사용합니다.
+
+운영 전환 PR을 dev에 승인·병합한 후 main PR을 열거나 기존 PR을 다시 열어 검사를 실행합니다. dev에 검사 파일이 반영되기 전이나 merge conflict가 있을 때는 필수 검사가 실행되지 않아 main 병합이 대기합니다. main ruleset은 GitHub Actions 출처의 `main-source` check를 필수로 유지합니다.
 
 ## PR 템플릿
 

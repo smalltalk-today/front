@@ -4,7 +4,7 @@ Smart Talk 프론트엔드 프로젝트입니다.
 
 ## 1. 프로젝트 다운로드
 
-Git과 Node.js 버전 관리 도구인 nvm을 먼저 준비합니다. 프로젝트는 Node.js 22와 pnpm 10.25.0을 사용합니다.
+Git과 Node.js 버전 관리 도구인 nvm을 먼저 준비합니다. 프로젝트는 Node.js 22.22.2 이상(22.x)과 pnpm 10.25.0을 사용합니다.
 
 - [Git 설치](https://git-scm.com/downloads)
 - [nvm 설치 안내](https://github.com/nvm-sh/nvm#installing-and-updating) · [Windows용 nvm](https://github.com/coreybutler/nvm-windows)
@@ -56,10 +56,10 @@ pnpm dev
 
 - [개발 가이드 전체 목차](guide/README.md)
 - [빌드·프로덕션 실행](guide/project/setup.md) · [환경변수](guide/project/environment.md)
-- [pnpm 사용·설치 문제 해결](guide/workflow/pnpm.md)
+- [pnpm 사용·설치 문제 해결](guide/workflow/pnpm.md) · [개발 환경 점검](guide/workflow/setup-check.md)
 - [FSD 구조](guide/architecture/fsd.md) · [Server / Client·SSR](guide/architecture/rendering.md)
 - [코드 규칙](guide/conventions/code.md) · [타입 규칙](guide/conventions/types.md)
 - [상태 관리](guide/data/state.md) · [API](guide/data/api.md) · [MSW](guide/data/mocking.md)
 - [디자인 시스템](guide/ui/design-system.md) · [로그인 확장](guide/auth/extension.md)
 - [Git·PR](guide/workflow/git.md) · [Projects·이슈](guide/workflow/projects.md) · [품질 검사](guide/workflow/quality.md)
-- [셋업 계획](guide/project/setup-plan.md)
+- [셋업 계획](guide/project/setup-plan.md) · [참고 코드 예제](code%20temp/README.md)

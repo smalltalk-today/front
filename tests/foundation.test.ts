@@ -4,7 +4,6 @@ import { http, HttpResponse } from 'msw';
 import { setupServer } from 'msw/node';
 import { request } from '@/shared/api';
 import { createQueryClient, getQueryClient } from '@/shared/lib/query';
-import { createUiStore } from '@/shared/lib/ui-store';
 import { parseClientEnv, isMockEnabled } from '@/shared/config';
 
 const server = setupServer();
@@ -35,26 +34,20 @@ describe('HTTP trust boundary', () => {
   });
 });
 
-it('isolates Query caches and UI stores', () => {
+it('isolates Query caches', () => {
   const first = createQueryClient();
   const second = createQueryClient();
   first.setQueryData(['private'], 'secret');
   expect(second.getQueryData(['private'])).toBeUndefined();
-  const a = createUiStore();
-  const b = createUiStore();
-  a.getState().openModal();
-  expect(a.getState().modalOpen).toBe(true);
-  expect(b.getState().modalOpen).toBe(false);
-  a.getState().reset();
-  expect(a.getState().modalOpen).toBe(false);
 });
 
 it('validates public environment and blocks production mocking', () => {
-  expect(parseClientEnv({ NEXT_PUBLIC_APP_ENV: 'local' }).appEnv).toBe('local');
+  expect(parseClientEnv({ NEXT_PUBLIC_APP_ENV: 'develop' }).appEnv).toBe('develop');
+  expect(parseClientEnv({}).appEnv).toBe('product');
   expect(() => parseClientEnv({ NEXT_PUBLIC_APP_ENV: 'wrong' })).toThrow();
-  expect(isMockEnabled('production', 'true')).toBe(false);
-  expect(isMockEnabled('development', 'true')).toBe(true);
-  expect(isMockEnabled('development', 'false')).toBe(false);
+  expect(isMockEnabled('production', 'develop')).toBe(false);
+  expect(isMockEnabled('development', 'develop')).toBe(true);
+  expect(isMockEnabled('development', 'product')).toBe(false);
 });
 
 it('reuses the QueryClient in the browser', () => {

@@ -23,3 +23,7 @@
 - 실제 Chromium에서 조회·이름 수정·캐시 갱신·Tab 순환·Escape·focus 복귀 확인.
 - 최종 코드 검토에서 발견한 Modal textarea/select/link focus 누락을 재현 테스트 후 수정.
 - 검증용 서버·브라우저 종료. 개발 실행은 pnpm dev.
+
+## 참고 코드 분리 — 2026-10-12
+
+위 기록은 초기 셋업 당시 검증입니다. 이후 개발 검증 라우트와 도메인 코드를 삭제하고 루트 `code temp`에 라우팅·Zustand·TanStack Query·React Hook Form + Zod 예제를 구성했습니다. 예제는 실제 라우트로 등록하지 않습니다. 현재 검증은 [품질 가이드](../workflow/quality.md)를 따릅니다.

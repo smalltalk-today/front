@@ -6,4 +6,4 @@ Tailwind CSS 4의 @theme와 _app/styles/globals.css가 기준. canvas/surface/in
 
 텍스트는 의미 있는 label, 오류는 aria-invalid/aria-describedby/role=alert 사용. 상태색은 8% 배경 + 20% border. 임의 기본 색상 클래스·정적 inline style 대신 토큰 사용. 버튼 min-height 44px, hover 0.2초, reduced-motion 존중.
 
-Storybook은 MVP 이후 도입. 현재 컴포넌트 동작은 RTL 테스트와 개발 데모로 확인합니다. Modal은 textarea·select·링크도 Tab 순환에 포함합니다. 양수 tabindex는 사용하지 않습니다. 새로운 focusable 요소를 추가하면 Tab 이동 테스트를 함께 갱신합니다.
+Storybook은 MVP 이후 도입. 현재 컴포넌트 동작은 RTL 테스트와 `code temp` 참고 예제로 확인합니다. Modal은 textarea·select·링크도 Tab 순환에 포함합니다. 양수 tabindex는 사용하지 않습니다. 새로운 focusable 요소를 추가하면 Tab 이동 테스트를 함께 갱신합니다.

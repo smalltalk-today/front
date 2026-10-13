@@ -6,6 +6,4 @@
 
 entity/api에는 조회 함수·query key/options, feature/api에는 사용자 행동 요청, feature/model에는 mutation·invalidation 정책. 공통 응답 envelope는 백엔드 계약 확정 전 강제하지 않습니다.
 
-데모 계약: GET `/api/demo/items` → `{ id: string, name: string }[]`, PATCH `/api/demo/items/:id` body `{ name: string }` → 수정 항목. 이름은 trim 후 1~40자. 이후 실제 서비스 DTO와 혼합하지 않습니다.
-
-브라우저 호출은 AbortSignal 전달. mutation 실패는 폼에 표시하고 모달 유지. 성공 시 목록 캐시 invalidate 후 닫기. 실제 데이터에서는 서버 캐시 무효화도 별도로 고려합니다.
+브라우저 호출은 AbortSignal 전달. mutation 실패는 폼에 표시하고 입력값 유지. 성공 시 관련 캐시 invalidate. 실제 데이터에서는 서버 캐시 무효화도 별도로 고려합니다.

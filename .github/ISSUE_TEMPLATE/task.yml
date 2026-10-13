@@ -4,15 +4,20 @@ title: '[Task] '
 labels: [chore]
 type: Task
 body:
+  - type: markdown
+    attributes:
+      value: 작업 브랜치는 `type/이슈번호-설명`으로 dev에서 분기하고, dev 대상 PR을 생성합니다. 문서는 docs, 설정은 chore 라벨을 사용합니다.
   - type: textarea
     id: goal
     attributes:
       label: 작업 목적
+      description: 변경할 내용, 이유, 포함할 범위를 적습니다.
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
       label: 완료 조건
+      placeholder: '- [ ] 변경 결과와 검증 방법'
     validations:
       required: true

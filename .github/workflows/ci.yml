@@ -2,7 +2,7 @@ name: Quality
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [dev, main]
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
@@ -14,8 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NEXT_TELEMETRY_DISABLED: '1'
-      NEXT_PUBLIC_APP_ENV: production
-      NEXT_PUBLIC_MOCK_ENABLED: 'false'
+      NEXT_PUBLIC_APP_ENV: product
       SITE_URL: https://smart-talk.example.com
     steps:
       - uses: actions/checkout@v4

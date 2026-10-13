@@ -4,15 +4,20 @@ title: '[Feature] '
 labels: [feat]
 type: Feature
 body:
+  - type: markdown
+    attributes:
+      value: 작업 브랜치는 `feat/이슈번호-설명`으로 dev에서 분기하고, dev 대상 PR을 생성합니다.
   - type: textarea
     id: goal
     attributes:
       label: 필요한 기능
+      description: 누구의 어떤 문제를 해결하는지와 작업 범위를 적습니다.
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
       label: 완료 조건
+      placeholder: '- [ ] 확인 가능한 사용자 동작'
     validations:
       required: true

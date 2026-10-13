@@ -4,11 +4,11 @@ FSD는 기술 종류만으로 코드를 나누지 않고 도메인과 사용자 
 
 ```text
 app/                         Next.js 라우팅·layout·metadata
-src/
+src/                        아래 도메인 slice는 배치 예시
   _app/                      provider·스타일·앱 초기화·mock 통합
-  widgets/demo/              조회 영역·수정 폼·모달 조합
-  features/rename-demo-item/  이름 수정 유스케이스
-  entities/demo-item/        항목 모델·조회 API
+  widgets/item-list/              조회 영역·수정 폼·모달 조합
+  features/rename-item/  이름 수정 유스케이스
+  entities/item/        항목 모델·조회 API
   shared/                    도메인 없는 UI·HTTP·설정·유틸
 ```
 
@@ -42,8 +42,8 @@ export default function HomePage() {
 ## Public API
 
 ```ts
-import { demoItemsQueryOptions } from '@/entities/demo-item';
-// 금지: '@/entities/demo-item/api/queries'
+import { itemsQueryOptions } from '@/entities/item';
+// 금지: '@/entities/item/api/queries'
 ```
 
 slice 내부는 상대 경로 사용. 외부는 `index.ts`에서 필요한 값만 named export. 서버 전용은 `index.server.ts` + `server-only`, 클라이언트 전용 provider/Modal은 `index.client.ts`에서 export. 모든 slice를 한 최상위 barrel로 묶지 않습니다.
@@ -52,6 +52,6 @@ ESLint 로컬 FSD 규칙은 import, re-export, 정적 dynamic import와 상대 �
 
 ## 배치 판단
 
-범용 Button → shared/ui. 항목 조회·모델 → entities/demo-item. 이름 수정 → features/rename-demo-item. 목록과 수정 모달 조합 → widgets/demo. 전체 provider·mock 초기화 → _app. 둘 이상의 도메인에 재사용되지 않는 UI를 무조건 shared로 옮기지 않습니다.
+범용 Button → shared/ui. 항목 조회·모델 → entities/item. 이름 수정 → features/rename-item. 목록과 수정 모달 조합 → widgets/item-list. 전체 provider·mock 초기화 → _app. 둘 이상의 도메인에 재사용되지 않는 UI를 무조건 shared로 옮기지 않습니다.
 
 [공식 FSD Next.js 가이드](https://feature-sliced.design/docs/guides/tech/with-nextjs)

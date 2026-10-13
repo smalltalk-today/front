@@ -7,6 +7,7 @@
 프로젝트 루트에서 실행합니다. nvm이 설치되어 있다는 전제입니다.
 
 ```sh
+nvm install
 nvm use
 corepack enable
 pnpm --version
@@ -15,6 +16,8 @@ pnpm dev
 ```
 
 `pnpm --version` 결과는 `10.25.0`이어야 합니다. Corepack은 `package.json`의 `packageManager`를 기준으로 pnpm 버전을 선택합니다. `corepack` 명령이 없다면 `npm install --global corepack`으로 설치한 뒤 다시 실행합니다. 이 명령은 Corepack 설치용이며 프로젝트 의존성 설치는 pnpm으로 진행합니다.
+
+`.nvmrc`는 Node 22를 선택하는 기준이며 자동 전환을 보장하지 않습니다. `nvm install`은 해당 버전을 설치하고 `nvm use`는 현재 터미널에서 전환합니다. 기존 Node 19 등은 삭제되지 않습니다. 새 터미널에서도 `nvm use`를 실행합니다. `.npmrc`의 `engine-strict=true`는 `package.json`의 Node 범위(`>=22 <23`)를 벗어난 의존성 설치를 차단합니다. 명령 실행 전체를 강제로 전환하는 설정은 아닙니다.
 
 환경변수 준비 등 전체 실행 절차는 [실행 가이드](../project/setup.md)를 참고합니다.
 

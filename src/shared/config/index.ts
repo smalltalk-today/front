@@ -26,3 +26,5 @@ export const clientEnv = parseClientEnv({
 export function getApiUrl(path: string) {
   return clientEnv.apiBaseUrl ? new URL(path, clientEnv.apiBaseUrl).toString() : path;
 }
+
+export { ROUTES } from './routes';

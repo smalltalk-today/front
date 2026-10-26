@@ -2,9 +2,6 @@ import { pretendard } from '@/_app/fonts';
 import { Providers } from '@/_app/providers';
 import '@/_app/styles/globals.css';
 import { getServerEnv } from '@/shared/config/index.server';
-import '@fontsource/noto-sans-kr/400.css';
-import '@fontsource/noto-sans-kr/600.css';
-import '@fontsource/noto-sans-kr/800.css';
 import type { Metadata } from 'next';
 
 import type { ReactNode } from 'react';

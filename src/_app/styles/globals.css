@@ -1,7 +1,8 @@
 @import 'tailwindcss';
+@import './typography.css';
 
 @theme {
-  --font-sans: 'Noto Sans KR', sans-serif;
+  --font-sans: var(--font-pretendard), sans-serif;
   --color-canvas: #f6f8fb;
   --color-surface: #ffffff;
   --color-ink: #172b40;

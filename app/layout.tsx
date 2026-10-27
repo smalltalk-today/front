@@ -1,11 +1,10 @@
-import type { Metadata } from 'next';
-import type { ReactNode } from 'react';
-import '@fontsource/noto-sans-kr/400.css';
-import '@fontsource/noto-sans-kr/600.css';
-import '@fontsource/noto-sans-kr/800.css';
-import '@/_app/styles/globals.css';
+import { pretendard } from '@/_app/fonts';
 import { Providers } from '@/_app/providers';
+import '@/_app/styles/globals.css';
 import { getServerEnv } from '@/shared/config/index.server';
+import type { Metadata } from 'next';
+
+import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
   metadataBase: new URL(getServerEnv().siteUrl),
@@ -15,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="ko">
+    <html lang="ko" className={pretendard.variable}>
       <body>
         <Providers>{children}</Providers>
       </body>

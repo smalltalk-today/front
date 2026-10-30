@@ -1,5 +1,34 @@
 # 공통 UI·토큰
 
+Tailwind CSS 4의 @theme와 _app/styles/globals.css가 기준. canvas/surface/ink/muted/brand/line/danger 색상, spacing 4px, card radius 16px, control radius 10px, heading/display clamp 크기를 사용합니다. Pretendard 가변 폰트를 로컬 번들로 제공해 빌드 시 외부 폰트 요청이 없습니다.
+
+## 타이포그래피
+
+[Figma 폰트 명세](https://www.figma.com/design/iomqZrIJ4BhzwfGDg4wWHR/?node-id=319-646)의 2026-10-29 공유본 기준입니다. iOS 화면 너비 375px을 기준으로 하며, 기본 폰트 크기 간격은 2px입니다. `src/_app/styles/typography.css`에서 토큰을 관리하고 `text-title3`처럼 사용합니다. 굵기는 r=400, m=500, sb=600입니다.
+
+| 클래스         | 크기 | 굵기 | 행간   | 자간    | 용도                       |
+| -------------- | ---- | ---- | ------ | ------- | -------------------------- |
+| text-headline1 | 20px | 500  | 24px   | -0.4px  | PC 랭킹 선택 헤드라인      |
+| text-headline2 | 16px | 500  | 19.2px | -0.32px | 모바일 랭킹 선택 헤드라인  |
+| text-title1    | 22px | 600  | 33px   | -0.44px | PC 카드 피드 기사 제목     |
+| text-title2    | 18px | 600  | 27px   | -0.36px | 모바일 카드 피드 기사 제목 |
+| text-title3    | 16px | 500  | 19.2px | -0.32px | 상단 랭킹 기사 제목        |
+| text-title4    | 14px | 500  | 16.8px | -0.28px | 상단 랭킹 기사 제목 (14px) |
+| text-body1     | 16px | 400  | 24px   | -0.16px | 스몰토크 문장              |
+| text-body2     | 14px | 400  | 21px   | -0.14px | 이슈 요약                  |
+| text-label1    | 16px | 600  | 16px   | -0.16px | CTA 버튼·카테고리 선택     |
+| text-label2    | 15px | 400  | 15px   | -0.15px | 다른 이슈로 바꾸기 버튼    |
+| text-label3    | 14px | 500  | 14px   | -0.14px | 이슈 3줄 요약 버튼         |
+| text-label4    | 14px | 400  | 14px   | -0.14px | 카테고리 버튼              |
+| text-label5    | 11px | 400  | 14px   | -0.11px | 내비게이션 메뉴 이름       |
+| text-label6    | 16px | 400  | 19.2px | -0.32px | 카테고리 미선택            |
+| text-caption1  | 12px | 500  | 12px   | -0.12px | 카테고리 뱃지              |
+| text-caption2  | 12px | 400  | 12px   | -0.12px | 시간                       |
+
+추가된 두 스타일은 기존 번호에 이어 `title4`, `label6`으로 제공합니다. 공유본의 `Title/14_r`는 이름의 r과 굵기 열의 m이 달라, 굵기 열의 m(500)을 적용했습니다. Label4의 용도에서 삭제된 ‘다른 이슈로 바꾸기 버튼’은 Label2를 사용합니다.
+
+## 공통 UI
+
 Tailwind CSS 4의 `@theme`와 `src/_app/styles/globals.css`가 기준입니다. 색상은 `colors.css`, 타이포그래피는 `typography.css`, 여백·radius·그림자는 `layout.css`에서 관리합니다. Pretendard를 로컬 번들로 제공해 빌드 시 외부 폰트 요청이 없습니다.
 
 ## 여백·크기

@@ -28,6 +28,7 @@ Tailwind CSS 4의 @theme와 _app/styles/globals.css가 기준. canvas/surface/in
 추가된 두 스타일은 기존 번호에 이어 `title4`, `label6`으로 제공합니다. 공유본의 `Title/14_r`는 이름의 r과 굵기 열의 m이 달라, 굵기 열의 m(500)을 적용했습니다. Label4의 용도에서 삭제된 ‘다른 이슈로 바꾸기 버튼’은 Label2를 사용합니다.
 
 ## 공통 UI
+
 Tailwind CSS 4의 `@theme`와 `src/_app/styles/globals.css`가 기준입니다. 색상은 `colors.css`, 타이포그래피는 `typography.css`, 여백·radius·그림자는 `layout.css`에서 관리합니다. Pretendard를 로컬 번들로 제공해 빌드 시 외부 폰트 요청이 없습니다.
 
 ## 여백·크기

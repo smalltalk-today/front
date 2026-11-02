@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useId, useRef, type ReactNode } from 'react';
-import { Button } from './button';
+import { Button } from './button/button';
 
 function getFocusableElements(dialog: HTMLDialogElement) {
   return Array.from(

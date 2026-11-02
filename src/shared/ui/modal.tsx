@@ -71,7 +71,7 @@ export function Modal({ open, title, onClose, children }: ModalProps) {
       }}
     >
       <div className="space-y-6">
-        <h2 id={titleId} className="text-heading font-extrabold">
+        <h2 id={titleId} className="text-title-18-sb">
           {title}
         </h2>
         {open && children}

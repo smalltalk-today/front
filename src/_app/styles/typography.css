@@ -1,81 +1,81 @@
 @theme {
-  --text-headline1: 20px;
-  --text-headline1--line-height: 24px;
-  --text-headline1--font-weight: 500;
-  --text-headline1--letter-spacing: -0.4px;
+  --text-headline-20-sb: 20px;
+  --text-headline-20-sb--line-height: 24px;
+  --text-headline-20-sb--font-weight: 600;
+  --text-headline-20-sb--letter-spacing: -0.4px;
 
-  --text-headline2: 16px;
-  --text-headline2--line-height: 19.2px;
-  --text-headline2--font-weight: 500;
-  --text-headline2--letter-spacing: -0.32px;
+  --text-headline-16-m: 16px;
+  --text-headline-16-m--line-height: 19.2px;
+  --text-headline-16-m--font-weight: 500;
+  --text-headline-16-m--letter-spacing: -0.32px;
 
-  --text-title1: 22px;
-  --text-title1--line-height: 33px;
-  --text-title1--font-weight: 600;
-  --text-title1--letter-spacing: -0.44px;
+  --text-title-22-sb: 22px;
+  --text-title-22-sb--line-height: 33px;
+  --text-title-22-sb--font-weight: 600;
+  --text-title-22-sb--letter-spacing: -0.44px;
 
-  --text-title2: 18px;
-  --text-title2--line-height: 27px;
-  --text-title2--font-weight: 600;
-  --text-title2--letter-spacing: -0.36px;
+  --text-title-18-sb: 18px;
+  --text-title-18-sb--line-height: 27px;
+  --text-title-18-sb--font-weight: 600;
+  --text-title-18-sb--letter-spacing: -0.36px;
 
-  --text-title3: 16px;
-  --text-title3--line-height: 19.2px;
-  --text-title3--font-weight: 500;
-  --text-title3--letter-spacing: -0.32px;
+  --text-title-16-m: 16px;
+  --text-title-16-m--line-height: 19.2px;
+  --text-title-16-m--font-weight: 500;
+  --text-title-16-m--letter-spacing: -0.32px;
 
-  --text-title4: 14px;
-  --text-title4--line-height: 16.8px;
-  --text-title4--font-weight: 500;
-  --text-title4--letter-spacing: -0.28px;
+  --text-title-14-r: 14px;
+  --text-title-14-r--line-height: 16.8px;
+  --text-title-14-r--font-weight: 400;
+  --text-title-14-r--letter-spacing: -0.28px;
 
-  --text-body1: 16px;
-  --text-body1--line-height: 24px;
-  --text-body1--font-weight: 400;
-  --text-body1--letter-spacing: -0.16px;
+  --text-body-16-r: 16px;
+  --text-body-16-r--line-height: 24px;
+  --text-body-16-r--font-weight: 400;
+  --text-body-16-r--letter-spacing: -0.16px;
 
-  --text-body2: 14px;
-  --text-body2--line-height: 21px;
-  --text-body2--font-weight: 400;
-  --text-body2--letter-spacing: -0.14px;
+  --text-body-14-r: 14px;
+  --text-body-14-r--line-height: 21px;
+  --text-body-14-r--font-weight: 400;
+  --text-body-14-r--letter-spacing: -0.14px;
 
-  --text-label1: 16px;
-  --text-label1--line-height: 16px;
-  --text-label1--font-weight: 600;
-  --text-label1--letter-spacing: -0.16px;
+  --text-label-16-sb: 16px;
+  --text-label-16-sb--line-height: 16px;
+  --text-label-16-sb--font-weight: 600;
+  --text-label-16-sb--letter-spacing: -0.16px;
 
-  --text-label2: 15px;
-  --text-label2--line-height: 15px;
-  --text-label2--font-weight: 400;
-  --text-label2--letter-spacing: -0.15px;
+  --text-label-16-r: 16px;
+  --text-label-16-r--line-height: 16px;
+  --text-label-16-r--font-weight: 400;
+  --text-label-16-r--letter-spacing: -0.16px;
 
-  --text-label3: 14px;
-  --text-label3--line-height: 14px;
-  --text-label3--font-weight: 500;
-  --text-label3--letter-spacing: -0.14px;
+  --text-label-14-m: 14px;
+  --text-label-14-m--line-height: 14px;
+  --text-label-14-m--font-weight: 500;
+  --text-label-14-m--letter-spacing: -0.14px;
 
-  --text-label4: 14px;
-  --text-label4--line-height: 14px;
-  --text-label4--font-weight: 400;
-  --text-label4--letter-spacing: -0.14px;
+  --text-label-14-r: 14px;
+  --text-label-14-r--line-height: 14px;
+  --text-label-14-r--font-weight: 400;
+  --text-label-14-r--letter-spacing: -0.14px;
 
-  --text-label5: 11px;
-  --text-label5--line-height: 14px;
-  --text-label5--font-weight: 400;
-  --text-label5--letter-spacing: -0.11px;
+  --text-label-11-r: 11px;
+  --text-label-11-r--line-height: 14px;
+  --text-label-11-r--font-weight: 400;
+  --text-label-11-r--letter-spacing: -0.11px;
 
-  --text-label6: 16px;
-  --text-label6--line-height: 19.2px;
-  --text-label6--font-weight: 400;
-  --text-label6--letter-spacing: -0.32px;
+  --text-label-18-sb: 18px;
+  --text-label-18-sb--line-height: 18px;
+  --text-label-18-sb--font-weight: 600;
+  --text-label-18-sb--letter-spacing: -0.18px;
 
-  --text-caption1: 12px;
-  --text-caption1--line-height: 12px;
-  --text-caption1--font-weight: 500;
-  --text-caption1--letter-spacing: -0.12px;
+  --text-caption-12-m: 12px;
+  --text-caption-12-m--line-height: 12px;
+  --text-caption-12-m--font-weight: 500;
+  --text-caption-12-m--letter-spacing: -0.12px;
 
-  --text-caption2: 12px;
-  --text-caption2--line-height: 12px;
-  --text-caption2--font-weight: 400;
-  --text-caption2--letter-spacing: -0.12px;
+  --text-caption-12-r: 12px;
+  --text-caption-12-r--line-height: 12px;
+  --text-caption-12-r--font-weight: 400;
+  --text-caption-12-r--letter-spacing: -0.12px;
 }

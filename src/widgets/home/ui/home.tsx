@@ -1,3 +1,5 @@
+import { Badge } from '@/shared/ui';
+
 export function Home() {
   return (
     <>
@@ -9,6 +11,9 @@ export function Home() {
         <h2 className="text-headline-20-sb">섹션 제목</h2>
         <p className="text-body-16-r">본문 내용</p>
         <span className="text-caption-12-r">보조 설명</span>
+        <div className="bg-red-200 p-8">
+          <Badge>뱃지</Badge>
+        </div>
       </div>
     </>
   );

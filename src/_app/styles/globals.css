@@ -6,3 +6,9 @@
 @theme {
   --font-sans: var(--font-pretendard), sans-serif;
 }
+
+@utility flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

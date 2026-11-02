@@ -9,5 +9,6 @@ export interface Toast {
 export type ToastPosition = `${'top' | 'center' | 'bottom'}-${'left' | 'center' | 'right'}`;
 
 export interface ToastOptions {
+  duration?: number;
   position?: ToastPosition;
 }

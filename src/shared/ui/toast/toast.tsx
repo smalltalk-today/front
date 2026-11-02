@@ -1,18 +1,19 @@
 'use client';
 
 import type { Toast as ToastData } from '@/shared/lib/toast';
+import { Check, Xmark } from 'iconoir-react';
 import { useEffect, useState } from 'react';
-import { Button } from '../button';
 
 interface ToastProps {
   toast: ToastData;
   onDismiss: (id: string) => void;
 }
 
+const iconStyle = 'size-6 rounded-full p-1 text-white';
 const labels = {
-  success: '완료',
-  error: '오류',
-  info: '안내',
+  success: <Check className={`${iconStyle} bg-green-600`} />,
+  error: <Xmark className={`${iconStyle} bg-red-600`} />,
+  info: null,
 };
 
 export function Toast({ toast, onDismiss }: ToastProps) {
@@ -22,15 +23,13 @@ export function Toast({ toast, onDismiss }: ToastProps) {
 
   useEffect(() => {
     if (duration <= 0 || hovered || focused) return;
-
     const timer = window.setTimeout(() => onDismiss(id), duration);
-
     return () => window.clearTimeout(timer);
   }, [id, duration, onDismiss, hovered, focused]);
 
   return (
     <div
-      className="pointer-events-auto flex w-full items-center gap-3 rounded-control border border-border-medium bg-surface-default p-3 text-body2 text-content-normal shadow-card"
+      className="flex min-h-14 w-full items-center justify-between gap-x-2 rounded-control bg-neutral-600 px-3 py-4"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onFocusCapture={() => setFocused(true)}
@@ -40,20 +39,14 @@ export function Toast({ toast, onDismiss }: ToastProps) {
         }
       }}
     >
-      <p className="min-w-0 flex-1 wrap-anywhere">
-        <span className={variant === 'error' ? 'text-status-error' : 'font-semibold'}>
-          {labels[variant]}
-        </span>
-        {' · '}
-        {message}
-      </p>
+      <div className="flex items-center gap-x-2">
+        <span className="">{labels[variant]}</span>
+        <p className="text-body-14-m text-white">{message}</p>
+      </div>
 
-      <Button
-        className="min-h-11 min-w-11 shrink-0 rounded-control focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-primary"
-        onClick={() => onDismiss(id)}
-      >
-        닫기
-      </Button>
+      <button onClick={() => onDismiss(id)}>
+        <Xmark className="size-6" />
+      </button>
     </div>
   );
 }

@@ -10,7 +10,7 @@ type ButtonProps = ComponentProps<'button'> &
       }
     | {
         variant: 'icon';
-        size?: never;
+        size?: 'icon';
       }
     | {
         variant: 'link' | 'text';

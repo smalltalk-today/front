@@ -1,4 +1,11 @@
+'use client';
+
+import { toast } from '@/shared/lib/toast';
+
 export function Home() {
+  const a = () => toast.success('성공');
+  const b = () => toast('인포');
+  const c = () => toast.error('실패');
   return (
     <>
       <div className="space-y-4">
@@ -9,6 +16,15 @@ export function Home() {
         <h2 className="text-headline1">섹션 제목</h2>
         <p className="text-body1">본문 내용</p>
         <span className="text-caption2">보조 설명</span>
+        <button className="bg-red-200 mr-5" onClick={a}>
+          success
+        </button>
+        <button className="bg-red-200 mr-5" onClick={b}>
+          info
+        </button>
+        <button className="bg-red-200 mr-5" onClick={c}>
+          fail
+        </button>
       </div>
     </>
   );

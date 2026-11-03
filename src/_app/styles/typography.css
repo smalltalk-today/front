@@ -39,6 +39,11 @@
   --text-body-14-r--font-weight: 400;
   --text-body-14-r--letter-spacing: -0.14px;
 
+  --text-body-14-m: 14px;
+  --text-body-14-m--line-height: 21px;
+  --text-body-14-m--font-weight: 500;
+  --text-body-14-m--letter-spacing: -0.14px;
+
   --text-label-16-sb: 16px;
   --text-label-16-sb--line-height: 16px;
   --text-label-16-sb--font-weight: 600;

@@ -1,3 +1,5 @@
+'use client';
+
 export function Home() {
   return (
     <>
@@ -5,10 +7,6 @@ export function Home() {
         <p className="text-brand font-semibold">SMART TALK</p>
         <h1 className="text-display font-extrabold">대화를 시작하는 공간</h1>
         <p className="text-muted">Smart Talk를 준비하고 있습니다.</p>
-        <h1 className="text-title-22-sb">페이지 제목</h1>
-        <h2 className="text-headline-20-sb">섹션 제목</h2>
-        <p className="text-body-16-r">본문 내용</p>
-        <span className="text-caption-12-r">보조 설명</span>
       </div>
     </>
   );

@@ -91,6 +91,8 @@
 @theme inline {
   /* Brand */
   --color-brand-primary: var(--color-blue-500);
+  --color-brand-primary-hover: var(--color-blue-600);
+  --color-brand-primary-pressed: var(--color-blue-700);
 
   /* Content */
   --color-content-strong: var(--color-neutral-900);
@@ -102,6 +104,9 @@
   --color-surface-default: var(--color-white);
   --color-surface-dimmed: var(--color-black);
   --color-surface-container: var(--color-neutral-50);
+  --color-surface-disabled: var(--color-neutral-100);
+  --color-surface-secondary-hover: var(--color-neutral-50);
+  --color-surface-secondary-pressed: var(--color-neutral-100);
 
   /* Status */
   --color-status-error: var(--color-red-500);

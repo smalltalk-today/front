@@ -2,9 +2,9 @@
 
 import { cn } from '@/shared/lib/utils';
 import { tabListStyles, tabStyles } from './tabs.style';
-import { TabsProps } from './tabs.type';
+import { TabListProps } from './tabs.type';
 
-export function Tabs({ tabs, value, onChange }: TabsProps) {
+export function TabList({ tabs, value, onChange }: TabListProps) {
   return (
     <div role="tablist" className={tabListStyles()}>
       {tabs.map((tab) => {

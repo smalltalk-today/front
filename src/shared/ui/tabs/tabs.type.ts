@@ -3,7 +3,7 @@ export type TabItem = {
   value: string;
 };
 
-export type TabsProps = {
+export type TabListProps = {
   tabs: TabItem[];
   value: string;
   onChange: (value: string) => void;

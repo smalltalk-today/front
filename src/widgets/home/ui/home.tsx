@@ -20,6 +20,7 @@ const data = [
   { id: 4, title: '사회 콘텐츠 1', category: 'society' },
   { id: 5, title: '환경 콘텐츠 1', category: 'environment' },
   { id: 6, title: '경제 콘텐츠 2', category: 'economy' },
+  { id: 7, title: '테크 콘텐츠 2', category: 'tech' },
 ];
 
 export function Home() {

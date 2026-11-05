@@ -2,7 +2,7 @@ import { cn } from '@/shared/lib/utils';
 
 export function IssueSummary({ items }: { items: string[] }) {
   return (
-    <ul className="list-none space-y-2 text-body-14-r leading-[1.6] text-content-normal">
+    <ul className="list-none space-y-2 text-body-14-r leading-[1.6] text-content-normal sm:text-body-16-r">
       {items.map((item, index) => (
         <li
           key={index}

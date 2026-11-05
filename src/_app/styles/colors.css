@@ -121,4 +121,5 @@
 
   /* Text */
   --color-text-strong: var(--color-neutral-900);
+  --color-text-body: var(--color-neutral-800);
 }

@@ -1,6 +1,7 @@
 import { CardMeta, IssueSummary } from '@/entities/card';
-import { Accordion, AccordionContent, AccordionTrigger } from '@/shared/ui';
+import { Accordion, AccordionContent, AccordionTrigger, Button, Card } from '@/shared/ui';
 import { BookmarkSolid } from 'iconoir-react';
+import Image from 'next/image';
 
 const textArray = [
   '금리 변동으로 예적금 상품에 대한 관심이 높아지고 있어요.금리 변동으로 예적금 상품에 대한 관심이 높아지고 있어요.금리 변동으로 예적금 상품에 대한 관심이 높아지고 있어요.금리 변동으로 예적금 상품에 대한 관심이 높아지고 있어요.금리 변동으로 예적금 상품에 대한 관심이 높아지고 있어요.',
@@ -10,8 +11,8 @@ const textArray = [
 
 export function CardFeed() {
   return (
-    <div>
-      <div className="flex flex-col gap-y-3">
+    <Card className="shadow-card">
+      <div className="flex flex-col gap-y-3 border-b border-border-subtle pb-4">
         <div className="flex items-center justify-between">
           <CardMeta category="경제" date="2023-06-01" />
           <BookMarkButton />
@@ -26,7 +27,19 @@ export function CardFeed() {
           </AccordionContent>
         </Accordion>
       </div>
-    </div>
+      <div className="mb-3 flex items-center gap-x-2 pt-4">
+        <Image src="/images/logo.svg" alt="logo" width={24} height={24} />
+        <p className="text-title-14-r text-text-blue">이렇게 말해보세요</p>
+      </div>
+      <div className="mb-4 rounded-control bg-surface-smalltalk p-3">
+        <p className="text-body-18-r text-text-body">
+          가입 전 가입 기간과 중도 해지 시 적용되는 금리도 함께 비교해 보세요.
+        </p>
+      </div>
+      <Button variant="primary" size="L" className="text-label-18-sb text-white">
+        복사
+      </Button>
+    </Card>
   );
 }
 

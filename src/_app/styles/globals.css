@@ -12,3 +12,27 @@
   justify-content: center;
   align-items: center;
 }
+
+/* 기타 */
+@layer components {
+  /* 아코디언 */
+  .accordion-icon {
+    transition: rotate 200ms var(--ease-out);
+  }
+
+  .accordion-content {
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 200ms var(--ease-out);
+  }
+
+  .accordion-content[aria-hidden='false'] {
+    grid-template-rows: 1fr;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .accordion-icon,
+    .accordion-content {
+      transition: none;
+    }
+  }
+}

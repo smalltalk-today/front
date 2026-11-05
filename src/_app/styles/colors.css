@@ -114,4 +114,10 @@
   /* Border */
   --color-border-strong: var(--color-neutral-200);
   --color-border-medium: var(--color-neutral-100);
+
+  /* Icon */
+  --color-icon-secondary: var(--color-neutral-400);
+
+  /* Text */
+  --color-text-strong: var(--color-neutral-900);
 }

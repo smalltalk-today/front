@@ -1,6 +1,6 @@
 'use client';
 
-import { TabItem, TabList } from '@/shared/ui';
+import { TabContent, TabItem, Tabs } from '@/shared/ui';
 import { useState } from 'react';
 
 const tabs: TabItem[] = [
@@ -25,9 +25,9 @@ const data = [
 
 export function Home() {
   const [activeTab, setActiveTab] = useState('all');
+
   const filteredData =
     activeTab === 'all' ? data : data.filter((item) => item.category === activeTab);
-
   return (
     <>
       <div className="space-y-4">
@@ -37,12 +37,15 @@ export function Home() {
       </div>
       <div className="mt-8">
         <p className="mb-5 text-lg font-semibold">탭 컴포넌트 사용 예시</p>
-        <TabList tabs={tabs} value={activeTab} onChange={setActiveTab} />
-        <div className="mt-4">
-          {filteredData.map((item) => (
-            <div key={item.id}>{item.title}</div>
-          ))}
-        </div>
+        <Tabs tabs={tabs} value={activeTab} onChange={setActiveTab}>
+          <TabContent>
+            <div className="mt-4">
+              {filteredData.map((item) => (
+                <div key={item.id}>{item.title}</div>
+              ))}
+            </div>
+          </TabContent>
+        </Tabs>
       </div>
     </>
   );

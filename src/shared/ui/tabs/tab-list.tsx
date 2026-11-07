@@ -9,6 +9,7 @@ export function TabList({ tabs, value, onChange }: TabListProps) {
     <div role="tablist" className={tabListStyles()}>
       {tabs.map((tab) => {
         const isActive = value === tab.value;
+
         return (
           <button
             key={tab.value}

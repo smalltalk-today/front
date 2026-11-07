@@ -22,6 +22,7 @@ const data = [
   { id: 6, title: '경제 콘텐츠 2', category: 'economy' },
   { id: 7, title: '테크 콘텐츠 2', category: 'tech' },
 ];
+import { Button } from '@/shared/ui';
 
 export function Home() {
   const [activeTab, setActiveTab] = useState('all');
@@ -46,6 +47,49 @@ export function Home() {
             </div>
           </TabContent>
         </Tabs>
+      <div className="mt-2 space-y-4">
+        <p>버튼 컴포넌트 예시</p>
+        <Button variant="primary" size="XS">
+          Text
+        </Button>
+        <Button variant="primary" size="S">
+          Text
+        </Button>
+        <Button variant="primary" size="M">
+          Text
+        </Button>
+        <Button variant="primary" size="L">
+          Text
+        </Button>
+        <Button variant="secondary" size="XS">
+          Text
+        </Button>
+        <Button variant="secondary" size="S">
+          Text
+        </Button>
+        <Button variant="secondary" size="M">
+          Text
+        </Button>
+        <Button variant="secondary" size="L">
+          Text
+        </Button>
+        <div className="flex gap-2">
+          <Button variant="link">기사 원문</Button>
+          <Button variant="link" disabled>
+            기사 원문
+          </Button>
+        </div>
+        <Button variant="text">다른 이슈로 바꾸기</Button>
+        <div>
+          <Button variant="icon" size="icon" aria-label="버튼 아이콘">
+            icon
+          </Button>
+        </div>
+        <div className="mt-2 space-y-4">
+          <Button size="XS">더 보기</Button>
+          <Button variant="secondary">더 보기</Button>
+          <Button variant="icon">icon</Button>
+        </div>
       </div>
     </>
   );

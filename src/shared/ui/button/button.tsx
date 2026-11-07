@@ -18,7 +18,7 @@ type ButtonProps = ComponentProps<'button'> &
       }
   );
 
-export function Button({ variant, size, className, children, ...props }: ButtonProps) {
+export function Button({ variant = 'primary', size, className, children, ...props }: ButtonProps) {
   const buttonSize =
     variant === 'primary' || variant === 'secondary'
       ? (size ?? 'M')

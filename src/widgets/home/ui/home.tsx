@@ -1,6 +1,8 @@
 'use client';
 
-import { TabContent, TabItem, Tabs } from '@/shared/ui';
+import { TabContent, Tabs } from '@/shared/ui';
+import type { TabItem } from '@/shared/ui';
+
 import { useState } from 'react';
 
 const tabs: TabItem[] = [
@@ -47,6 +49,7 @@ export function Home() {
             </div>
           </TabContent>
         </Tabs>
+      </div>
       <div className="mt-2 space-y-4">
         <p>버튼 컴포넌트 예시</p>
         <Button variant="primary" size="XS">

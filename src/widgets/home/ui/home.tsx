@@ -1,8 +1,11 @@
 'use client';
 
-import { Button } from '@/shared/ui';
+import { BottomSheet, Button } from '@/shared/ui';
+import { useState } from 'react';
 
 export function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div className="space-y-4">
@@ -53,6 +56,16 @@ export function Home() {
           <Button variant="secondary">더 보기</Button>
           <Button variant="icon">icon</Button>
         </div>
+      </div>
+      <div className="mt-2 space-y-4">
+        <p>바텀시트 컴포넌트 예시</p>
+        <Button variant="primary" size="M" onClick={() => setIsOpen(true)}>
+          바텀시트 열기
+        </Button>
+
+        <BottomSheet isOpen={isOpen} onClose={() => setIsOpen(false)} title="타이틀">
+          설명
+        </BottomSheet>
       </div>
     </>
   );

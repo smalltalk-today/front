@@ -83,4 +83,9 @@
   --text-caption-12-r--line-height: 12px;
   --text-caption-12-r--font-weight: 400;
   --text-caption-12-r--letter-spacing: -0.12px;
+
+  --text-caption-14-r: 14px;
+  --text-caption-14-r--line-height: 14px;
+  --text-caption-14-r--font-weight: 400;
+  --text-caption-14-r--letter-spacing: -0.14px;
 }

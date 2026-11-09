@@ -1,0 +1,29 @@
+'use client';
+
+import { cn } from '@/shared/lib/utils';
+import { tabListStyles, tabStyles } from './tabs.style';
+import { TabListProps } from './tabs.type';
+
+export function TabList({ tabs, value, onChange }: TabListProps) {
+  return (
+    <div role="tablist" className={tabListStyles()}>
+      {tabs.map((tab) => {
+        const isActive = value === tab.value;
+
+        return (
+          <button
+            key={tab.value}
+            type="button"
+            role="tab"
+            aria-selected={isActive}
+            tabIndex={isActive ? 0 : -1}
+            onClick={() => onChange(tab.value)}
+            className={cn(tabStyles({ active: isActive }))}
+          >
+            {tab.label}
+          </button>
+        );
+      })}
+    </div>
+  );
+}

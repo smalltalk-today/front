@@ -19,6 +19,11 @@
   --text-title-18-sb--font-weight: 600;
   --text-title-18-sb--letter-spacing: -0.36px;
 
+  --text-title-16-r: 16px;
+  --text-title-16-r--line-height: 24px;
+  --text-title-16-r--font-weight: 400;
+  --text-title-16-r--letter-spacing: -2%;
+
   --text-title-16-m: 16px;
   --text-title-16-m--line-height: 19.2px;
   --text-title-16-m--font-weight: 500;
@@ -28,6 +33,11 @@
   --text-title-14-r--line-height: 16.8px;
   --text-title-14-r--font-weight: 400;
   --text-title-14-r--letter-spacing: -0.28px;
+
+  --text-body-18-r: 18px;
+  --text-body-18-r--line-height: 27px;
+  --text-body-18-r--font-weight: 400;
+  --text-body-18-r--letter-spacing: -0.18px;
 
   --text-body-16-r: 16px;
   --text-body-16-r--line-height: 24px;
@@ -43,6 +53,11 @@
   --text-body-14-m--line-height: 21px;
   --text-body-14-m--font-weight: 500;
   --text-body-14-m--letter-spacing: -0.14px;
+
+  --text-label-18-sb: 18px;
+  --text-label-18-sb--line-height: 18px;
+  --text-label-18-sb--font-weight: 600;
+  --text-label-18-sb--letter-spacing: -0.18px;
 
   --text-label-16-sb: 16px;
   --text-label-16-sb--line-height: 16px;
@@ -69,10 +84,10 @@
   --text-label-11-r--font-weight: 400;
   --text-label-11-r--letter-spacing: -0.11px;
 
-  --text-label-18-sb: 18px;
-  --text-label-18-sb--line-height: 18px;
-  --text-label-18-sb--font-weight: 600;
-  --text-label-18-sb--letter-spacing: -0.18px;
+  --text-caption-14-r: 14px;
+  --text-caption-14-r--line-height: 14px;
+  --text-caption-14-r--font-weight: 400;
+  --text-caption-14-r--letter-spacing: -1%;
 
   --text-caption-12-m: 12px;
   --text-caption-12-m--line-height: 12px;

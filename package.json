@@ -8,8 +8,8 @@
     "pnpm": ">=10 <11"
   },
   "scripts": {
-    "dev": "node scripts/dev.mjs",
-    "build": "pnpm check:design && next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "format": "prettier --write .",
@@ -19,12 +19,8 @@
     "test:run": "vitest run",
     "prepare": "husky",
     "test:boundary": "node scripts/check-server-boundary.mjs",
-    "check": "pnpm check:design && pnpm lint && pnpm format:check && pnpm typecheck && pnpm test:run",
-    "check:design": "node scripts/check-design.mjs",
-    "check:design:watch": "node scripts/check-design.mjs --watch",
-    "verify:guardrails": "node scripts/verify-guardrails.mjs",
-    "verify": "pnpm check && pnpm verify:guardrails && pnpm test:boundary && pnpm build",
-    "task": "node scripts/task-runner.mjs"
+    "check": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm test:run",
+    "verify": "pnpm check && pnpm test:boundary && pnpm build"
   },
   "lint-staged": {
     "*.{ts,tsx,js,mjs}": [

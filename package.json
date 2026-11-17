@@ -8,8 +8,8 @@
     "pnpm": ">=10 <11"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node scripts/dev.mjs",
+    "build": "pnpm check:design && next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "format": "prettier --write .",
@@ -19,7 +19,12 @@
     "test:run": "vitest run",
     "prepare": "husky",
     "test:boundary": "node scripts/check-server-boundary.mjs",
-    "check": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm test:run"
+    "check": "pnpm check:design && pnpm lint && pnpm format:check && pnpm typecheck && pnpm test:run",
+    "check:design": "node scripts/check-design.mjs",
+    "check:design:watch": "node scripts/check-design.mjs --watch",
+    "verify:guardrails": "node scripts/verify-guardrails.mjs",
+    "verify": "pnpm check && pnpm verify:guardrails && pnpm test:boundary && pnpm build",
+    "task": "node scripts/task-runner.mjs"
   },
   "lint-staged": {
     "*.{ts,tsx,js,mjs}": [
@@ -60,6 +65,8 @@
     "jsdom": "30.1.2",
     "lint-staged": "17.6.0",
     "msw": "2.15.0",
+    "postcss": "8.5.29",
+    "postcss-value-parser": "4.2.0",
     "prettier": "3.9.10",
     "prettier-plugin-tailwindcss": "0.8.1",
     "tailwindcss": "4.3.3",

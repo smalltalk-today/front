@@ -1,0 +1,49 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nRectangle\nUse as mask\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nDimensions\nW\nH\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\n999\nFill\nColor/Neutral/200\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "170.5"
+    },
+    {
+      "name": "Y-position",
+      "value": "12"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": "Width",
+      "value": "34"
+    },
+    {
+      "name": "Height",
+      "value": "4"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

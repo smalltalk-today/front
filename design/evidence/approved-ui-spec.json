@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "geometry": [
+    {
+      "nodeId": "446:2939",
+      "property": "height",
+      "value": "52px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing",
+          "value": "4px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "446:2977",
+      "property": "height",
+      "value": "48px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing",
+          "value": "4px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "202:172",
+      "property": "height",
+      "value": "44px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing",
+          "value": "4px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "202:173",
+      "property": "focus-ring-width",
+      "value": "2px",
+      "theme": [],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/before-button-button.style.ts.txt",
+        "sha256": "50f73fedaddccf07910032d91963d6be2a5c25e25fc9fb95e6daac8f71807cff"
+      }
+    },
+    {
+      "nodeId": "202:173",
+      "property": "focus-ring-offset",
+      "value": "2px",
+      "theme": [],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/before-button-button.style.ts.txt",
+        "sha256": "50f73fedaddccf07910032d91963d6be2a5c25e25fc9fb95e6daac8f71807cff"
+      }
+    },
+    {
+      "nodeId": "602:1829",
+      "property": "width",
+      "value": "343px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-popup-width",
+          "value": "343px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "713:9254",
+      "property": "width",
+      "value": "768px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-sheet-max-width",
+          "value": "768px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      },
+      "adaptation": "Tablet frame width; user requested this as the bottom-sheet maximum, not a Figma bottom-sheet specification."
+    },
+    {
+      "nodeId": "446:3012",
+      "property": "width",
+      "value": "375px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-sheet-width",
+          "value": "375px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "446:3012",
+      "property": "height",
+      "value": "380px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-sheet-height",
+          "value": "380px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "446:3002",
+      "property": "width",
+      "value": "34px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-sheet-handle",
+          "value": "34px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "446:3006",
+      "property": "bottom",
+      "value": "50px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-sheet-footer",
+          "value": "50px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "725:6798",
+      "property": "size",
+      "value": "38px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-icon-touchframe",
+          "value": "38px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "402:1469",
+      "property": "mobile-bottom",
+      "value": "94px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-toast-bottom-mobile",
+          "value": "94px"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/before-toast-toaster.tsx.txt",
+        "sha256": "b9c234a1a35efc15289bdec9c1b57bfbe923d99932452670ac5bd8f1315c39c0"
+      }
+    },
+    {
+      "nodeId": "402:1469",
+      "property": "desktop-bottom",
+      "value": "45px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--spacing-toast-bottom-desktop",
+          "value": "45px"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/before-toast-toaster.tsx.txt",
+        "sha256": "b9c234a1a35efc15289bdec9c1b57bfbe923d99932452670ac5bd8f1315c39c0"
+      }
+    },
+    {
+      "nodeId": "402:1469",
+      "property": "max-width",
+      "value": "384px",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--container-toast",
+          "value": "384px"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/before-toast-toaster.tsx.txt",
+        "sha256": "b9c234a1a35efc15289bdec9c1b57bfbe923d99932452670ac5bd8f1315c39c0"
+      }
+    },
+    {
+      "nodeId": "278:1270",
+      "property": "opacity",
+      "value": "0.99",
+      "theme": [
+        {
+          "file": "src/_app/styles/layout.css",
+          "variable": "--opacity-badge",
+          "value": "0.99"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "602:1600",
+      "property": "stroke-width",
+      "value": "1px",
+      "theme": [],
+      "source": {
+        "kind": "figma"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "Button",
+      "nodeId": "202:173",
+      "status": "approved"
+    },
+    {
+      "name": "Badge",
+      "nodeId": "278:1270",
+      "status": "approved"
+    },
+    {
+      "name": "Modal",
+      "nodeId": "602:1829",
+      "status": "approved"
+    },
+    {
+      "name": "BottomSheet",
+      "nodeId": "446:3012",
+      "status": "approved"
+    },
+    {
+      "name": "Toast",
+      "nodeId": "402:1469",
+      "status": "approved"
+    },
+    {
+      "name": "Toaster",
+      "nodeId": "402:1469",
+      "status": "approved"
+    }
+  ],
+  "notes": [
+    "사용자 지시로 Input은 이관에서 제외.",
+    "Modal의 기존 닫기 동작 하나를 원본 footer에 배치한다. 삭제·취소 동작을 새로 추가하지 않는다.",
+    "Toaster는 원본 Toast의 비시각 호스트다. 기존 md=48rem, bottom94/45, maxwidth384를 보존한다.",
+    "CTA 외 Button의 size 계약은 기존의 닫힌 TypeScript union을 유지한다.",
+    "142개 원본 토큰은 변경하지 않는다. 개별 치수는 출처를 별도로 고정하며 새 간격 척도로 확대하지 않는다."
+  ]
+}

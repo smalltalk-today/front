@@ -1,0 +1,93 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nDimensions\nW\nH\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nHeadline/20_sb\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Strong\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "저장됨"
+    },
+    {
+      "name": "X-position",
+      "value": "16"
+    },
+    {
+      "name": "Y-position",
+      "value": "13"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "WIDTH_AND_HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": "Width",
+      "value": "52"
+    },
+    {
+      "name": "Height",
+      "value": "24"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "TOP"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

@@ -1,6 +1,20 @@
+@import './approved-ui.css';
+
 @theme {
+  --spacing-popup-width: 343px;
+  --spacing-sheet-width: 375px;
+  --spacing-sheet-max-width: 768px;
+  --spacing-sheet-height: 380px;
+  --spacing-sheet-handle: 34px;
+  --spacing-sheet-footer: 50px;
+  --spacing-icon-touchframe: 38px;
+  --spacing-toast-bottom-mobile: 94px;
+  --spacing-toast-bottom-desktop: 45px;
+  --container-toast: 384px;
+  --opacity-badge: 0.99;
   --spacing: 4px;
 
+  --radius-sheet: 12px;
   --radius-card: 16px;
   --radius-control: 8px;
   --radius-pill: 999px;

@@ -1,0 +1,126 @@
+{
+  "id": "284:630",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nNavogatopm Bar\nMulti-edit variants\nCurrent variant\nState\n카드 뉴스\n저장\n설정\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top\nAlign center\nAlign bottom\nPadding\n20\n20\n4\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Common/White\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Subtle\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\n+3\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "Navogatopm Bar"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Edit property value for State",
+      "value": "카드 뉴스"
+    },
+    {
+      "label": "X-position",
+      "value": "20"
+    },
+    {
+      "label": "Y-position",
+      "value": "20"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Width",
+      "value": "375"
+    },
+    {
+      "label": "Height",
+      "value": "82"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "SPACE_BETWEEN_MIN"
+    },
+    {
+      "label": null,
+      "value": "SPACE_BETWEEN_CENTER"
+    },
+    {
+      "label": null,
+      "value": "SPACE_BETWEEN_MAX"
+    },
+    {
+      "label": "Horizontal gap between objects",
+      "value": "Auto"
+    },
+    {
+      "label": "Left padding",
+      "value": ""
+    },
+    {
+      "label": "Right padding",
+      "value": ""
+    },
+    {
+      "label": "Top padding",
+      "value": ""
+    },
+    {
+      "label": "Bottom padding",
+      "value": "0"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "0"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

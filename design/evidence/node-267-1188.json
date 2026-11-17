@@ -1,0 +1,141 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nbadge\nMulti-edit variants\nProperties\nColor\n・Blue, Green, Orange, Red, Purple, Default\nText\n・Text\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nStroke\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\n+6\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "badge"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "22.16"
+    },
+    {
+      "name": "Y-position",
+      "value": "66"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "382"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "62"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "name": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "name": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "name": "Horizontal gap between objects",
+      "value": "20"
+    },
+    {
+      "name": "Horizontal padding",
+      "value": "20"
+    },
+    {
+      "name": "Vertical padding",
+      "value": "20"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "5"
+    },
+    {
+      "name": "Color",
+      "value": "8A38F5"
+    },
+    {
+      "name": null,
+      "value": "100"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

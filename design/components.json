@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "approved": [
+    {
+      "name": "Button",
+      "file": "src/shared/ui/button/button.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "202:173",
+        "evidence": "evidence/approved-ui-spec.json"
+      },
+      "allowedProps": ["variant", "size", "className", "disabled"],
+      "props": {
+        "variant": ["primary", "secondary", "link", "text", "icon"],
+        "size": ["L", "M", "S", "XS", "icon"]
+      },
+      "styles": ["src/shared/ui/button/button.style.ts"],
+      "nativeTag": "button",
+      "layoutProps": ["className"],
+      "defaultProps": {
+        "variant": "primary"
+      },
+      "propCombinations": [
+        {
+          "variant": ["primary", "secondary"],
+          "size": ["L", "M", "S", "XS"]
+        },
+        {
+          "variant": ["icon"],
+          "size": ["icon"]
+        },
+        {
+          "variant": ["link", "text"],
+          "size": []
+        }
+      ]
+    },
+    {
+      "name": "Badge",
+      "file": "src/shared/ui/badge/badge.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "278:1270",
+        "evidence": "evidence/approved-ui-spec.json"
+      },
+      "allowedProps": [],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "Modal",
+      "file": "src/shared/ui/modal.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "602:1829",
+        "evidence": "evidence/approved-ui-spec.json"
+      },
+      "allowedProps": ["open", "title", "onClose"],
+      "props": {},
+      "styles": ["src/shared/ui/modal.module.css"]
+    },
+    {
+      "name": "BottomSheet",
+      "file": "src/shared/ui/bottom-sheet/bottom-sheet.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "446:3012",
+        "evidence": "evidence/approved-ui-spec.json"
+      },
+      "allowedProps": ["isOpen", "onClose", "title", "buttonTxt", "buttonOnClick"],
+      "props": {},
+      "styles": ["src/shared/ui/bottom-sheet/bottom-sheet.module.css"]
+    },
+    {
+      "name": "Toast",
+      "file": "src/shared/ui/toast/toast.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "402:1469",
+        "evidence": "evidence/approved-ui-spec.json"
+      },
+      "allowedProps": ["toast", "onDismiss"],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "Toaster",
+      "file": "src/shared/ui/toast/toaster.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "402:1469",
+        "evidence": "evidence/approved-ui-spec.json"
+      },
+      "allowedProps": [],
+      "props": {},
+      "styles": [],
+      "kind": "composition",
+      "behaviorEvidence": "evidence/before-toast-toaster.tsx.txt"
+    },
+    {
+      "name": "CardHeader",
+      "file": "src/shared/ui/card-header.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "335:2666",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["view", "onNavigate"],
+      "props": {
+        "view": ["feed", "saved", "detail"]
+      },
+      "styles": []
+    },
+    {
+      "name": "CardTabs",
+      "file": "src/shared/ui/card-tabs.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "713:7856",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["mode", "selected", "onSelect", "panelId"],
+      "props": {
+        "mode": ["feed", "saved"],
+        "selected": ["Today Pick", "전체", "랭킹", "경제", "테크", "문화", "사회", "환경"]
+      },
+      "styles": []
+    },
+    {
+      "name": "CardNavigation",
+      "file": "src/shared/ui/card-navigation.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "284:631",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["selected", "onNavigate"],
+      "props": {
+        "selected": ["feed", "saved"]
+      },
+      "styles": []
+    },
+    {
+      "name": "CardRanking",
+      "file": "src/shared/ui/card-ranking.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "713:9047",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["items", "onSelect"],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "CardIcon",
+      "file": "src/shared/ui/card-icon.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "280:1330",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["name"],
+      "props": {
+        "name": [
+          "bookmark",
+          "bookmark-filled",
+          "bookmark-nav",
+          "bookmark-nav-inactive",
+          "bookmark-top",
+          "chevron-down",
+          "chevron-up",
+          "crown",
+          "feed",
+          "feed-inactive",
+          "quote",
+          "refresh",
+          "settings",
+          "settings-nav",
+          "settings-nav-inactive",
+          "back"
+        ]
+      },
+      "styles": []
+    },
+    {
+      "name": "CardLogo",
+      "file": "src/shared/ui/card-logo.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "1204:9608",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": [],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "CardFeed",
+      "file": "src/entities/card/ui/card-feed.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "658:2011",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": [
+        "card",
+        "sentence",
+        "sentenceIndex",
+        "dateLabel",
+        "saved",
+        "onSave",
+        "onCopy",
+        "onRegenerate",
+        "summaryExpanded",
+        "onSummaryToggle",
+        "regenerating",
+        "regenerationDisabled"
+      ],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "ArticleSummary",
+      "file": "src/entities/card/ui/article-summary.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "267:764",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["summary", "expanded", "onToggle", "sourceUrl"],
+      "props": {},
+      "styles": ["src/entities/card/ui/article-summary.module.css"]
+    },
+    {
+      "name": "SavedCardItem",
+      "file": "src/entities/card/ui/saved-card-item.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "nodeId": "713:11254",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["card", "dateLabel", "onUnsave", "onOpen"],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "CardEmpty",
+      "file": "src/shared/ui/card-empty.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "0:1",
+        "nodeId": "1128:10096",
+        "evidence": "evidence/cards/approved-cards-spec.json"
+      },
+      "allowedProps": ["onExplore"],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "NotFoundContent",
+      "file": "src/shared/ui/not-found-content.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "0:1",
+        "nodeId": "1128:10414",
+        "evidence": "evidence/not-found-spec.json"
+      },
+      "allowedProps": [],
+      "props": {},
+      "styles": []
+    },
+    {
+      "name": "Tabs",
+      "file": "src/shared/ui/tabs/tabs.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "evidence": "evidence/tabs/approved-tabs-spec.json",
+        "nodeId": "286:1493"
+      },
+      "allowedProps": ["tabs", "value", "onChange"],
+      "props": {},
+      "styles": [],
+      "kind": "composition",
+      "behaviorEvidence": "evidence/tabs/before-tabs.tsx.txt"
+    },
+    {
+      "name": "TabList",
+      "file": "src/shared/ui/tabs/tab-list.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "evidence": "evidence/tabs/approved-tabs-spec.json",
+        "nodeId": "713:7856"
+      },
+      "allowedProps": ["tabs", "value", "onChange"],
+      "props": {},
+      "styles": ["src/shared/ui/tabs/tabs.style.ts"]
+    },
+    {
+      "name": "TabContent",
+      "file": "src/shared/ui/tabs/tab-content.tsx",
+      "status": "approved",
+      "source": {
+        "pageId": "202:167",
+        "evidence": "evidence/tabs/approved-tabs-spec.json",
+        "nodeId": "286:1493"
+      },
+      "allowedProps": [],
+      "props": {},
+      "styles": [],
+      "kind": "composition",
+      "behaviorEvidence": "evidence/tabs/before-tab-content.tsx.txt"
+    }
+  ],
+  "pending": [
+    {
+      "name": "Input",
+      "file": "src/shared/ui/input.tsx",
+      "status": "pending",
+      "reason": "사용자 지시로 이번 이관에서 제외. 화면 197:175는 지정 스타일 가이드 밖의 색상을 사용하므로 신규 사용은 차단한다."
+    }
+  ]
+}

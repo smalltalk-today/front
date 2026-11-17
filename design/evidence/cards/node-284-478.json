@@ -1,0 +1,134 @@
+{
+  "id": "284:478",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nNavigation Bar_item\nMulti-edit variants\nCurrent variant\nisActive\nfalse\ntrue\nAdd new…\nname\ncard\n저장\n설정\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\n4\nPadding\n12\n4\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nStroke\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Icon/Primary\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "Navigation Bar_item"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Edit property value for isActive",
+      "value": "true"
+    },
+    {
+      "label": "Edit property value for name",
+      "value": "card"
+    },
+    {
+      "label": "X-position",
+      "value": "105"
+    },
+    {
+      "label": "Y-position",
+      "value": "20"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Horizontal resizing",
+      "value": "72"
+    },
+    {
+      "label": "Vertical resizing",
+      "value": "52"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "label": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "label": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "label": null,
+      "value": "LEFT"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "RIGHT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "label": "Vertical gap between objects",
+      "value": ""
+    },
+    {
+      "label": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "label": "Vertical padding",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "0"
+    }
+  ]
+}

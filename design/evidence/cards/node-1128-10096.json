@@ -1,0 +1,126 @@
+{
+  "id": "1128:10096",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nFrame\nUse as mask\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nStroke\nEffects\nSelection colors\n+9\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "X-position",
+      "value": "459.5"
+    },
+    {
+      "label": "Y-position",
+      "value": "176.5"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Horizontal resizing",
+      "value": "297"
+    },
+    {
+      "label": "Vertical resizing",
+      "value": "239"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "label": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "label": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "label": null,
+      "value": "LEFT"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "RIGHT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "label": "Vertical gap between objects",
+      "value": "20"
+    },
+    {
+      "label": "Horizontal padding",
+      "value": "0"
+    },
+    {
+      "label": "Vertical padding",
+      "value": "0"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "0"
+    }
+  ]
+}

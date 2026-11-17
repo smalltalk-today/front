@@ -1,0 +1,97 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n4%\nApp Bar\nMulti-edit variants\nCurrent variant\nDevice\npc\nApp\ntablet\nAdd new…\ntype\nBrand\nicon\nTitle\nDefault\nClose\nnone\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nDimensions\nW\nH\nLock aspect ratio\nSpacing\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Subtle\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEnd points\nEnd points\nNone\nEffects\nSelection colors\nColor/Icon/Primary\nClick to edit color variable\nColor/Border/Subtle\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "App Bar"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for Device",
+      "value": "App"
+    },
+    {
+      "name": "Edit property value for type",
+      "value": "icon"
+    },
+    {
+      "name": "X-position",
+      "value": "987"
+    },
+    {
+      "name": "Y-position",
+      "value": "34"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": "Width",
+      "value": "375"
+    },
+    {
+      "name": "Height",
+      "value": "50"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "295"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

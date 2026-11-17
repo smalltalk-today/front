@@ -1,0 +1,129 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n4%\nApp Bar\nMulti-edit variants\nCurrent variant\nDevice\npc\nApp\ntablet\nAdd new…\ntype\nBrand\nicon\nTitle\nDefault\nClose\nnone\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top\nAlign center\nAlign bottom\nPadding\n32\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Icon/Primary\nClick to edit color variable\nColor/Border/Medium\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nColor\nAutofill available. Type to see suggestions.\n%\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "App Bar"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for Device",
+      "value": "tablet"
+    },
+    {
+      "name": "Edit property value for type",
+      "value": "Default"
+    },
+    {
+      "name": "X-position",
+      "value": "20"
+    },
+    {
+      "name": "Y-position",
+      "value": "107"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Width",
+      "value": "666"
+    },
+    {
+      "name": "Height",
+      "value": "50"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_MIN"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_CENTER"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_MAX"
+    },
+    {
+      "name": "Horizontal gap between objects",
+      "value": "Auto"
+    },
+    {
+      "name": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "name": "Vertical padding",
+      "value": "8"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "name": null,
+      "value": "100"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "name": null,
+      "value": "100"
+    }
+  ]
+}

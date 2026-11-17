@@ -84,37 +84,6 @@
       }
     },
     {
-      "nodeId": "713:9254",
-      "property": "width",
-      "value": "768px",
-      "theme": [
-        {
-          "file": "src/_app/styles/layout.css",
-          "variable": "--spacing-sheet-max-width",
-          "value": "768px"
-        }
-      ],
-      "source": {
-        "kind": "figma"
-      },
-      "adaptation": "Tablet frame width; user requested this as the bottom-sheet maximum, not a Figma bottom-sheet specification."
-    },
-    {
-      "nodeId": "446:3012",
-      "property": "width",
-      "value": "375px",
-      "theme": [
-        {
-          "file": "src/_app/styles/layout.css",
-          "variable": "--spacing-sheet-width",
-          "value": "375px"
-        }
-      ],
-      "source": {
-        "kind": "figma"
-      }
-    },
-    {
       "nodeId": "446:3012",
       "property": "height",
       "value": "380px",

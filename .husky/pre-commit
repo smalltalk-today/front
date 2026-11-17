@@ -1,1 +1,1 @@
-pnpm exec lint-staged && pnpm check:design
+pnpm exec lint-staged

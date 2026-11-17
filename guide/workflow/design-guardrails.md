@@ -4,7 +4,7 @@
 
 ## 현재 적용 범위
 
-검사 기반에 이어 기존 UI 6개와 카드 UI 9개를 Figma 원본과 대조해 승인했다. 승인과 출처의 기준은 `design/components.json`이다. 공통 UI 근거는 `design/evidence/approved-ui-spec.json`, 카드 근거는 `design/evidence/cards/approved-cards-spec.json`과 같은 폴더의 원본 자료에 있다.
+검사 기반에 이어 공통 UI 6개, 카드 UI 10개, 기존 탭 UI 3개와 NotFoundContent를 승인했다. 승인과 출처의 기준은 `design/components.json`이다. 공통 UI 근거는 `design/evidence/approved-ui-spec.json`, 카드 근거는 `design/evidence/cards/approved-cards-spec.json`과 같은 폴더의 원본 자료에 있다.
 
 | 승인 UI     | 원본 node ID | 사용 범위                                                        |
 | ----------- | ------------ | ---------------------------------------------------------------- |
@@ -15,15 +15,15 @@
 | Toast       | `402:1469`   | 기존 알림 상태·타이머·닫기 계약을 유지하는 내부 UI               |
 | Toaster     | `402:1469`   | Toast의 비시각 composition 호스트. Providers에서 기존 API로 사용 |
 
-카드 승인 UI는 CardHeader·CardTabs·CardNavigation·CardRanking·CardIcon·CardLogo·CardFeed·ArticleSummary·SavedCardItem이다. 카드 화면은 이 UI와 기존 공통 UI를 조합한다. 세부 동작과 반응형 기준은 [카드 화면 가이드](../ui/card-screens.md)에 기록한다. 추가 UI는 원본 대조와 등록이 필요하다.
+카드 승인 UI는 CardHeader·CardTabs·CardNavigation·CardRanking·CardIcon·CardLogo·CardFeed·ArticleSummary·SavedCardItem·CardEmpty다. 카드 화면은 이 UI와 기존 공통 UI를 조합한다. 반응형과 기존 동작의 근거는 [카드 원본 명세](../../design/evidence/cards/approved-cards-spec.json)에 기록한다. 추가 UI는 원본 대조와 등록이 필요하다.
 
-Input은 사용자 지시로 이번 이관에서 제외했다. 기존 파일을 삭제하지 않으며 `pending` 상태로 신규 사용을 차단한다. 나머지 미이관 코드는 `design/legacy.json`의 9개 파일·51개 진단에 한해 정확한 경로·SHA-256·진단·사유·해소 단계를 고정한다. 이 목록은 원본 승인이 아니며 전체 앱의 Figma 이관 완료를 뜻하지 않는다.
+Input은 사용자 지시로 이번 이관에서 제외했다. 기존 파일을 삭제하지 않으며 `pending` 상태로 신규 사용을 차단한다. 나머지 미이관 코드는 `design/legacy.json`의 8개 파일·45개 진단에 한해 정확한 경로·SHA-256·진단·사유·해소 단계를 고정한다. 이 목록은 원본 승인이 아니며 전체 앱의 Figma 이관 완료를 뜻하지 않는다.
 
 기존 파일이 바뀌면 고정본 예외를 사용할 수 없다. 새 파일에서 미승인 UI를 추가로 사용하는 것도 차단한다. 신규 파일·신규 위반을 기존 목록에 자동 추가하는 명령은 제공하지 않는다. 최종 UI 이관 완료 조건은 기존 위반 목록 0개다.
 
 루트 `app/layout.tsx`에서는 기존 글로벌 CSS import, `html`의 로컬 Pretendard 변수, 기존 Providers 연결만 인프라로 검사한다. 이 허용은 다른 경로·글꼴·스타일·provider로 확대되지 않는다.
 
-기존 홈의 사용자 수정은 보존한다. 기준 Git blob hash는 `12138a1dbaabc3fe8f89acc0caa18df5b6429e57`이다. 승인 UI의 시각 명세와 기존 동작을 구분하며, 카드 기능 정책은 [적용 계획](../ui/design-system-adoption-plan.md)과 사용자 지정 CardFeed 코드를 따른다. 저장은 메모리만 사용하며 localStorage·sessionStorage를 추가하지 않는다. API는 후속 연결 범위다.
+기존 홈의 사용자 수정은 보존한다. 이전 홈의 Git blob hash는 `12138a1dbaabc3fe8f89acc0caa18df5b6429e57`이다. PR #55에서 기존 탭 필터와 사용자의 바텀시트 예제를 함께 유지하면서 홈의 미등록 클래스를 승인 토큰으로 이관해 코드와 외형이 달라졌고 홈의 Figma 원본 대조는 확인되지 않았다. 승인 UI의 시각 명세와 기존 동작을 구분하며, 카드 기능 정책은 [카드 원본 명세](../../design/evidence/cards/approved-cards-spec.json)와 사용자 지정 CardFeed 코드를 따른다. 저장은 메모리만 사용하며 localStorage·sessionStorage를 추가하지 않는다. API는 후속 연결 범위다.
 
 원본 토큰 142개는 변경하지 않는다. `globals.css`·`colors.css`·`typography.css`의 기존 바이트를 보존하고, 이번 승인 UI에 필요한 원본 일치 바인딩은 `layout.css`가 가져오는 `approved-ui.css`에 둔다. `layout.css`의 승인 geometry는 원본의 개별 치수와 기존 Toaster의 모바일 하단 94px·데스크톱 하단 45px·최대 너비 384px을 고정한다. 기존 `md=48rem`을 유지하고 카드 화면의 `xl=80rem`, 실제 CardFeed 글꼴의 `sm=40rem`을 원본 근거와 함께 등록한다. 이 값들은 새 범용 spacing 척도의 근거가 아니다.
 

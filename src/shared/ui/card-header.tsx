@@ -3,6 +3,7 @@
 import { CardIcon } from './card-icon';
 import { CardLogo } from './card-logo';
 import { Button } from './button/button';
+import { AppBar } from './app-bar';
 
 interface CardHeaderProps {
   view: 'feed' | 'saved' | 'detail';
@@ -12,22 +13,22 @@ interface CardHeaderProps {
 export function CardHeader({ view, onNavigate }: CardHeaderProps) {
   return (
     <header className="bg-surface-default text-content-strong">
-      <div className="flex h-card-header items-center px-4 md:hidden">
-        {view === 'feed' ? (
-          <button type="button" aria-label="카드 피드로 이동" onClick={() => onNavigate('feed')}>
-            <CardLogo />
-          </button>
-        ) : view === 'saved' ? (
-          <h1 className="text-headline-20-sb">저장됨</h1>
-        ) : (
-          <button
-            type="button"
-            aria-label="저장 목록으로 돌아가기"
-            onClick={() => onNavigate('saved')}
-          >
-            <CardIcon name="back" />
-          </button>
-        )}
+      <div className="md:hidden">
+        <AppBar
+          leftAction={
+            view === 'feed'
+              ? { label: '카드 피드로 이동', icon: <CardLogo />, onClick: () => onNavigate('feed') }
+              : view === 'detail'
+                ? {
+                    label: '저장 목록으로 돌아가기',
+                    icon: <CardIcon name="back" />,
+                    onClick: () => onNavigate('saved'),
+                  }
+                : undefined
+          }
+        >
+          {view === 'saved' && <h1 className="text-headline-20-sb">저장됨</h1>}
+        </AppBar>
       </div>
       <div className="hidden h-card-header items-center justify-between gap-4 md:flex">
         <button type="button" aria-label="카드 피드로 이동" onClick={() => onNavigate('feed')}>

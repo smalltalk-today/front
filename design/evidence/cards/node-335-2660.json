@@ -1,0 +1,50 @@
+{
+  "id": "335:2660",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\n\nleft icon\n\nMulti-edit variants\nFrom this file\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nDimensions\nW\nH\nLock aspect ratio\nClip content\nAppearance\nHide\nOpacity\nCorner radius\n\nshow left icon\n\nFill\nStroke\nEffects\nSelection colors\nColor/Icon/Primary\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "X-position",
+      "value": "16"
+    },
+    {
+      "label": "Y-position",
+      "value": "13"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": "Width",
+      "value": "24"
+    },
+    {
+      "label": "Height",
+      "value": "24"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "0"
+    }
+  ]
+}

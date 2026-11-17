@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "geometry": [],
+  "components": [
+    {
+      "name": "NotFoundContent",
+      "nodeId": "1128:10414",
+      "status": "approved"
+    }
+  ],
+  "source": {
+    "kind": "figma",
+    "pageId": "0:1",
+    "method": "Figma editor inspection using ego lite",
+    "frame": {
+      "width": 375,
+      "height": 812,
+      "background": "#FFFFFF"
+    },
+    "content": {
+      "name": "Frame 589",
+      "width": 297,
+      "height": 199,
+      "x": 39.27,
+      "y": 306.39,
+      "gap": 20
+    },
+    "art": {
+      "nodeId": "1128:10522",
+      "name": "Frame 592",
+      "width": 200,
+      "height": 100
+    },
+    "title": {
+      "text": "페이지를 찾을 수 없어요",
+      "typography": "Title/18_sb",
+      "color": "Color/Text/Strong"
+    },
+    "body": {
+      "text": "주소가 잘못되었거나\n페이지가 이동했을 수 있어요.",
+      "typography": "Body/16_r",
+      "color": "Color/Text/Assistive",
+      "width": 180,
+      "height": 48,
+      "gapFromTitle": 4
+    }
+  },
+  "behavior": "기존 홈 링크를 항상 표시해 탐색을 보존하며 원본 상태바는 브라우저 UI로 구현하지 않는다."
+}

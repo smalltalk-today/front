@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-11",
+  "entries": [
+    {
+      "file": "src/shared/ui/input.tsx",
+      "sha256": "78ee2f63da6aa1be56a192d5faf0bd3b52a8e68252fa8107d73c6b919c555359",
+      "reason": "원본 Input과 input 클래스 외형 미확인",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_COMPONENT_UNKNOWN",
+          "line": 3,
+          "message": "미등록 UI 함수: Input"
+        },
+        {
+          "code": "DS_NATIVE_UI",
+          "line": 4,
+          "message": "등록 컴포넌트 밖의 <input> 사용 금지"
+        },
+        {
+          "code": "DS_CLASS_DYNAMIC",
+          "line": 4,
+          "message": "정적으로 확정할 수 없는 className: className"
+        },
+        {
+          "code": "DS_PROP_SPREAD",
+          "line": 4,
+          "message": "검증되지 않은 JSX spread 금지"
+        }
+      ]
+    },
+    {
+      "file": "app/error.tsx",
+      "sha256": "f4272fa6a34f79182c05f0d5c2aeb6255018679ba1c6190781136924471a3c53",
+      "reason": "기존 error 경로의 미등록 제목 스타일과 pending Button 사용 보존",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 10,
+          "message": "미등록 Tailwind utility: max-w-3xl"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 10,
+          "message": "미등록 Tailwind utility: py-12"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 11,
+          "message": "미등록 Tailwind utility: text-heading"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 11,
+          "message": "미등록 Tailwind utility: font-extrabold"
+        }
+      ]
+    },
+    {
+      "file": "src/_app/mocks/provider.tsx",
+      "sha256": "c52b4ae83d5bda7150a977c40797ce9cb91631569df8d3d03c4081d39d54d710",
+      "reason": "개발용 MSW 초기화/실패 재시도 기반과 기존 Button 사용 보존",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_DYNAMIC_IMPORT",
+          "line": 15,
+          "message": "검증할 수 없는 동적 import/require는 허용하지 않습니다."
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 31,
+          "message": "미등록 Tailwind utility: panel"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 32,
+          "message": "미등록 Tailwind utility: text-danger"
+        }
+      ]
+    },
+    {
+      "file": "src/_app/providers/index.tsx",
+      "sha256": "699fdb682f00e4dbfcb4cafa6053a6e46ed21d6ae12d399651fb46d8e8a6106f",
+      "reason": "현재 Query/MSW/Toast 연결 보존. 기존 pending UI 사용 확대 금지",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_LEGACY_USE",
+          "line": 10,
+          "message": "미이관 조합 UI의 신규 사용 금지: src/_app/mocks/provider.tsx#MswProvider"
+        }
+      ]
+    },
+    {
+      "file": "app/page.tsx",
+      "sha256": "ac8f5fc4902972083fe89a98acce0635e67fa5999a4b707d115a844001b05e11",
+      "reason": "현재 홈 예제의 max-w-3xl·py-12 배치 보존. 새 카드 레이아웃 기준 아님",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 5,
+          "message": "미등록 Tailwind utility: max-w-3xl"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 5,
+          "message": "미등록 Tailwind utility: py-12"
+        }
+      ]
+    },
+    {
+      "file": "src/_app/styles/colors.css",
+      "sha256": "314067c236b2723d4b9325c3b3e725b29bd69f2726390312095ce1ad2fa2425c",
+      "reason": "content-normal·dimmed 의미 색상 개정본 충돌을 원본 재확정해야 함",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 99,
+          "message": "미등록 변수 선언: --color-content-normal"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 105,
+          "message": "미등록 변수 선언: --color-surface-dimmed"
+        }
+      ]
+    },
+    {
+      "file": "src/_app/styles/globals.css",
+      "sha256": "e5c629edd1de6e1a236c6c691d68b2dea1d70cba206fb25b1337759904363605",
+      "reason": "기존 next/font/local variable 기반 font-sans 연결 보존",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 7,
+          "message": "미등록 변수 선언: --font-sans"
+        }
+      ]
+    },
+    {
+      "file": "src/_app/styles/typography.css",
+      "sha256": "cbdb5c297413262436478cf4bd1c9f085b0c721ea7f42346c5c0a28661934871",
+      "reason": "제목 -2% 자간·Headline/Title14 굵기 등 참고 원본과 충돌하는 타이포를 후속 대조",
+      "removalStage": "공통 UI·토큰 원본 대조 및 역할별 이관 시 제거",
+      "diagnostics": [
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 2,
+          "message": "미등록 변수 선언: --text-headline-20-sb"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 3,
+          "message": "미등록 변수 선언: --text-headline-20-sb--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 4,
+          "message": "미등록 변수 선언: --text-headline-20-sb--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 5,
+          "message": "미등록 변수 선언: --text-headline-20-sb--letter-spacing"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 7,
+          "message": "미등록 변수 선언: --text-headline-16-m"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 8,
+          "message": "미등록 변수 선언: --text-headline-16-m--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 9,
+          "message": "미등록 변수 선언: --text-headline-16-m--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 10,
+          "message": "미등록 변수 선언: --text-headline-16-m--letter-spacing"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 12,
+          "message": "미등록 변수 선언: --text-title-22-sb"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 13,
+          "message": "미등록 변수 선언: --text-title-22-sb--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 14,
+          "message": "미등록 변수 선언: --text-title-22-sb--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 15,
+          "message": "미등록 변수 선언: --text-title-22-sb--letter-spacing"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 17,
+          "message": "미등록 변수 선언: --text-title-18-sb"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 18,
+          "message": "미등록 변수 선언: --text-title-18-sb--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 19,
+          "message": "미등록 변수 선언: --text-title-18-sb--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 20,
+          "message": "미등록 변수 선언: --text-title-18-sb--letter-spacing"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 22,
+          "message": "미등록 변수 선언: --text-title-16-m"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 23,
+          "message": "미등록 변수 선언: --text-title-16-m--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 24,
+          "message": "미등록 변수 선언: --text-title-16-m--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 25,
+          "message": "미등록 변수 선언: --text-title-16-m--letter-spacing"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 27,
+          "message": "미등록 변수 선언: --text-title-14-r"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 28,
+          "message": "미등록 변수 선언: --text-title-14-r--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 29,
+          "message": "미등록 변수 선언: --text-title-14-r--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 30,
+          "message": "미등록 변수 선언: --text-title-14-r--letter-spacing"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 67,
+          "message": "미등록 변수 선언: --text-label-11-r"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 68,
+          "message": "미등록 변수 선언: --text-label-11-r--line-height"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 69,
+          "message": "미등록 변수 선언: --text-label-11-r--font-weight"
+        },
+        {
+          "code": "DS_TOKEN_UNKNOWN",
+          "line": 70,
+          "message": "미등록 변수 선언: --text-label-11-r--letter-spacing"
+        }
+      ]
+    }
+  ]
+}

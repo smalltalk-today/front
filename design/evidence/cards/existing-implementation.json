@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "branch": "feat/28-card-feed",
+  "commit": "0c60a15a5a71cf1dd4cf91936ab23cae95b5d068",
+  "files": {
+    "src/widgets/card-feed/card-feed.tsx": {
+      "evidence": "cards/existing-src-widgets-card-feed-card-feed.tsx.txt",
+      "sha256": "fd0a82ff284cdbff91102a89c85ab186f60c3ea321b06b0bee10cdd4dc9dad45"
+    },
+    "src/shared/ui/accordion/accordion.tsx": {
+      "evidence": "cards/existing-src-shared-ui-accordion-accordion.tsx.txt",
+      "sha256": "f37f3eada4c16372795feab79b6d4e7cf4e30231ff6e388d90bf715a4a06df6c"
+    },
+    "src/entities/card/ui/card-meta.tsx": {
+      "evidence": "cards/existing-src-entities-card-ui-card-meta.tsx.txt",
+      "sha256": "cbabbefcce9e6f4bababf5751b5b0f46ec40b0a5f18857877496bfc11d2af522"
+    },
+    "src/entities/card/ui/issue-summary.tsx": {
+      "evidence": "cards/existing-src-entities-card-ui-issue-summary.tsx.txt",
+      "sha256": "187fe5e1ed0133dcfb0592a1cb9454e26e397084e0a98aeee883b5d45c99f8d2"
+    },
+    "src/entities/card/lib/format-card.date.ts": {
+      "evidence": "cards/existing-src-entities-card-lib-format-card.date.ts.txt",
+      "sha256": "1d99ee899487b3cf8e52a9131fde688c3c4a3871758eb65d963bf6cdf80429f1"
+    },
+    "src/_app/styles/globals.css": {
+      "evidence": "cards/existing-src-_app-styles-globals.css.txt",
+      "sha256": "4e1a6f1c89077f00819ff1d187f56dbb193c21e67ae85c48671ecc42c33c90e8"
+    }
+  }
+}

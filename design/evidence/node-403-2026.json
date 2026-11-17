@@ -1,0 +1,121 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\ntoast\nMulti-edit variants\nCurrent variant\ntype\ncopy\nsave\ntalk sentence\nRename…\nstate\nsuccess\nerror\nremoved\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top\nAlign center\nAlign bottom\nPadding\n12\n16\nClip content\nAppearance\nHide\nOpacity\nCorner radius\n8\nFill\nColor/Surface/popup\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Icon/Primary\nClick to edit color variable\nColor/Surface/popup\nClick to edit color variable\nColor/Red/600\nClick to edit color variable\nColor/Text/White\nClick to edit color variable\nColor\nAutofill available. Type to see suggestions.\n%\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "toast"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for type",
+      "value": "talk sentence"
+    },
+    {
+      "name": "Edit property value for state",
+      "value": "error"
+    },
+    {
+      "name": "X-position",
+      "value": "20"
+    },
+    {
+      "name": "Y-position",
+      "value": "451"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "343"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "74"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_MIN"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_CENTER"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_MAX"
+    },
+    {
+      "name": "Horizontal gap between objects",
+      "value": "Auto"
+    },
+    {
+      "name": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "name": "Vertical padding",
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "name": null,
+      "value": "100"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "713:9047",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nranking-pc\nProperties\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\n12\nPadding\n20\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\n16\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Subtle\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\n+3\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "ranking-pc"
+    },
+    {
+      "label": "X-position",
+      "value": "435.5"
+    },
+    {
+      "label": "Y-position",
+      "value": "51.5"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Horizontal resizing",
+      "value": "360"
+    },
+    {
+      "label": "Vertical resizing",
+      "value": "587"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "label": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "label": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "label": null,
+      "value": "LEFT"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "RIGHT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "label": "Vertical gap between objects",
+      "value": ""
+    },
+    {
+      "label": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "label": "Vertical padding",
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

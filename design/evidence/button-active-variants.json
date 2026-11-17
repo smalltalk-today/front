@@ -1,0 +1,1954 @@
+[
+  {
+    "nodeId": "446:2939",
+    "name": "primary L",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Brand/Primary\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Brand/Primary\nClick to edit color variable\nColor/Text/White\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "primary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "L"
+        },
+        {
+          "name": "X-position",
+          "value": "21"
+        },
+        {
+          "name": "Y-position",
+          "value": "248"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "52"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n220%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/18_sb\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/White\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "132"
+        },
+        {
+          "name": "Y-position",
+          "value": "17"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "36"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "18"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "446:2977",
+    "name": "primary M",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Brand/Primary\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Brand/Primary\nClick to edit color variable\nColor/Text/White\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "primary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "M"
+        },
+        {
+          "name": "X-position",
+          "value": "20"
+        },
+        {
+          "name": "Y-position",
+          "value": "174"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "48"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/16_sb\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/White\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "134"
+        },
+        {
+          "name": "Y-position",
+          "value": "16"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "32"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "16"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "202:172",
+    "name": "primary S",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Brand/Primary\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Brand/Primary\nClick to edit color variable\nColor/Text/White\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "primary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "S"
+        },
+        {
+          "name": "X-position",
+          "value": "20"
+        },
+        {
+          "name": "Y-position",
+          "value": "105"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "44"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/14_m\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/White\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "136"
+        },
+        {
+          "name": "Y-position",
+          "value": "15"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "28"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "14"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "602:1783",
+    "name": "primary XS",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Brand/Primary\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Brand/Primary\nClick to edit color variable\nColor/Text/White\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "primary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "xs"
+        },
+        {
+          "name": "X-position",
+          "value": "21"
+        },
+        {
+          "name": "Y-position",
+          "value": "40"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "40"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/14_m\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/White\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "136"
+        },
+        {
+          "name": "Y-position",
+          "value": "13"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "28"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "14"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "602:1600",
+    "name": "secondary L",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Medium\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Border/Medium\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "Secondary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "L"
+        },
+        {
+          "name": "X-position",
+          "value": "21"
+        },
+        {
+          "name": "Y-position",
+          "value": "576"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "52"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Stroke weight",
+          "value": "1"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/18_sb\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Strong\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "132"
+        },
+        {
+          "name": "Y-position",
+          "value": "17"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "36"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "18"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "602:1584",
+    "name": "secondary M",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Medium\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Border/Medium\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "Secondary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "M"
+        },
+        {
+          "name": "X-position",
+          "value": "20"
+        },
+        {
+          "name": "Y-position",
+          "value": "507"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "48"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Stroke weight",
+          "value": "1"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/16_sb\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Strong\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "134"
+        },
+        {
+          "name": "Y-position",
+          "value": "16"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "32"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "16"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "202:174",
+    "name": "secondary S",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Medium\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Border/Medium\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nLayout guide\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "Secondary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "S"
+        },
+        {
+          "name": "X-position",
+          "value": "21"
+        },
+        {
+          "name": "Y-position",
+          "value": "438"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "44"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Stroke weight",
+          "value": "1"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/14_m\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Strong\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "136"
+        },
+        {
+          "name": "Y-position",
+          "value": "15"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "28"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "14"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  },
+  {
+    "nodeId": "602:1801",
+    "name": "secondary XS",
+    "frame": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nButton_cta\nMulti-edit variants\nCurrent variant\nStyle\nprimary\nSecondary\nAdd new…\nactive\nactive\npressed\ndisabled\nhoever\nAdd new…\nSize\nL\nS\nM\nxs\nAdd new…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Medium\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Border/Medium\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nLayout guide",
+      "inputs": [
+        {
+          "name": null,
+          "value": "Button_cta"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Edit property value for Style",
+          "value": "Secondary"
+        },
+        {
+          "name": "Edit property value for active",
+          "value": "active"
+        },
+        {
+          "name": "Edit property value for Size",
+          "value": "xs"
+        },
+        {
+          "name": "X-position",
+          "value": "20"
+        },
+        {
+          "name": "Y-position",
+          "value": "373"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": null,
+          "value": "VERTICAL"
+        },
+        {
+          "name": null,
+          "value": "HORIZONTAL"
+        },
+        {
+          "name": null,
+          "value": "GRID"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Width",
+          "value": "300"
+        },
+        {
+          "name": "Height",
+          "value": "40"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "TOP_LEFT"
+        },
+        {
+          "name": null,
+          "value": "TOP_CENTER"
+        },
+        {
+          "name": null,
+          "value": "TOP_RIGHT"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_LEFT"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM_RIGHT"
+        },
+        {
+          "name": "Horizontal gap between objects",
+          "value": "10"
+        },
+        {
+          "name": "Horizontal padding",
+          "value": ""
+        },
+        {
+          "name": "Vertical padding",
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "8"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "Stroke weight",
+          "value": "1"
+        }
+      ],
+      "text": []
+    },
+    "text": {
+      "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nText\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/14_m\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Strong\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+      "inputs": [
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": "X-position",
+          "value": "136"
+        },
+        {
+          "name": "Y-position",
+          "value": "13"
+        },
+        {
+          "name": "Rotation",
+          "value": "0°"
+        },
+        {
+          "name": null,
+          "value": "WIDTH_AND_HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "HEIGHT"
+        },
+        {
+          "name": null,
+          "value": "NONE"
+        },
+        {
+          "name": "Horizontal resizing",
+          "value": "28"
+        },
+        {
+          "name": "Vertical resizing",
+          "value": "14"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "on"
+        },
+        {
+          "name": null,
+          "value": "100%"
+        },
+        {
+          "name": null,
+          "value": "0"
+        },
+        {
+          "name": null,
+          "value": "LEFT"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "RIGHT"
+        },
+        {
+          "name": null,
+          "value": "TOP"
+        },
+        {
+          "name": null,
+          "value": "CENTER"
+        },
+        {
+          "name": null,
+          "value": "BOTTOM"
+        },
+        {
+          "name": null,
+          "value": "on"
+        }
+      ],
+      "text": []
+    }
+  }
+]

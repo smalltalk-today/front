@@ -1,0 +1,105 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nFrame\nUse as mask\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top\nAlign center\nAlign bottom\nPadding\n16\n12\n16\n16\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nStroke\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Icon/Primary\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "0"
+    },
+    {
+      "name": "Y-position",
+      "value": "16"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "375"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "56"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_MIN"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_CENTER"
+    },
+    {
+      "name": null,
+      "value": "SPACE_BETWEEN_MAX"
+    },
+    {
+      "name": "Horizontal gap between objects",
+      "value": "Auto"
+    },
+    {
+      "name": "Left padding",
+      "value": ""
+    },
+    {
+      "name": "Right padding",
+      "value": ""
+    },
+    {
+      "name": "Top padding",
+      "value": ""
+    },
+    {
+      "name": "Bottom padding",
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    }
+  ]
+}

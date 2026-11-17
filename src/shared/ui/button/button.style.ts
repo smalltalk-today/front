@@ -9,23 +9,23 @@ export const buttonVariantStyles = {
     'disabled:bg-surface-disabled disabled:text-neutral-400',
   ],
   secondary: [
-    'w-full px-5 rounded-control bg-surface-default text-neutral-900 border border-border-medium',
+    'w-full px-5 rounded-control bg-surface-default text-neutral-900 border-1 border-border-medium',
     'hover:bg-surface-secondary-hover',
     'active:bg-surface-secondary-pressed',
-    'disabled:bg-surface-disabled disabled:text-neutral-400',
+    'disabled:border-0 disabled:bg-surface-disabled disabled:text-neutral-400',
   ],
-  link: 'text-neutral-900 underline-offset-2 underline disabled:text-neutral-400',
-  text: 'text-label4 text-neutral-600',
-  icon: 'text-neutral-400',
+  link: 'w-fit text-label-14-r text-neutral-900 underline disabled:text-neutral-400',
+  text: 'w-fit h-8 gap-2 p-1 text-label-14-r text-neutral-600 disabled:text-neutral-400',
+  icon: 'rounded-control bg-surface-default text-neutral-800 hover:bg-surface-secondary-hover active:bg-surface-secondary-pressed',
 } as const;
 
 // 버튼 크기별 스타일
 export const buttonSizeStyles = {
-  L: 'h-13 text-label1',
-  M: 'h-12 text-label3',
-  S: 'h-11 text-label3',
-  XS: 'h-10 text-label3',
-  icon: 'size-6',
+  L: 'h-13 text-label-18-sb',
+  M: 'h-12 text-label-16-sb',
+  S: 'h-11 text-label-14-m',
+  XS: 'h-10 text-label-14-m',
+  icon: 'size-icon-touchframe',
 } as const;
 
 // 버튼 종류 및 크기 타입

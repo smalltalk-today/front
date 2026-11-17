@@ -2,6 +2,7 @@
 
 @theme {
   --spacing-popup-width: 343px;
+  --spacing-sheet-max-width: 768px;
   --spacing-sheet-height: 380px;
   --spacing-sheet-handle: 34px;
   --spacing-sheet-footer: 50px;

@@ -1,0 +1,227 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n4%\nPage\nColor\n%\nToggle visibility\nStyles\nText styles\nHeadline\n22_sb\n· 22/120\n20_sb\n· 20/120\n18_sb\n· 18/120\nTitle\n22_sb\n· 22/150\n18_sb\n· 18/150\n18_m\n· 18/150\n16_m\n· 16/150\n16_r\n· 16/120\n14_r\n· 14/120\nBody\n18_r\n· 18/150\n16_r\n· 16/150\n14_m\n· 14/150\n14_r\n· 14/150\nLabel\n20_r\n· 20/20\n18_sb\n· 18/18\n16_sb\n· 16/16\n16_m\n· 16/16\n16_r\n· 16/16\n15_r\n· 15/15\n14_m\n· 14/14\n14_r\n· 14/14\n11_r\n· 11/14\nCaption\n14_r\n· 14/14\n12_m\n· 12/12\n12_r\n· 12/12\nColor styles\nFoundation\nEffect styles\nshadow\nLayout guide styles\n모바일 좌우 여백\nExport\nMCP\n2 connections",
+  "tree": [
+    {
+      "id": "1128:10831",
+      "name": "그래픽",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "998:7098",
+      "name": "image 5",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7095",
+      "name": "image 4",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7092",
+      "name": "image 3",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7089",
+      "name": "image 2",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7086",
+      "name": "image 1",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7104",
+      "name": "Rectangle 111",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7103",
+      "name": "Rectangle 110",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7102",
+      "name": "Rectangle 109",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7101",
+      "name": "Rectangle 108",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7100",
+      "name": "Rectangle 107",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7084",
+      "name": "Rectangle 106",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7083",
+      "name": "Rectangle 105",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7082",
+      "name": "Rectangle 104",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7081",
+      "name": "Rectangle 103",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7080",
+      "name": "Rectangle 102",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7079",
+      "name": "Rectangle 101",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7078",
+      "name": "Rectangle 100",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7076",
+      "name": "Rectangle 99",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7073",
+      "name": "Rectangle 98",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7061",
+      "name": "Rectangle 97",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "673:3522",
+      "name": "App Bar",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "725:6796",
+      "name": "touchframe",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "602:1830",
+      "name": "popup",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "602:1749",
+      "name": "ㅊ",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "446:3013",
+      "name": "Bottomsheet",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "427:1819",
+      "name": "Toggle",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "402:1458",
+      "name": "Popup ✅",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "335:1262",
+      "name": "List",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1493",
+      "name": "Tabs",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1491",
+      "name": "Navigation Bar",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1490",
+      "name": "icon",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1483",
+      "name": "iconify 원본",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "1214:9400",
+      "name": "Card Feed",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1482",
+      "name": "Card Feed",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1481",
+      "name": "Badge ✅",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1479",
+      "name": "Buttons",
+      "level": "0",
+      "expanded": "false"
+    }
+  ]
+}

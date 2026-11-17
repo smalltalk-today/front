@@ -1,0 +1,150 @@
+{
+  "id": "713:11325",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n86%\nPage header\nMulti-edit variants\nCurrent variant\nType\ntext\nicon\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor\nAutofill available. Type to see suggestions.\n%\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "Page header"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Edit property value for Type",
+      "value": "text"
+    },
+    {
+      "label": "X-position",
+      "value": "20"
+    },
+    {
+      "label": "Y-position",
+      "value": "20"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Width",
+      "value": "768"
+    },
+    {
+      "label": "Height",
+      "value": "50"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "label": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "label": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "label": null,
+      "value": "LEFT"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "RIGHT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "label": "Horizontal gap between objects",
+      "value": "10"
+    },
+    {
+      "label": "Horizontal padding",
+      "value": "0"
+    },
+    {
+      "label": "Vertical padding",
+      "value": "12"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "0"
+    },
+    {
+      "label": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "label": null,
+      "value": "100"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "label": null,
+      "value": "100"
+    }
+  ]
+}

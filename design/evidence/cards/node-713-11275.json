@@ -1,0 +1,141 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n4%\nList_Bookmark\nMulti-edit variants\n타이틀 최대 2줄 날짜 표기 방식 - 오늘/어제 , 나머지는 '10월 01일'처럼 날짜 정확히 표기\nCurrent variant\nDevice\nmo\nothers\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\n12\nPadding\n16\n12\nClip content\nAppearance\nHide\nOpacity\nCorner radius\n8\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Medium\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\n+3\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "List_Bookmark"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for Device",
+      "value": "others"
+    },
+    {
+      "name": "X-position",
+      "value": "20"
+    },
+    {
+      "name": "Y-position",
+      "value": "146"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "343"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "89"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "name": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "name": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "name": "Vertical gap between objects",
+      "value": ""
+    },
+    {
+      "name": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "name": "Vertical padding",
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+.sheet {
+  position: fixed;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: var(--spacing-sheet-height);
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
+  color: var(--color-content-strong);
+  background: var(--color-surface-default);
+  overflow: hidden;
+}
+
+.sheet[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.sheet::backdrop {
+  background: var(--color-surface-dimed);
+}
+
+.handle {
+  width: var(--spacing-sheet-handle);
+}
+
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.footer {
+  padding-bottom: var(--spacing-sheet-footer);
+}

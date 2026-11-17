@@ -1,0 +1,93 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\n\nTitle\n\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nFill\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nTitle/18_m\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Strong\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "17"
+    },
+    {
+      "name": "Y-position",
+      "value": "49"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "WIDTH_AND_HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "309"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "27"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "TOP"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

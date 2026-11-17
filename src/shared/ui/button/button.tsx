@@ -2,7 +2,7 @@ import type { ComponentProps } from 'react';
 import { cn } from '@/shared/lib/utils';
 import { buttonVariants } from './button.style';
 
-type ButtonProps = ComponentProps<'button'> &
+type ButtonProps = Omit<ComponentProps<'button'>, 'style' | 'dangerouslySetInnerHTML' | 'color'> &
   (
     | {
         variant?: 'primary' | 'secondary';

@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "geometry": [
+    {
+      "nodeId": "335:2654",
+      "property": "height",
+      "value": "50px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-header",
+          "value": "50px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "284:630",
+      "property": "height",
+      "value": "82px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-navigation",
+          "value": "82px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "713:7487",
+      "property": "width",
+      "value": "1280px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--container-card-page",
+          "value": "1280px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "713:9047",
+      "property": "width",
+      "value": "360px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-ranking",
+          "value": "360px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "267:764",
+      "property": "transition-duration",
+      "value": "200ms",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--duration-card-accordion",
+          "value": "200ms"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/cards/existing-src-_app-styles-globals.css.txt",
+        "sha256": "4e1a6f1c89077f00819ff1d187f56dbb193c21e67ae85c48671ecc42c33c90e8"
+      }
+    },
+    {
+      "nodeId": "267:764",
+      "property": "grid-template-rows",
+      "value": "0fr",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--grid-card-collapsed",
+          "value": "0fr"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/cards/existing-src-_app-styles-globals.css.txt",
+        "sha256": "4e1a6f1c89077f00819ff1d187f56dbb193c21e67ae85c48671ecc42c33c90e8"
+      }
+    },
+    {
+      "nodeId": "267:764",
+      "property": "grid-template-rows",
+      "value": "1fr",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--grid-card-expanded",
+          "value": "1fr"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/cards/existing-src-_app-styles-globals.css.txt",
+        "sha256": "4e1a6f1c89077f00819ff1d187f56dbb193c21e67ae85c48671ecc42c33c90e8"
+      }
+    },
+    {
+      "nodeId": "267:764",
+      "property": "rotate",
+      "value": "0deg",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--rotate-card-collapsed",
+          "value": "0deg"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/cards/existing-src-shared-ui-accordion-accordion.tsx.txt",
+        "sha256": "f37f3eada4c16372795feab79b6d4e7cf4e30231ff6e388d90bf715a4a06df6c"
+      }
+    },
+    {
+      "nodeId": "267:764",
+      "property": "rotate",
+      "value": "180deg",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--rotate-card-expanded",
+          "value": "180deg"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/cards/existing-src-shared-ui-accordion-accordion.tsx.txt",
+        "sha256": "f37f3eada4c16372795feab79b6d4e7cf4e30231ff6e388d90bf715a4a06df6c"
+      }
+    },
+    {
+      "nodeId": "267:764",
+      "property": "transition-timing-function",
+      "value": "cubic-bezier(0, 0, 0.2, 1)",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--ease-card-accordion",
+          "value": "cubic-bezier(0, 0, 0.2, 1)"
+        }
+      ],
+      "source": {
+        "kind": "existing-code",
+        "file": "design/evidence/cards/existing-tailwind-theme.css.txt",
+        "sha256": "443d7af364200f8ec8352dc78e39485a118a1840d498c97967bf0ae402b39167"
+      }
+    },
+    {
+      "nodeId": "1128:10097",
+      "property": "width",
+      "value": "200px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-empty-art-width",
+          "value": "200px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "1128:10097",
+      "property": "height",
+      "value": "100px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-empty-art-height",
+          "value": "100px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "286:769",
+      "property": "stroke-width",
+      "value": "2px",
+      "theme": [],
+      "source": {
+        "kind": "figma"
+      }
+    },
+    {
+      "nodeId": "284:478",
+      "property": "width",
+      "value": "72px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-nav-item",
+          "value": "72px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    }
+  ],
+  "components": [
+    {
+      "name": "CardHeader",
+      "nodeId": "335:2666",
+      "status": "approved"
+    },
+    {
+      "name": "CardTabs",
+      "nodeId": "713:7856",
+      "status": "approved"
+    },
+    {
+      "name": "CardNavigation",
+      "nodeId": "284:631",
+      "status": "approved"
+    },
+    {
+      "name": "CardRanking",
+      "nodeId": "713:9047",
+      "status": "approved"
+    },
+    {
+      "name": "CardIcon",
+      "nodeId": "280:1330",
+      "status": "approved"
+    },
+    {
+      "name": "CardLogo",
+      "nodeId": "1204:9608",
+      "status": "approved"
+    },
+    {
+      "name": "CardFeed",
+      "nodeId": "658:2011",
+      "status": "approved"
+    },
+    {
+      "name": "ArticleSummary",
+      "nodeId": "267:764",
+      "status": "approved"
+    },
+    {
+      "name": "SavedCardItem",
+      "nodeId": "713:11254",
+      "status": "approved"
+    },
+    {
+      "name": "CardEmpty",
+      "nodeId": "1128:10096",
+      "status": "approved"
+    }
+  ],
+  "behavior": {
+    "sourceBranch": "feat/28-card-feed",
+    "evidence": "existing-implementation.json",
+    "summaryDefault": "collapsed on all devices",
+    "cardTypographyBreakpoint": "640px",
+    "layoutBreakpoints": [
+      "768px",
+      "1280px"
+    ],
+    "savedStorage": "memory only; user override; no browser storage"
+  },
+  "notes": [
+    "142 original canonical tokens remain unchanged. Individual geometry values are not a general spacing scale.",
+    "SavedCardItem uses md layout breakpoint for Figma mo/Others; CardFeed internal typography follows existing branch sm=640px."
+  ]
+}

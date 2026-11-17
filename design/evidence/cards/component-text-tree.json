@@ -1,0 +1,887 @@
+[
+  {
+    "id": "1128:10831",
+    "name": "그래픽",
+    "level": "0"
+  },
+  {
+    "id": "998:7098",
+    "name": "image 5",
+    "level": "0"
+  },
+  {
+    "id": "998:7095",
+    "name": "image 4",
+    "level": "0"
+  },
+  {
+    "id": "998:7092",
+    "name": "image 3",
+    "level": "0"
+  },
+  {
+    "id": "998:7089",
+    "name": "image 2",
+    "level": "0"
+  },
+  {
+    "id": "998:7086",
+    "name": "image 1",
+    "level": "0"
+  },
+  {
+    "id": "998:7104",
+    "name": "Rectangle 111",
+    "level": "0"
+  },
+  {
+    "id": "998:7103",
+    "name": "Rectangle 110",
+    "level": "0"
+  },
+  {
+    "id": "998:7102",
+    "name": "Rectangle 109",
+    "level": "0"
+  },
+  {
+    "id": "998:7101",
+    "name": "Rectangle 108",
+    "level": "0"
+  },
+  {
+    "id": "998:7100",
+    "name": "Rectangle 107",
+    "level": "0"
+  },
+  {
+    "id": "998:7084",
+    "name": "Rectangle 106",
+    "level": "0"
+  },
+  {
+    "id": "998:7083",
+    "name": "Rectangle 105",
+    "level": "0"
+  },
+  {
+    "id": "998:7082",
+    "name": "Rectangle 104",
+    "level": "0"
+  },
+  {
+    "id": "998:7081",
+    "name": "Rectangle 103",
+    "level": "0"
+  },
+  {
+    "id": "998:7080",
+    "name": "Rectangle 102",
+    "level": "0"
+  },
+  {
+    "id": "998:7079",
+    "name": "Rectangle 101",
+    "level": "0"
+  },
+  {
+    "id": "998:7078",
+    "name": "Rectangle 100",
+    "level": "0"
+  },
+  {
+    "id": "998:7076",
+    "name": "Rectangle 99",
+    "level": "0"
+  },
+  {
+    "id": "998:7073",
+    "name": "Rectangle 98",
+    "level": "0"
+  },
+  {
+    "id": "998:7061",
+    "name": "Rectangle 97",
+    "level": "0"
+  },
+  {
+    "id": "673:3522",
+    "name": "App Bar",
+    "level": "0"
+  },
+  {
+    "id": "1204:9364",
+    "name": "로고-임시",
+    "level": "1"
+  },
+  {
+    "id": "782:5756",
+    "name": "pc, tablet : 여백 없음",
+    "level": "1"
+  },
+  {
+    "id": "782:5755",
+    "name": "pc: 여백 없음",
+    "level": "1"
+  },
+  {
+    "id": "782:5754",
+    "name": "tablet :여백 32",
+    "level": "1"
+  },
+  {
+    "id": "782:5753",
+    "name": "mo : 여백 16",
+    "level": "1"
+  },
+  {
+    "id": "713:11339",
+    "name": "Page header",
+    "level": "1"
+  },
+  {
+    "id": "713:11371",
+    "name": "icon",
+    "level": "2"
+  },
+  {
+    "id": "713:11325",
+    "name": "text",
+    "level": "2"
+  },
+  {
+    "id": "515:2150",
+    "name": "Status bar and Menu bar- iPad",
+    "level": "1"
+  },
+  {
+    "id": "791:5845",
+    "name": "App Bar",
+    "level": "1"
+  },
+  {
+    "id": "791:5846",
+    "name": "icon/close-L",
+    "level": "2"
+  },
+  {
+    "id": "335:2666",
+    "name": "App Bar",
+    "level": "1"
+  },
+  {
+    "id": "791:5918",
+    "name": "tablet, none",
+    "level": "2"
+  },
+  {
+    "id": "791:5888",
+    "name": "tablet, Close",
+    "level": "2"
+  },
+  {
+    "id": "713:7925",
+    "name": "tablet, Default",
+    "level": "2"
+  },
+  {
+    "id": "1204:9365",
+    "name": "로고-임시",
+    "level": "3"
+  },
+  {
+    "id": "713:7929",
+    "name": "Frame 534",
+    "level": "3"
+  },
+  {
+    "id": "713:7930",
+    "name": "Nabigation_others",
+    "level": "4"
+  },
+  {
+    "id": "713:7931",
+    "name": "Nabigation_others",
+    "level": "4"
+  },
+  {
+    "id": "673:3499",
+    "name": "pc, Default",
+    "level": "2"
+  },
+  {
+    "id": "1204:9516",
+    "name": "로고-임시",
+    "level": "3"
+  },
+  {
+    "id": "673:3460",
+    "name": "Frame 534",
+    "level": "3"
+  },
+  {
+    "id": "673:3451",
+    "name": "Nabigation_others",
+    "level": "4"
+  },
+  {
+    "id": "673:3456",
+    "name": "Nabigation_others",
+    "level": "4"
+  },
+  {
+    "id": "335:2654",
+    "name": "App, Title",
+    "level": "2"
+  },
+  {
+    "id": "335:2649",
+    "name": "저장됨",
+    "level": "3"
+  },
+  {
+    "id": "335:2663",
+    "name": "App, icon",
+    "level": "2"
+  },
+  {
+    "id": "335:2670",
+    "name": "icon/arrow-left-L",
+    "level": "3"
+  },
+  {
+    "id": "335:2660",
+    "name": "icon/arrow-left-L",
+    "level": "3"
+  },
+  {
+    "id": "285:709",
+    "name": "App, Brand",
+    "level": "2"
+  },
+  {
+    "id": "1204:9608",
+    "name": "로고-임시",
+    "level": "3"
+  },
+  {
+    "id": "285:696",
+    "name": "Status Bar - iPhone",
+    "level": "1"
+  },
+  {
+    "id": "725:6796",
+    "name": "touchframe",
+    "level": "0"
+  },
+  {
+    "id": "602:1830",
+    "name": "popup",
+    "level": "0"
+  },
+  {
+    "id": "602:1749",
+    "name": "ㅊ",
+    "level": "0"
+  },
+  {
+    "id": "446:3013",
+    "name": "Bottomsheet",
+    "level": "0"
+  },
+  {
+    "id": "427:1819",
+    "name": "Toggle",
+    "level": "0"
+  },
+  {
+    "id": "402:1458",
+    "name": "Popup ✅",
+    "level": "0"
+  },
+  {
+    "id": "335:1262",
+    "name": "List",
+    "level": "0"
+  },
+  {
+    "id": "1011:8339",
+    "name": "List_article",
+    "level": "1"
+  },
+  {
+    "id": "713:11254",
+    "name": "List_Bookmark",
+    "level": "1"
+  },
+  {
+    "id": "713:11275",
+    "name": "others",
+    "level": "2"
+  },
+  {
+    "id": "713:11276",
+    "name": "Frame 424",
+    "level": "3"
+  },
+  {
+    "id": "713:11277",
+    "name": "Frame 423",
+    "level": "4"
+  },
+  {
+    "id": "713:11280",
+    "name": "Frame 401",
+    "level": "4"
+  },
+  {
+    "id": "713:11281",
+    "name": "TextTextTextTextTextTextTextTextText",
+    "level": "3"
+  },
+  {
+    "id": "335:2411",
+    "name": "mo",
+    "level": "2"
+  },
+  {
+    "id": "335:2403",
+    "name": "Frame 424",
+    "level": "3"
+  },
+  {
+    "id": "335:2404",
+    "name": "Frame 423",
+    "level": "4"
+  },
+  {
+    "id": "335:2407",
+    "name": "Frame 401",
+    "level": "4"
+  },
+  {
+    "id": "335:2408",
+    "name": "TextTextTextTextTextTextTextTextText",
+    "level": "3"
+  },
+  {
+    "id": "713:9047",
+    "name": "ranking-pc",
+    "level": "1"
+  },
+  {
+    "id": "713:9008",
+    "name": "Frame 415",
+    "level": "2"
+  },
+  {
+    "id": "713:9009",
+    "name": "Frame 455",
+    "level": "3"
+  },
+  {
+    "id": "713:9010",
+    "name": "icon/fire",
+    "level": "4"
+  },
+  {
+    "id": "713:9011",
+    "name": "오늘 대화 소재 TOP 10",
+    "level": "4"
+  },
+  {
+    "id": "713:9012",
+    "name": "오늘 이슈중 얘기하기 좋은 것만 모았어요.",
+    "level": "3"
+  },
+  {
+    "id": "713:9013",
+    "name": "Frame 530",
+    "level": "2"
+  },
+  {
+    "id": "713:9014",
+    "name": "Frame 416",
+    "level": "3"
+  },
+  {
+    "id": "713:9015",
+    "name": "Frame 417",
+    "level": "3"
+  },
+  {
+    "id": "713:9016",
+    "name": "Frame 418",
+    "level": "3"
+  },
+  {
+    "id": "713:9017",
+    "name": "Frame 419",
+    "level": "3"
+  },
+  {
+    "id": "713:9018",
+    "name": "Frame 420",
+    "level": "3"
+  },
+  {
+    "id": "713:9019",
+    "name": "Frame 421",
+    "level": "3"
+  },
+  {
+    "id": "713:9020",
+    "name": "Frame 422",
+    "level": "3"
+  },
+  {
+    "id": "713:9021",
+    "name": "Frame 423",
+    "level": "3"
+  },
+  {
+    "id": "713:9022",
+    "name": "Frame 424",
+    "level": "3"
+  },
+  {
+    "id": "713:9023",
+    "name": "Frame 425",
+    "level": "3"
+  },
+  {
+    "id": "713:6403",
+    "name": "List_ranking",
+    "level": "1"
+  },
+  {
+    "id": "613:2099",
+    "name": "pc",
+    "level": "2"
+  },
+  {
+    "id": "713:6404",
+    "name": "tablet",
+    "level": "2"
+  },
+  {
+    "id": "334:973",
+    "name": "mo",
+    "level": "2"
+  },
+  {
+    "id": "442:2497",
+    "name": "List_setting",
+    "level": "1"
+  },
+  {
+    "id": "286:1493",
+    "name": "Tabs",
+    "level": "0"
+  },
+  {
+    "id": "713:7856",
+    "name": "Tab bar",
+    "level": "1"
+  },
+  {
+    "id": "713:7857",
+    "name": "others",
+    "level": "2"
+  },
+  {
+    "id": "713:7858",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "1022:8529",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "713:7860",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "713:7861",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "713:7862",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "713:7863",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "713:7864",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "713:7865",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "286:788",
+    "name": "mo",
+    "level": "2"
+  },
+  {
+    "id": "286:773",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "1022:8474",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "335:2307",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "286:779",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "286:782",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "286:784",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "286:786",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "286:819",
+    "name": "Tab_Item",
+    "level": "3"
+  },
+  {
+    "id": "1018:47111",
+    "name": "Tab_Item-today pick",
+    "level": "1"
+  },
+  {
+    "id": "286:770",
+    "name": "Tab_Item",
+    "level": "1"
+  },
+  {
+    "id": "286:1491",
+    "name": "Navigation Bar",
+    "level": "0"
+  },
+  {
+    "id": "725:6763",
+    "name": "Nabigation_others",
+    "level": "1"
+  },
+  {
+    "id": "725:6768",
+    "name": "Pressed",
+    "level": "2"
+  },
+  {
+    "id": "725:6764",
+    "name": "hover",
+    "level": "2"
+  },
+  {
+    "id": "673:3444",
+    "name": "Default",
+    "level": "2"
+  },
+  {
+    "id": "284:631",
+    "name": "Navogatopm Bar",
+    "level": "1"
+  },
+  {
+    "id": "284:651",
+    "name": "설정",
+    "level": "2"
+  },
+  {
+    "id": "284:632",
+    "name": "저장",
+    "level": "2"
+  },
+  {
+    "id": "284:633",
+    "name": "Navigation Bar_item",
+    "level": "3"
+  },
+  {
+    "id": "284:634",
+    "name": "Navigation Bar_item",
+    "level": "3"
+  },
+  {
+    "id": "284:635",
+    "name": "Navigation Bar_item",
+    "level": "3"
+  },
+  {
+    "id": "284:630",
+    "name": "카드 뉴스",
+    "level": "2"
+  },
+  {
+    "id": "284:477",
+    "name": "Navigation Bar_item",
+    "level": "1"
+  },
+  {
+    "id": "286:1490",
+    "name": "icon",
+    "level": "0"
+  },
+  {
+    "id": "286:1483",
+    "name": "iconify 원본",
+    "level": "0"
+  },
+  {
+    "id": "1214:9400",
+    "name": "Card Feed",
+    "level": "0"
+  },
+  {
+    "id": "1214:9401",
+    "name": "Frame 392",
+    "level": "1"
+  },
+  {
+    "id": "1214:9410",
+    "name": "Frame 397",
+    "level": "1"
+  },
+  {
+    "id": "286:1482",
+    "name": "Card Feed",
+    "level": "0"
+  },
+  {
+    "id": "658:2011",
+    "name": "Card Feed",
+    "level": "1"
+  },
+  {
+    "id": "658:2012",
+    "name": "others",
+    "level": "2"
+  },
+  {
+    "id": "658:2013",
+    "name": "Frame 392",
+    "level": "3"
+  },
+  {
+    "id": "658:2014",
+    "name": "Frame 391",
+    "level": "4"
+  },
+  {
+    "id": "658:2019",
+    "name": "Frame 393",
+    "level": "4"
+  },
+  {
+    "id": "658:2022",
+    "name": "Frame 397",
+    "level": "3"
+  },
+  {
+    "id": "658:2023",
+    "name": "Frame 396",
+    "level": "4"
+  },
+  {
+    "id": "658:2031",
+    "name": "Button_cta",
+    "level": "4"
+  },
+  {
+    "id": "267:1206",
+    "name": "mo",
+    "level": "2"
+  },
+  {
+    "id": "267:926",
+    "name": "Frame 392",
+    "level": "3"
+  },
+  {
+    "id": "267:925",
+    "name": "Frame 391",
+    "level": "4"
+  },
+  {
+    "id": "267:927",
+    "name": "Frame 393",
+    "level": "4"
+  },
+  {
+    "id": "267:976",
+    "name": "Frame 397",
+    "level": "3"
+  },
+  {
+    "id": "267:975",
+    "name": "Frame 396",
+    "level": "4"
+  },
+  {
+    "id": "267:287",
+    "name": "Button_cta",
+    "level": "4"
+  },
+  {
+    "id": "267:764",
+    "name": "ArticleSummary",
+    "level": "1"
+  },
+  {
+    "id": "658:2062",
+    "name": "others, Expanded",
+    "level": "2"
+  },
+  {
+    "id": "658:2063",
+    "name": "ArticleSummary",
+    "level": "3"
+  },
+  {
+    "id": "658:2064",
+    "name": "이슈 3줄 요약",
+    "level": "4"
+  },
+  {
+    "id": "658:2065",
+    "name": "icon/arrow-top-m",
+    "level": "4"
+  },
+  {
+    "id": "658:2066",
+    "name": "Frame 388",
+    "level": "3"
+  },
+  {
+    "id": "658:2067",
+    "name": "Frame 389",
+    "level": "4"
+  },
+  {
+    "id": "998:7019",
+    "name": "btn_,mini",
+    "level": "4"
+  },
+  {
+    "id": "267:879",
+    "name": "mo, Expanded",
+    "level": "2"
+  },
+  {
+    "id": "267:842",
+    "name": "ArticleSummary",
+    "level": "3"
+  },
+  {
+    "id": "267:843",
+    "name": "이슈 3줄 요약",
+    "level": "4"
+  },
+  {
+    "id": "267:844",
+    "name": "icon/arrow-top-m",
+    "level": "4"
+  },
+  {
+    "id": "267:853",
+    "name": "Frame 388",
+    "level": "3"
+  },
+  {
+    "id": "267:878",
+    "name": "Frame 389",
+    "level": "4"
+  },
+  {
+    "id": "267:828",
+    "name": "요약1",
+    "level": "5"
+  },
+  {
+    "id": "267:847",
+    "name": "요약1",
+    "level": "5"
+  },
+  {
+    "id": "267:854",
+    "name": "요약1",
+    "level": "5"
+  },
+  {
+    "id": "998:7002",
+    "name": "btn_,mini",
+    "level": "4"
+  },
+  {
+    "id": "658:2089",
+    "name": "others, Collapsed",
+    "level": "2"
+  },
+  {
+    "id": "658:2090",
+    "name": "이슈 3줄 요약",
+    "level": "3"
+  },
+  {
+    "id": "658:2091",
+    "name": "icon/arrow-bottom-m",
+    "level": "3"
+  },
+  {
+    "id": "267:763",
+    "name": "mo, Collapsed",
+    "level": "2"
+  },
+  {
+    "id": "267:601",
+    "name": "이슈 3줄 요약",
+    "level": "3"
+  },
+  {
+    "id": "267:598",
+    "name": "icon/arrow-bottom-m",
+    "level": "3"
+  },
+  {
+    "id": "286:1481",
+    "name": "Badge ✅",
+    "level": "0"
+  },
+  {
+    "id": "286:1479",
+    "name": "Buttons",
+    "level": "0"
+  }
+]

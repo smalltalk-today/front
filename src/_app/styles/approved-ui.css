@@ -1,0 +1,86 @@
+/* 원본과 대조한 UI에 필요한 바인딩. 기존 미이관 선언은 원본 파일에 보존한다. */
+@theme {
+  --text-headline-22-sb: 22px;
+  --text-headline-22-sb--line-height: 26.4px;
+  --text-headline-22-sb--font-weight: 600;
+  --text-headline-22-sb--letter-spacing: -0.22px;
+
+  --spacing-card-retry-count: 2px;
+  --spacing-card-nav-item: 72px;
+  --spacing-card-empty-art-height: 100px;
+  --spacing-card-empty-art-width: 200px;
+  --text-headline-18-sb: 18px;
+  --text-headline-18-sb--line-height: 21.6px;
+  --text-headline-18-sb--font-weight: 600;
+  --text-headline-18-sb--letter-spacing: -0.18px;
+
+  --text-title-18-sb: 18px;
+  --text-title-18-sb--line-height: 27px;
+  --text-title-18-sb--font-weight: 600;
+  --text-title-18-sb--letter-spacing: -0.18px;
+
+  --text-headline-20-sb: 20px;
+  --text-headline-20-sb--line-height: 24px;
+  --text-headline-20-sb--font-weight: 600;
+  --text-headline-20-sb--letter-spacing: -0.2px;
+
+  --text-title-22-sb: 22px;
+  --text-title-22-sb--line-height: 33px;
+  --text-title-22-sb--font-weight: 600;
+  --text-title-22-sb--letter-spacing: -0.22px;
+
+  --text-title-18-m: 18px;
+  --text-title-18-m--line-height: 27px;
+  --text-title-18-m--font-weight: 500;
+  --text-title-18-m--letter-spacing: -0.18px;
+
+  --text-title-16-m: 16px;
+  --text-title-16-m--line-height: 24px;
+  --text-title-16-m--font-weight: 500;
+  --text-title-16-m--letter-spacing: -0.16px;
+
+  --text-title-14-r: 14px;
+  --text-title-14-r--line-height: 16.8px;
+  --text-title-14-r--font-weight: 400;
+  --text-title-14-r--letter-spacing: -0.14px;
+
+  --text-body-18-r: 18px;
+  --text-body-18-r--line-height: 27px;
+  --text-body-18-r--font-weight: 400;
+  --text-body-18-r--letter-spacing: -0.18px;
+
+  --text-caption-14-r: 14px;
+  --text-caption-14-r--line-height: 14px;
+  --text-caption-14-r--font-weight: 400;
+  --text-caption-14-r--letter-spacing: -0.14px;
+
+  --spacing-card-header: 50px;
+
+  --spacing-card-navigation: 82px;
+
+  --container-card-page: 1280px;
+
+  --spacing-card-ranking: 360px;
+}
+
+@theme static {
+  --duration-card-accordion: 200ms;
+
+  --grid-card-collapsed: 0fr;
+
+  --grid-card-expanded: 1fr;
+
+  --rotate-card-collapsed: 0deg;
+
+  --rotate-card-expanded: 180deg;
+  --ease-card-accordion: cubic-bezier(0, 0, 0.2, 1);
+}
+
+@theme inline {
+  --color-content-normal: var(--color-neutral-600);
+  --color-surface-popup: var(--color-neutral-600);
+  --color-surface-dimed: color-mix(in srgb, var(--color-neutral-900) 60%, transparent);
+  --color-content-body: var(--color-neutral-800);
+  --color-surface-smalltalk: var(--color-blue-50);
+  --color-border-subtle: var(--color-neutral-50);
+}

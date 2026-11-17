@@ -1,0 +1,136 @@
+[
+  {
+    "nodeId": "267:988",
+    "file": "public/design/cards/bookmark.svg",
+    "bytes": 409,
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "201dbd50570239e89cb6309f858ad3f8dd2503cd50d476082d22dacfe017200d",
+    "url": "/design/cards/bookmark.svg"
+  },
+  {
+    "nodeId": "280:1363",
+    "file": "public/design/cards/bookmark-filled.svg",
+    "bytes": 411,
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "886c962b7088a498813d22b35b3cd5d4facf8ea177b2e44ec2eadd3248c28d96",
+    "url": "/design/cards/bookmark-filled.svg"
+  },
+  {
+    "nodeId": "673:3497",
+    "file": "public/design/cards/settings.svg",
+    "bytes": 2801,
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "bfe5acee5a3ec7dce5e91534c8417f41a25b1e98b716e203ffaa58bd2e455a02",
+    "url": "/design/cards/settings.svg"
+  },
+  {
+    "nodeId": "284:375",
+    "file": "public/design/cards/feed.svg",
+    "bytes": 578,
+    "root": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "578e0ab94b414258b6358e32fc5d34a9a724b5def6c78add83cab265e243fb0e",
+    "url": "/design/cards/feed.svg"
+  },
+  {
+    "nodeId": "267:332",
+    "file": "public/design/cards/chevron-down.svg",
+    "bytes": 224,
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "948739bd099fc00f37d63b2d155e0cc1544f1e75fbbf3eaa3a65d4b3b6e865bb",
+    "url": "/design/cards/chevron-down.svg"
+  },
+  {
+    "nodeId": "267:333",
+    "file": "public/design/cards/chevron-up.svg",
+    "bytes": 226,
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "9d792eed04b84c30f7cd29c86a31c96b065b65d994a6df8fc9a7b07e3e1cd149",
+    "url": "/design/cards/chevron-up.svg"
+  },
+  {
+    "nodeId": "284:374",
+    "file": "public/design/cards/bookmark-nav.svg",
+    "bytes": 472,
+    "root": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "5101ee0597bfc1fc6851d9e3bc4279823e66609b022f5889af9c402e556445b6",
+    "url": "/design/cards/bookmark-nav.svg"
+  },
+  {
+    "nodeId": "284:373",
+    "file": "public/design/cards/settings-nav.svg",
+    "bytes": 2843,
+    "root": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "sha256": "f9a8f17ce98088cc96a6a1075ad2a7682e53e01762e1f43cf60886e6e89e7d2d",
+    "url": "/design/cards/settings-nav.svg"
+  },
+  {
+    "nodeId": "267:1014",
+    "file": "public/design/cards/refresh.svg",
+    "bytes": 1683,
+    "sha256": "138c3363e6cdc1d8cdcf6d18cef1b08ba57d7d3f0abf728effdddbc39acb2beb",
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/refresh.svg"
+  },
+  {
+    "nodeId": "1204:9608",
+    "file": "public/design/cards/logo.svg",
+    "bytes": 8693,
+    "sha256": "d6814b8dc1deb89bbe91db9309a8297ad42327352f32d99b6cdc31f2a6b74478",
+    "root": "<svg width=\"182\" height=\"34\" viewBox=\"0 0 182 34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/logo.svg"
+  },
+  {
+    "nodeId": "1020:48316",
+    "file": "public/design/cards/quote.svg",
+    "bytes": 1123,
+    "sha256": "45c5406dd1a316591e4820997775fb1a9ff807bf65b0ef70abccb87269252868",
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/quote.svg"
+  },
+  {
+    "nodeId": "673:3272",
+    "file": "public/design/cards/bookmark-top.svg",
+    "bytes": 411,
+    "sha256": "da09aab364a969363d3095244b35aa216097da66fd05b0721e426cd798b1da8b",
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/bookmark-top.svg"
+  },
+  {
+    "nodeId": "284:612",
+    "layerPath": "icon/Navigation",
+    "observedChildId": "1280:81",
+    "file": "public/design/cards/bookmark-nav-inactive.svg",
+    "bytes": 471,
+    "sha256": "6e3478c6c8c7cd483ad1ad0c4b8016ef5f34cdf8f6d2716db5ddc2f48eb048b5",
+    "root": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/bookmark-nav-inactive.svg"
+  },
+  {
+    "nodeId": "284:616",
+    "layerPath": "icon/Navigation",
+    "observedChildId": "1280:50",
+    "file": "public/design/cards/settings-nav-inactive.svg",
+    "bytes": 2843,
+    "sha256": "89f6b9b8ba94cc6236b9036d4d3bd84dbe72621ccab2cc5851c7d0adbe844f8c",
+    "root": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/settings-nav-inactive.svg"
+  },
+  {
+    "nodeId": "284:633",
+    "layerPath": "icon/Navigation",
+    "observedChildId": "1280:363",
+    "file": "public/design/cards/feed-inactive.svg",
+    "bytes": 578,
+    "sha256": "d65cfa5f202dfbe6ad67a2e7ab0dfc6e11e9c552318ed741d989b6354f69945a",
+    "root": "<svg width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/feed-inactive.svg"
+  },
+  {
+    "nodeId": "713:9010",
+    "file": "public/design/cards/crown.svg",
+    "bytes": 2477,
+    "sha256": "e946ddf81fddb45973a5564ada39911358c37391e504cb8de5b445df794c5db0",
+    "root": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">",
+    "url": "/design/cards/crown.svg"
+  }
+]

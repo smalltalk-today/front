@@ -8,8 +8,17 @@ import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
   metadataBase: new URL(getServerEnv().siteUrl),
-  title: { default: 'Smart Talk', template: '%s | Smart Talk' },
-  description: 'Smart Talk 서비스',
+  title: {
+    default: 'Smalltalk Today · 오늘 뉴스, 대화로 바로 쓰세요',
+    template: '%s | Smalltalk Today',
+  },
+  description:
+    '오늘의 화제 이슈를 3줄 요약과 바로 쓸 수 있는 스몰토크 문장으로. 출근 전 30초면 점심 대화 준비 끝.',
+  openGraph: {
+    title: 'Smalltalk Today · 오늘 뉴스, 대화로 바로 쓰세요',
+    description: '오늘의 화제 이슈를 3줄 요약과 바로 쓸 수 있는 스몰토크 문장으로.',
+    siteName: 'Smalltalk Today',
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

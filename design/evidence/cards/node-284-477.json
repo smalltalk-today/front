@@ -1,0 +1,90 @@
+{
+  "id": "284:477",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nNavigation Bar_item\nMulti-edit variants\nProperties\nisActive\n・false, true\nname\n・card, 저장, 설정\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nDimensions\nW\nH\nLock aspect ratio\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nStroke\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\n+2\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "Navigation Bar_item"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "X-position",
+      "value": "71"
+    },
+    {
+      "label": "Y-position",
+      "value": "73"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": "Width",
+      "value": "197"
+    },
+    {
+      "label": "Height",
+      "value": "236"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "5"
+    },
+    {
+      "label": "Color",
+      "value": "8A38F5"
+    },
+    {
+      "label": null,
+      "value": "100"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

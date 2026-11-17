@@ -6,3 +6,11 @@ public/mockServiceWorker.js
 coverage
 
 .playwright-cli
+.design-state
+reports
+design/reference/**
+
+# Preserve native Figma exports and captured evidence bytes.
+design/evidence/**
+public/design/*.svg
+public/design/cards/*.svg

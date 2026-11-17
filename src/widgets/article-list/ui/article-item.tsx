@@ -1,5 +1,5 @@
-import { formatPublishedAt } from '@/shared/lib/utils';
-import { Clock, NavArrowRight } from 'iconoir-react';
+import { formatPublishedAt } from '../lib/format-date';
+import { ClockSolid, NavArrowRight } from 'iconoir-react';
 import Link from 'next/link';
 
 export interface Article {
@@ -17,13 +17,11 @@ export function ArticleItem({ article }: ArticleItemProps) {
     <li>
       <article className="flex items-center justify-center gap-2 rounded-xl border border-neutral-100 bg-white px-3 py-4 pl-4">
         <div className="flex min-w-0 flex-1 flex-col items-start gap-2">
-          <p className="text-label-16-m line-clamp-2 w-full tracking-[-0.02em] text-neutral-900">
-            {article.title}
-          </p>
+          <p className="line-clamp-2 w-full text-title-16-m text-neutral-900">{article.title}</p>
 
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-1">
-              <Clock width={24} height={24} className="shrink-0 text-[#A2A4AB]" />
+              <ClockSolid width={24} height={24} className="shrink-0 text-neutral-400" />
               <span className="text-label-14-m tracking-[-0.01em] text-neutral-900">발행시간</span>
             </div>
 

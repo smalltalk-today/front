@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1128:10096",
+    "text": "Frame 590",
+    "level": "6",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10097",
+    "text": "Frame 587",
+    "level": "7",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10098",
+    "text": "Group 41",
+    "level": "8",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10117",
+    "text": "Group 37",
+    "level": "9",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10121",
+    "text": "Group 40",
+    "level": "10",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10124",
+    "text": "Ellipse 12",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10123",
+    "text": "Ellipse 11",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10122",
+    "text": "Ellipse 10",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10118",
+    "text": "Union",
+    "level": "10",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10120",
+    "text": "Vector 40",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10119",
+    "text": "Ellipse 9",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10106",
+    "text": "Group 35",
+    "level": "9",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10111",
+    "text": "Group 36",
+    "level": "10",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10116",
+    "text": "Vector 35",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10115",
+    "text": "Vector 34",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10114",
+    "text": "Vector 33",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10113",
+    "text": "Vector 37",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10112",
+    "text": "Vector 36",
+    "level": "11",
+    "expanded": null
+  },
+  {
+    "id": "1128:10110",
+    "text": "Vector 32",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10109",
+    "text": "Ellipse 8",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10108",
+    "text": "Ellipse 7",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10107",
+    "text": "Vector 31",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10099",
+    "text": "Group 34",
+    "level": "9",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10105",
+    "text": "Vector 37",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10104",
+    "text": "Vector 38",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10103",
+    "text": "Ellipse 8",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10102",
+    "text": "Ellipse 7",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10101",
+    "text": "Vector 39",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10100",
+    "text": "Vector 31",
+    "level": "10",
+    "expanded": null
+  },
+  {
+    "id": "1128:10125",
+    "text": "Frame 432",
+    "level": "7",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10126",
+    "text": "Frame 431",
+    "level": "8",
+    "expanded": "true"
+  },
+  {
+    "id": "1128:10127",
+    "text": "아직 저장된 카드가 없어요",
+    "level": "9",
+    "expanded": null
+  },
+  {
+    "id": "1128:10128",
+    "text": "카드 피드를 둘러보고 대화할 소재를 찾아보세요!",
+    "level": "9",
+    "expanded": null
+  },
+  {
+    "id": "1128:10129",
+    "text": "Button_cta",
+    "level": "8",
+    "expanded": "true"
+  },
+  {
+    "id": "1337:3896",
+    "text": "Text",
+    "level": "9",
+    "expanded": null
+  },
+  {
+    "id": "725:5490",
+    "text": "pc_저장",
+    "level": "1",
+    "expanded": "false"
+  },
+  {
+    "id": "713:8252",
+    "text": "pc_카드피드",
+    "level": "1",
+    "expanded": "false"
+  },
+  {
+    "id": "725:6008",
+    "text": "pc카드피드",
+    "level": "1",
+    "expanded": "false"
+  },
+  {
+    "id": "713:7487",
+    "text": "pc_카드피드",
+    "level": "1",
+    "expanded": "false"
+  },
+  {
+    "id": "794:7840",
+    "text": "모바일 화면",
+    "level": "0",
+    "expanded": "false"
+  },
+  {
+    "id": "1126:9764",
+    "text": "Frame 587",
+    "level": "0",
+    "expanded": "false"
+  },
+  {
+    "id": "1126:9767",
+    "text": "Frame 588",
+    "level": "0",
+    "expanded": "false"
+  },
+  {
+    "id": "1128:9800",
+    "text": "Frame 587",
+    "level": "0",
+    "expanded": "false"
+  },
+  {
+    "id": "1128:10313",
+    "text": "Frame 590",
+    "level": "0",
+    "expanded": "false"
+  },
+  {
+    "id": "1128:10341",
+    "text": "Frame 589",
+    "level": "0",
+    "expanded": "false"
+  }
+]

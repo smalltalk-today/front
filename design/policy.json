@@ -2161,6 +2161,45 @@
       "roleByPrefix": {}
     },
     {
+      "prefixes": ["w"],
+      "entries": {
+        "sheet-max-width": {
+          "tokens": [],
+          "theme": [
+            {
+              "file": "src/_app/styles/layout.css",
+              "variable": "--spacing-sheet-max-width",
+              "value": "768px"
+            }
+          ],
+          "sourceGeometry": {
+            "nodeId": "713:9254",
+            "property": "width",
+            "value": "768px",
+            "evidence": "evidence/approved-ui-spec.json"
+          }
+        },
+        "sheet-width": {
+          "tokens": [],
+          "theme": [
+            {
+              "file": "src/_app/styles/layout.css",
+              "variable": "--spacing-sheet-width",
+              "value": "375px"
+            }
+          ],
+          "sourceGeometry": {
+            "nodeId": "446:3012",
+            "property": "width",
+            "value": "375px",
+            "evidence": "evidence/approved-ui-spec.json"
+          }
+        }
+      },
+      "role": "layout",
+      "roleByPrefix": {}
+    },
+    {
       "prefixes": ["h"],
       "entries": {
         "sheet-height": {

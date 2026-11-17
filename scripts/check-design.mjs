@@ -929,7 +929,17 @@ export async function checkDesign(root, { includeLegacy = false } = {}) {
       if (
         ts.isBinaryExpression(node) &&
         node.operatorToken.kind === ts.SyntaxKind.EqualsToken &&
-        /(?:\.style(?:\.|\[|$)|\.(?:className|innerHTML|outerHTML)$)/.test(node.left.getText())
+        /(?:\.style(?:\.|\[|$)|\.(?:className|innerHTML|outerHTML)$)/.test(node.left.getText()) &&
+        !(
+          file === 'src/shared/ui/bottom-sheet/bottom-sheet.tsx' &&
+          node.left.getText() === 'dialog.style.height' &&
+          node.right.getText() === '`${next}px`' &&
+          ts.isTemplateExpression(node.right) &&
+          declarationOf(node.left.expression.expression)?.initializer?.getText() ===
+            'ref.current' &&
+          declarationOf(node.right.templateSpans[0].expression)?.initializer?.getText() ===
+            'Math.min(max, Math.max(min, Math.round(height)))'
+        )
       )
         atNode(node, 'DS_STYLE_INJECTION', 'DOM 스타일/HTML 직접 변경 금지');
       if (

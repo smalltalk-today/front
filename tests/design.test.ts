@@ -455,6 +455,47 @@ export default function Page(){return <html className={pretendard.variable}><Pro
     );
   });
 
+  test('바텀시트 높이 변경만 허용하고 다른 스타일 변경은 차단한다', async () => {
+    const root = await fixture();
+    const file = 'src/shared/ui/bottom-sheet/bottom-sheet.tsx';
+    const original = await readFile(path.join(root, file), 'utf8');
+    expect(
+      (await checkDesign(root)).filter(
+        (item) => item.file === file && item.code === 'DS_STYLE_INJECTION',
+      ),
+    ).toEqual([]);
+    await put(
+      root,
+      file,
+      original.replace('dialog.style.height = `${next}px`', 'dialog.style.width = `${next}px`'),
+    );
+    expect(
+      (await checkDesign(root)).some(
+        (item) => item.file === file && item.code === 'DS_STYLE_INJECTION',
+      ),
+    ).toBe(true);
+    await put(
+      root,
+      file,
+      original.replace('Math.min(max, Math.max(min, Math.round(height)))', 'height'),
+    );
+    expect(
+      (await checkDesign(root)).some(
+        (item) => item.file === file && item.code === 'DS_STYLE_INJECTION',
+      ),
+    ).toBe(true);
+    await put(
+      root,
+      'app/probe/page.tsx',
+      'export default function Page(){const dialog=document.body;const next=1;dialog.style.height = `${next}px`;return <div/>}',
+    );
+    expect(
+      (await checkDesign(root)).some(
+        (item) => item.file === 'app/probe/page.tsx' && item.code === 'DS_STYLE_INJECTION',
+      ),
+    ).toBe(true);
+  });
+
   test('React factory 별칭·구조분해·동적 computed 접근을 차단한다', async () => {
     const root = await fixture();
     await put(
@@ -733,27 +774,35 @@ export default function Page(){return <html className={pretendard.variable}><Pro
     expect(await codes(root)).toContain('DS_MANIFEST');
   });
 
-  test('motion: 고정한 기존 모션만 허용하고 직접 duration·곡선·미등록 변수·타입 오용을 차단한다', async () => {
+  test('motion: 출처가 고정된 기존 모션을 허용한다', async () => {
     const root = await fixture();
     const baseline = await checkDesign(root);
     expect(baseline.some((d) => d.code === 'DS_MANIFEST')).toBe(false);
-    const { file, css } = await motionProbe(root);
+    await motionProbe(root);
     const before = new Set(baseline.map((d) => JSON.stringify(d)));
     expect((await checkDesign(root)).filter((d) => !before.has(JSON.stringify(d)))).toEqual([]);
-    for (const [declaration, expected] of [
-      ['transition-duration: 201ms;', 'DS_TOKEN_LITERAL'],
-      ['transition-timing-function: cubic-bezier(0, 0, 0.2, 1);', 'DS_TOKEN_LITERAL'],
-      ['transition-duration: var(--duration-unregistered);', 'DS_TOKEN_UNKNOWN'],
-      ['transition-duration: var(--grid-source-probe);', 'DS_TOKEN_TYPE'],
-      ['grid-template-rows: var(--duration-source-probe);', 'DS_TOKEN_TYPE'],
-      ['transition-property: opacity;', 'DS_TOKEN_LITERAL'],
-    ]) {
-      await put(root, file, `${css}\n.invalid { ${declaration} }`);
-      expect(await codes(root)).toContain(expected);
-    }
+  });
+
+  test.each([
+    ['transition-duration: 201ms;', 'DS_TOKEN_LITERAL'],
+    ['transition-timing-function: cubic-bezier(0, 0, 0.2, 1);', 'DS_TOKEN_LITERAL'],
+    ['transition-duration: var(--duration-unregistered);', 'DS_TOKEN_UNKNOWN'],
+    ['transition-duration: var(--grid-source-probe);', 'DS_TOKEN_TYPE'],
+    ['grid-template-rows: var(--duration-source-probe);', 'DS_TOKEN_TYPE'],
+    ['transition-property: opacity;', 'DS_TOKEN_LITERAL'],
+  ])('motion: %s 선언은 %s로 차단한다', async (declaration, expected) => {
+    const root = await fixture();
+    const { file, css } = await motionProbe(root);
+    await put(root, file, `${css}\n.invalid { ${declaration} }`);
+    expect(await codes(root)).toContain(expected);
+  });
+
+  test('motion: 미등록 모션 미디어 조건을 차단한다', async () => {
+    const root = await fixture();
+    const { file, css } = await motionProbe(root);
     await put(root, file, `${css}\n@media (prefers-reduced-motion: no-preference) { .surface {} }`);
     expect(await codes(root)).toContain('DS_BREAKPOINT');
-  }, 60_000);
+  });
 
   test('motion: 출처를 Figma 치수로 바꾸거나 모션 속성에 길이 단위를 넣으면 거부한다', async () => {
     const root = await fixture();

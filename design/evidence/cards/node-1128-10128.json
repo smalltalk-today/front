@@ -1,0 +1,90 @@
+{
+  "id": "1128:10128",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nCreate link\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nBody/16_r\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Assistive\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "X-position",
+      "value": "0"
+    },
+    {
+      "label": "Y-position",
+      "value": "31"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "WIDTH_AND_HEIGHT"
+    },
+    {
+      "label": null,
+      "value": "HEIGHT"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": "Horizontal resizing",
+      "value": "297"
+    },
+    {
+      "label": "Vertical resizing",
+      "value": "24"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": "0"
+    },
+    {
+      "label": null,
+      "value": "LEFT"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "RIGHT"
+    },
+    {
+      "label": null,
+      "value": "TOP"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM"
+    },
+    {
+      "label": null,
+      "value": "on"
+    }
+  ]
+}

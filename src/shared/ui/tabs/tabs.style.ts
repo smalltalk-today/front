@@ -1,27 +1,16 @@
 import { cva } from 'class-variance-authority';
 
-// 탭 리스트 스타일
-export const tabListStyles = cva([
-  'flex items-center gap-4 border-b border-neutral-50',
-  'overflow-x-auto',
-]);
+export const tabListStyles = cva(
+  'flex gap-4 overflow-x-auto border-b-1 border-border-subtle bg-surface-default px-4 md:px-0',
+);
 
-// 탭 스타일
 export const tabStyles = cva(
-  [
-    'relative pb-[15px]',
-    'text-label-16-r',
-    'transition-colors',
-    'shrink-0 whitespace-nowrap',
-    'after:absolute after:bottom-0 after:left-0',
-    'after:h-0.5 after:w-full',
-    'after:transition-colors',
-  ],
+  'relative flex h-12 shrink-0 items-center text-label-16-r whitespace-nowrap',
   {
     variants: {
       active: {
-        true: ['text-blue-600', 'after:bg-blue-600'],
-        false: ['text-neutral-600', 'after:bg-transparent'],
+        true: 'text-brand-primary',
+        false: 'text-content-normal',
       },
     },
     defaultVariants: {

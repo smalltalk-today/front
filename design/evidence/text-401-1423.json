@@ -1,0 +1,97 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nText\nMulti-edit variants\nCreate link\nContent\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nBody/14_m\n· 14/150\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/White\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "복사했어요!"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "34"
+    },
+    {
+      "name": "Y-position",
+      "value": "2.5"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "WIDTH_AND_HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "64"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "21"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "TOP"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

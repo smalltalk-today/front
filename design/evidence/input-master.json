@@ -1,0 +1,158 @@
+{
+  "url": "https://www.figma.com/design/iomqZrIJ4BhzwfGDg4wWHR/%EC%8A%A4%EB%AA%B0%ED%86%A0%ED%81%AC-%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B3%B5%EC%9C%A0-%ED%8C%8C%EC%9D%BC?node-id=197-175&t=eMOBSLBbnXX2ppoi-0",
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n122%\nInput / text field\nMulti-edit variants\nProperties\n속성 1\n・Outline\n속성 2\n・1\n속성 3\n・Text\n속성 4\n・Default, Focus, Filled, Error, Validated, Disabled, Autocomplete\n속성 5\n・None\n속성 6\n・No\n속성 7\n・No\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nStroke\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nBlack/4\nPrimary\nDanger\nGreen\nBlack/1\nBlack/2\nGrey\nInput/Disabled\nColor\nAutofill available. Type to see suggestions.\n%\nColor\nAutofill available. Type to see suggestions.\n%\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "Input / text field"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "41"
+    },
+    {
+      "name": "Y-position",
+      "value": "62"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "416"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "573"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "name": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "name": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "name": "Vertical gap between objects",
+      "value": "17"
+    },
+    {
+      "name": "Horizontal padding",
+      "value": "20"
+    },
+    {
+      "name": "Vertical padding",
+      "value": "22"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "5"
+    },
+    {
+      "name": "Color",
+      "value": "8A38F5"
+    },
+    {
+      "name": null,
+      "value": "100"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Stroke weight",
+      "value": "1"
+    },
+    {
+      "name": "Color",
+      "value": "32936F"
+    },
+    {
+      "name": null,
+      "value": "24"
+    },
+    {
+      "name": "Color",
+      "value": "8A38F5"
+    },
+    {
+      "name": null,
+      "value": "100"
+    }
+  ]
+}

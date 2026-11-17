@@ -1,0 +1,33 @@
+.icon {
+  display: inline-flex;
+  rotate: var(--rotate-card-collapsed);
+  transition-property: rotate;
+  transition-duration: var(--duration-card-accordion);
+  transition-timing-function: var(--ease-card-accordion);
+}
+
+.rotated {
+  rotate: var(--rotate-card-expanded);
+}
+
+.content {
+  display: grid;
+  grid-template-rows: var(--grid-card-collapsed);
+  transition-property: grid-template-rows;
+  transition-duration: var(--duration-card-accordion);
+  transition-timing-function: var(--ease-card-accordion);
+}
+
+.expanded {
+  grid-template-rows: var(--grid-card-expanded);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon {
+    transition: none;
+  }
+
+  .content {
+    transition: none;
+  }
+}

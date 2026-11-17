@@ -1,0 +1,141 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n4%\nTab bar\nMulti-edit variants\nCurrent variant\nDevice\nmo\nothers\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\n16\nPadding\n16\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Default\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Subtle\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nColor/Text/Normal\nClick to edit color variable\nColor/Text/Blue\nClick to edit color variable\nColor/Border/Subtle\nClick to edit color variable\nColor/Surface/Default\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "Tab bar"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for Device",
+      "value": "mo"
+    },
+    {
+      "name": "X-position",
+      "value": "20"
+    },
+    {
+      "name": "Y-position",
+      "value": "20"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "375"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "48"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "name": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "name": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "name": "Horizontal gap between objects",
+      "value": ""
+    },
+    {
+      "name": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "name": "Vertical padding",
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

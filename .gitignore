@@ -24,3 +24,6 @@ GEMINI.md
 
 # Local verification artifacts
 screenshot/
+.design-state/
+reports/
+next-env.d.ts

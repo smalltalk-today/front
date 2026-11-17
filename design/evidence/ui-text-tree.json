@@ -1,0 +1,522 @@
+[
+  {
+    "id": "1128:10831",
+    "text": "그래픽",
+    "level": "0"
+  },
+  {
+    "id": "998:7098",
+    "text": "image 5",
+    "level": "0"
+  },
+  {
+    "id": "998:7095",
+    "text": "image 4",
+    "level": "0"
+  },
+  {
+    "id": "998:7092",
+    "text": "image 3",
+    "level": "0"
+  },
+  {
+    "id": "998:7089",
+    "text": "image 2",
+    "level": "0"
+  },
+  {
+    "id": "998:7086",
+    "text": "image 1",
+    "level": "0"
+  },
+  {
+    "id": "998:7104",
+    "text": "Rectangle 111",
+    "level": "0"
+  },
+  {
+    "id": "998:7103",
+    "text": "Rectangle 110",
+    "level": "0"
+  },
+  {
+    "id": "998:7102",
+    "text": "Rectangle 109",
+    "level": "0"
+  },
+  {
+    "id": "998:7101",
+    "text": "Rectangle 108",
+    "level": "0"
+  },
+  {
+    "id": "998:7100",
+    "text": "Rectangle 107",
+    "level": "0"
+  },
+  {
+    "id": "998:7084",
+    "text": "Rectangle 106",
+    "level": "0"
+  },
+  {
+    "id": "998:7083",
+    "text": "Rectangle 105",
+    "level": "0"
+  },
+  {
+    "id": "998:7082",
+    "text": "Rectangle 104",
+    "level": "0"
+  },
+  {
+    "id": "998:7081",
+    "text": "Rectangle 103",
+    "level": "0"
+  },
+  {
+    "id": "998:7080",
+    "text": "Rectangle 102",
+    "level": "0"
+  },
+  {
+    "id": "998:7079",
+    "text": "Rectangle 101",
+    "level": "0"
+  },
+  {
+    "id": "998:7078",
+    "text": "Rectangle 100",
+    "level": "0"
+  },
+  {
+    "id": "998:7076",
+    "text": "Rectangle 99",
+    "level": "0"
+  },
+  {
+    "id": "998:7073",
+    "text": "Rectangle 98",
+    "level": "0"
+  },
+  {
+    "id": "998:7061",
+    "text": "Rectangle 97",
+    "level": "0"
+  },
+  {
+    "id": "673:3522",
+    "text": "App Bar",
+    "level": "0"
+  },
+  {
+    "id": "725:6796",
+    "text": "touchframe",
+    "level": "0"
+  },
+  {
+    "id": "658:2433",
+    "text": "touchframe",
+    "level": "1"
+  },
+  {
+    "id": "725:6789",
+    "text": "icon-touchframe",
+    "level": "2"
+  },
+  {
+    "id": "725:6797",
+    "text": "icon-touchframe",
+    "level": "1"
+  },
+  {
+    "id": "725:6802",
+    "text": "Pressed",
+    "level": "2"
+  },
+  {
+    "id": "725:6800",
+    "text": "hover",
+    "level": "2"
+  },
+  {
+    "id": "725:6798",
+    "text": "Default",
+    "level": "2"
+  },
+  {
+    "id": "602:1830",
+    "text": "popup",
+    "level": "0"
+  },
+  {
+    "id": "1122:8896",
+    "text": "popup",
+    "level": "1"
+  },
+  {
+    "id": "1122:9022",
+    "text": "article",
+    "level": "2"
+  },
+  {
+    "id": "602:1829",
+    "text": "default",
+    "level": "2"
+  },
+  {
+    "id": "1122:9167",
+    "text": "Frame 588",
+    "level": "3"
+  },
+  {
+    "id": "1122:9168",
+    "text": "text",
+    "level": "4"
+  },
+  {
+    "id": "602:1827",
+    "text": "Frame 531",
+    "level": "3"
+  },
+  {
+    "id": "602:1763",
+    "text": "text",
+    "level": "4"
+  },
+  {
+    "id": "602:1826",
+    "text": "Frame 530",
+    "level": "3"
+  },
+  {
+    "id": "602:1749",
+    "text": "ㅊ",
+    "level": "0"
+  },
+  {
+    "id": "446:3013",
+    "text": "Bottomsheet",
+    "level": "0"
+  },
+  {
+    "id": "446:3012",
+    "text": "Bottomsheet",
+    "level": "1"
+  },
+  {
+    "id": "446:3006",
+    "text": "Button_cta",
+    "level": "2"
+  },
+  {
+    "id": "446:3003",
+    "text": "Frame 448",
+    "level": "2"
+  },
+  {
+    "id": "446:3004",
+    "text": "TEXT",
+    "level": "3"
+  },
+  {
+    "id": "446:3005",
+    "text": "icon/close-m",
+    "level": "3"
+  },
+  {
+    "id": "446:3002",
+    "text": "Rectangle 96",
+    "level": "2"
+  },
+  {
+    "id": "427:1819",
+    "text": "Toggle",
+    "level": "0"
+  },
+  {
+    "id": "402:1458",
+    "text": "Popup ✅",
+    "level": "0"
+  },
+  {
+    "id": "713:4330",
+    "text": "가로 최대 440px",
+    "level": "1"
+  },
+  {
+    "id": "677:2795",
+    "text": "toast/talk sentence/error",
+    "level": "1"
+  },
+  {
+    "id": "402:1469",
+    "text": "toast",
+    "level": "1"
+  },
+  {
+    "id": "403:2026",
+    "text": "talk sentence, error",
+    "level": "2"
+  },
+  {
+    "id": "403:2012",
+    "text": "Frame 427",
+    "level": "3"
+  },
+  {
+    "id": "403:2015",
+    "text": "icon/close-s",
+    "level": "3"
+  },
+  {
+    "id": "403:1584",
+    "text": "save, error",
+    "level": "2"
+  },
+  {
+    "id": "402:1526",
+    "text": "save, removed",
+    "level": "2"
+  },
+  {
+    "id": "403:1583",
+    "text": "Frame 427",
+    "level": "3"
+  },
+  {
+    "id": "402:1528",
+    "text": "저장 해제했어요.",
+    "level": "4"
+  },
+  {
+    "id": "403:1577",
+    "text": "icon/close-s",
+    "level": "3"
+  },
+  {
+    "id": "402:1470",
+    "text": "copy, error",
+    "level": "2"
+  },
+  {
+    "id": "402:1496",
+    "text": "icon/copy_error",
+    "level": "3"
+  },
+  {
+    "id": "402:1472",
+    "text": "복사에 실패했어요. 잠시 후 다시 시도해 주세요.",
+    "level": "3"
+  },
+  {
+    "id": "403:1567",
+    "text": "icon/close-s",
+    "level": "3"
+  },
+  {
+    "id": "402:1514",
+    "text": "save, success",
+    "level": "2"
+  },
+  {
+    "id": "402:1425",
+    "text": "copy, success",
+    "level": "2"
+  },
+  {
+    "id": "403:1566",
+    "text": "Frame 425",
+    "level": "3"
+  },
+  {
+    "id": "401:1420",
+    "text": "icon/copy_success",
+    "level": "4"
+  },
+  {
+    "id": "401:1423",
+    "text": "복사했어요!",
+    "level": "4"
+  },
+  {
+    "id": "403:1561",
+    "text": "icon/close-s",
+    "level": "3"
+  },
+  {
+    "id": "335:1262",
+    "text": "List",
+    "level": "0"
+  },
+  {
+    "id": "286:1493",
+    "text": "Tabs",
+    "level": "0"
+  },
+  {
+    "id": "286:1491",
+    "text": "Navigation Bar",
+    "level": "0"
+  },
+  {
+    "id": "286:1490",
+    "text": "icon",
+    "level": "0"
+  },
+  {
+    "id": "286:1483",
+    "text": "iconify 원본",
+    "level": "0"
+  },
+  {
+    "id": "1214:9400",
+    "text": "Card Feed",
+    "level": "0"
+  },
+  {
+    "id": "286:1482",
+    "text": "Card Feed",
+    "level": "0"
+  },
+  {
+    "id": "286:1481",
+    "text": "Badge ✅",
+    "level": "0"
+  },
+  {
+    "id": "267:1188",
+    "text": "badge",
+    "level": "1"
+  },
+  {
+    "id": "278:1270",
+    "text": "Default",
+    "level": "2"
+  },
+  {
+    "id": "278:1271",
+    "text": "Text",
+    "level": "3"
+  },
+  {
+    "id": "267:917",
+    "text": "Blue",
+    "level": "2"
+  },
+  {
+    "id": "267:1189",
+    "text": "Green",
+    "level": "2"
+  },
+  {
+    "id": "267:1191",
+    "text": "Orange",
+    "level": "2"
+  },
+  {
+    "id": "267:1193",
+    "text": "Red",
+    "level": "2"
+  },
+  {
+    "id": "267:1195",
+    "text": "Purple",
+    "level": "2"
+  },
+  {
+    "id": "286:1479",
+    "text": "Buttons",
+    "level": "0"
+  },
+  {
+    "id": "998:7032",
+    "text": "btn_,mini",
+    "level": "1"
+  },
+  {
+    "id": "1201:9210",
+    "text": "disabled",
+    "level": "2"
+  },
+  {
+    "id": "1201:9208",
+    "text": "pressed",
+    "level": "2"
+  },
+  {
+    "id": "998:7033",
+    "text": "hover",
+    "level": "2"
+  },
+  {
+    "id": "998:6984",
+    "text": "Default",
+    "level": "2"
+  },
+  {
+    "id": "648:2637",
+    "text": "btn_text",
+    "level": "1"
+  },
+  {
+    "id": "648:2649",
+    "text": "disabled",
+    "level": "2"
+  },
+  {
+    "id": "648:2638",
+    "text": "delete all",
+    "level": "2"
+  },
+  {
+    "id": "267:1107",
+    "text": "Default",
+    "level": "2"
+  },
+  {
+    "id": "267:1098",
+    "text": "icon/change1",
+    "level": "3"
+  },
+  {
+    "id": "267:1105",
+    "text": "다른 이슈로 바꾸기",
+    "level": "3"
+  },
+  {
+    "id": "436:1652",
+    "text": "icon/arrow-right-m",
+    "level": "3"
+  },
+  {
+    "id": "267:1152",
+    "text": "btn_link",
+    "level": "1"
+  },
+  {
+    "id": "267:1153",
+    "text": "Disabled",
+    "level": "2"
+  },
+  {
+    "id": "564:1559",
+    "text": "state3",
+    "level": "2"
+  },
+  {
+    "id": "267:872",
+    "text": "Enabled",
+    "level": "2"
+  },
+  {
+    "id": "267:871",
+    "text": "관련 기사 보기",
+    "level": "3"
+  },
+  {
+    "id": "202:173",
+    "text": "Button_cta",
+    "level": "1"
+  }
+]

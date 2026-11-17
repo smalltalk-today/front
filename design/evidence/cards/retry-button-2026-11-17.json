@@ -1,0 +1,46 @@
+{
+  "fileKey": "iomqZrIJ4BhzwfGDg4wWHR",
+  "capturedAt": "2026-11-17",
+  "method": "ego browser; Figma design properties",
+  "nodes": [
+    "267:976",
+    "658:2012"
+  ],
+  "component": "change button",
+  "properties": {
+    "width": "76px hug",
+    "height": "34px hug",
+    "gap": "4px",
+    "padding": {
+      "left": "12px",
+      "right": "8px",
+      "top": "4px",
+      "bottom": "4px"
+    },
+    "radius": "8px",
+    "stroke": "1px inside Color/Border/Medium",
+    "fill": "Color/Surface/Default",
+    "current": "Label/14_m, Color/Icon/Primary #303238",
+    "total": "Label/14_r, Color/Text/Normal #5E6066",
+    "icon": "icon/change1, 24px, Color/Icon/Secondary #92949A",
+    "counter": "Hug width and height; 2px gap; 0px padding"
+  },
+  "version": 1,
+  "geometry": [
+    {
+      "nodeId": "1373:9590",
+      "property": "counter-gap",
+      "value": "2px",
+      "theme": [
+        {
+          "file": "src/_app/styles/approved-ui.css",
+          "variable": "--spacing-card-retry-count",
+          "value": "2px"
+        }
+      ],
+      "source": {
+        "kind": "figma"
+      }
+    }
+  ]
+}

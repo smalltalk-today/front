@@ -17,14 +17,18 @@ beforeEach(() => {
 afterEach(() => vi.unstubAllGlobals());
 
 describe('card screen shell interactions', () => {
-  it('keeps feed, saved and detail navigation separate from unavailable settings', async () => {
+  it('opens settings from the header and marks the active destination', async () => {
     const user = userEvent.setup();
     const navigate = vi.fn();
     const { rerender } = render(<CardHeader view="feed" onNavigate={navigate} />);
     await user.click(screen.getByRole('button', { name: '저장 목록' }));
     expect(navigate).toHaveBeenLastCalledWith('saved');
-    expect(screen.getByRole('button', { name: '설정' })).toBeDisabled();
+    await user.click(screen.getByRole('button', { name: '설정' }));
+    expect(navigate).toHaveBeenLastCalledWith('settings');
     expect(screen.queryByRole('button', { name: '카드 피드로 닫기' })).not.toBeInTheDocument();
+
+    rerender(<CardHeader view="settings" onNavigate={navigate} />);
+    expect(screen.getByRole('button', { name: '설정' })).toHaveAttribute('aria-current', 'page');
 
     rerender(<CardHeader view="saved" onNavigate={navigate} />);
     await user.click(screen.getByRole('button', { name: '카드 피드로 닫기' }));
@@ -121,7 +125,7 @@ describe('card screen shell interactions', () => {
     await user.click(screen.getByRole('button', { name: '투데이 뉴스' }));
     expect(navigate).toHaveBeenCalledWith('feed');
     await user.click(screen.getByRole('button', { name: '설정' }));
-    expect(navigate).toHaveBeenCalledTimes(1);
+    expect(navigate).toHaveBeenLastCalledWith('settings');
   });
 
   it('ranks only supplied cards, caps the visible list at ten and opens the selected id', async () => {
@@ -142,5 +146,3 @@ describe('card screen shell interactions', () => {
 
 // @ts-expect-error Categories remain a closed set from the source tab component.
 void (<CardTabs mode="feed" selected="스포츠" onSelect={() => {}} />);
-// @ts-expect-error Settings is visible but is not a supported card navigation destination.
-void (<CardNavigation selected="settings" onNavigate={() => {}} />);

@@ -4,10 +4,11 @@ import { CardIcon } from './card-icon';
 import { CardLogo } from './card-logo';
 import { Button } from './button/button';
 import { AppBar } from './app-bar';
+import type { CardDestination } from './card-navigation';
 
 interface CardHeaderProps {
-  view: 'feed' | 'saved' | 'detail';
-  onNavigate: (target: 'feed' | 'saved') => void;
+  view: CardDestination | 'detail';
+  onNavigate: (target: CardDestination) => void;
 }
 
 export function CardHeader({ view, onNavigate }: CardHeaderProps) {
@@ -28,6 +29,7 @@ export function CardHeader({ view, onNavigate }: CardHeaderProps) {
           }
         >
           {view === 'saved' && <h1 className="text-headline-20-sb">저장됨</h1>}
+          {view === 'settings' && <h1 className="text-headline-20-sb">설정</h1>}
         </AppBar>
       </div>
       <div className="hidden h-card-header items-center justify-between gap-4 md:flex">
@@ -59,8 +61,9 @@ export function CardHeader({ view, onNavigate }: CardHeaderProps) {
           </button>
           <button
             type="button"
-            disabled
-            className="flex cursor-not-allowed items-center gap-2 rounded-control border-1 border-border-medium px-3 py-1 text-caption-12-r text-content-assistive"
+            aria-current={view === 'settings' ? 'page' : undefined}
+            className="flex items-center gap-2 rounded-control border-1 border-border-medium px-3 py-1 text-caption-12-r"
+            onClick={() => onNavigate('settings')}
           >
             <CardIcon name="settings" />
             설정
@@ -78,9 +81,9 @@ export function CardHeader({ view, onNavigate }: CardHeaderProps) {
           </button>
         </div>
       )}
-      {view === 'saved' && (
-        <div className="mt-5 hidden h-card-header items-center md:flex">
-          <h1 className="text-headline-22-sb">저장됨</h1>
+      {(view === 'saved' || view === 'settings') && (
+        <div className="hidden h-card-header items-center md:flex xl:mt-5">
+          <h1 className="text-headline-22-sb">{view === 'settings' ? '설정' : '저장됨'}</h1>
         </div>
       )}
     </header>

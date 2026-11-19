@@ -3,11 +3,6 @@
 import { cn } from '../lib/utils';
 import { CardIcon } from './card-icon';
 
-interface CardNavigationProps {
-  selected: 'feed' | 'saved';
-  onNavigate: (target: 'feed' | 'saved') => void;
-}
-
 const items = [
   { target: 'feed', label: '투데이 뉴스', activeIcon: 'feed', inactiveIcon: 'feed-inactive' },
   {
@@ -16,7 +11,20 @@ const items = [
     activeIcon: 'bookmark-nav',
     inactiveIcon: 'bookmark-nav-inactive',
   },
+  {
+    target: 'settings',
+    label: '설정',
+    activeIcon: 'settings-nav',
+    inactiveIcon: 'settings-nav-inactive',
+  },
 ] as const;
+
+export type CardDestination = (typeof items)[number]['target'];
+
+interface CardNavigationProps {
+  selected: CardDestination;
+  onNavigate: (target: CardDestination) => void;
+}
 
 export function CardNavigation({ selected, onNavigate }: CardNavigationProps) {
   return (
@@ -39,14 +47,6 @@ export function CardNavigation({ selected, onNavigate }: CardNavigationProps) {
           {item.label}
         </button>
       ))}
-      <button
-        type="button"
-        disabled
-        className="flex w-card-nav-item cursor-not-allowed flex-col items-center gap-1 px-3 py-1 text-label-11-r whitespace-nowrap text-neutral-400"
-      >
-        <CardIcon name="settings-nav-inactive" />
-        설정
-      </button>
     </nav>
   );
 }

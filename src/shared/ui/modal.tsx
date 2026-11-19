@@ -10,9 +10,10 @@ export interface ModalProps {
   title: string;
   onClose: () => void;
   children: ReactNode;
+  confirm?: { label: string; onClick: () => void };
 }
 
-export function Modal({ open, title, onClose, children }: ModalProps) {
+export function Modal({ open, title, onClose, children, confirm }: ModalProps) {
   const ref = useRef<HTMLDialogElement>(null);
   const titleId = useId();
   useEffect(() => {
@@ -32,6 +33,7 @@ export function Modal({ open, title, onClose, children }: ModalProps) {
       ref={ref}
       className={`${styles.dialog} p-5`}
       aria-labelledby={titleId}
+      aria-describedby={confirm ? `${titleId}-description` : undefined}
       tabIndex={-1}
       onCancel={(event) => {
         event.preventDefault();
@@ -52,11 +54,23 @@ export function Modal({ open, title, onClose, children }: ModalProps) {
         <h2 id={titleId} className="text-title-18-sb text-content-strong">
           {title}
         </h2>
-        <div className="text-body-16-r text-content-normal">{open && children}</div>
+        <div id={`${titleId}-description`} className="text-body-16-r text-content-normal">
+          {open && children}
+        </div>
         <div className="flex justify-end gap-2">
-          <Button variant="primary" size="XS" className="w-auto" onClick={onClose}>
-            닫기
+          <Button
+            variant={confirm ? 'secondary' : 'primary'}
+            size="XS"
+            className="w-auto"
+            onClick={onClose}
+          >
+            {confirm ? '취소' : '닫기'}
           </Button>
+          {confirm && (
+            <Button variant="primary" size="XS" className="w-auto" onClick={confirm.onClick}>
+              {confirm.label}
+            </Button>
+          )}
         </div>
       </div>
     </dialog>

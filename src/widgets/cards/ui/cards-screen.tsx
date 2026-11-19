@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useSyncExternalStore } from 'react';
+import { useEffect, useState, useSyncExternalStore, type ReactNode } from 'react';
 import { useRouter } from 'next/navigation';
 import { formatCardDate, getDemoCard, getDemoCards, type Card } from '@/entities/card';
 import { CardFeed, SavedCardItem } from '@/entities/card/index.client';
@@ -13,11 +13,20 @@ import {
   CardNavigation,
   CardRanking,
   CardTabs,
+  type CardDestination,
   type CardTabValue,
 } from '@/shared/ui/index.client';
 
 type CardsScreenProps =
-  { view: 'feed' | 'saved'; cardId?: never } | { view: 'detail'; cardId: string };
+  | { view: 'feed' | 'saved'; cardId?: never }
+  | { view: 'detail'; cardId: string }
+  | { view: 'settings'; cardId?: never; children: ReactNode };
+
+const destinations = {
+  feed: ROUTES.cards,
+  saved: ROUTES.savedCards,
+  settings: ROUTES.cardSettings,
+} satisfies Record<CardDestination, string>;
 
 function subscribeToClock(): () => void {
   return () => undefined;
@@ -31,7 +40,8 @@ function serverDate(): string {
   return '';
 }
 
-export function CardsScreen({ view, cardId }: CardsScreenProps) {
+export function CardsScreen(props: CardsScreenProps) {
+  const { view, cardId } = props;
   const router = useRouter();
   const cards = getDemoCards();
   const saved = useCardActionsStore((state) => state.saved);
@@ -56,8 +66,8 @@ export function CardsScreen({ view, cardId }: CardsScreenProps) {
     return () => media.removeEventListener('change', resetRanking);
   }, []);
 
-  function navigate(target: 'feed' | 'saved') {
-    router.push(target === 'saved' ? ROUTES.savedCards : ROUTES.cards);
+  function navigate(target: CardDestination) {
+    router.push(destinations[target]);
   }
 
   function openDetail(id: string) {
@@ -138,9 +148,9 @@ export function CardsScreen({ view, cardId }: CardsScreenProps) {
 
   return (
     <div className="flex min-h-0 flex-1 flex-col gap-5">
-      <div className="md:px-8">
+      <div className={view === 'feed' ? 'md:px-8 xl:flex xl:flex-col xl:gap-5' : 'md:px-8'}>
         <CardHeader view={view} onNavigate={navigate} />
-        {view !== 'detail' && (
+        {(view === 'feed' || view === 'saved') && (
           <CardTabs
             mode={view}
             selected={selected}
@@ -151,14 +161,20 @@ export function CardsScreen({ view, cardId }: CardsScreenProps) {
       <div className="flex flex-1 items-stretch gap-5 px-4 md:px-8">
         <section
           id="card-content-panel"
-          role={view === 'detail' ? undefined : 'tabpanel'}
-          aria-label={view === 'detail' ? '카드 상세' : selected}
+          role={view === 'feed' || view === 'saved' ? 'tabpanel' : undefined}
+          aria-label={
+            view === 'settings' ? '설정 내용' : view === 'detail' ? '카드 상세' : selected
+          }
           className="flex min-w-0 flex-1 flex-col gap-2"
         >
-          <p className="text-body-14-r text-content-assistive">
-            샘플 카드입니다. 저장 내용은 새로고침하면 사라집니다.
-          </p>
-          {view === 'saved' ? (
+          {view === 'feed' && (
+            <p className="flex min-h-10 items-center justify-end text-right text-body-14-r text-content-assistive">
+              샘플 카드입니다. 저장 내용은 새로고침하면 사라집니다.
+            </p>
+          )}
+          {props.view === 'settings' ? (
+            props.children
+          ) : view === 'saved' ? (
             saved.length === 0 ? (
               <CardEmpty onExplore={() => navigate('feed')} />
             ) : visibleSaved.length === 0 ? (
@@ -214,7 +230,7 @@ export function CardsScreen({ view, cardId }: CardsScreenProps) {
           </aside>
         )}
       </div>
-      <CardNavigation selected={view === 'feed' ? 'feed' : 'saved'} onNavigate={navigate} />
+      <CardNavigation selected={view === 'detail' ? 'saved' : view} onNavigate={navigate} />
     </div>
   );
 }

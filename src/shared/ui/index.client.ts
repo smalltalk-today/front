@@ -7,5 +7,6 @@ export { AppBar } from './app-bar';
 export { CardTabs } from './card-tabs';
 export type { CardTabValue } from './card-tabs';
 export { CardNavigation } from './card-navigation';
+export type { CardDestination } from './card-navigation';
 export { CardRanking } from './card-ranking';
 export { CardEmpty } from './card-empty';

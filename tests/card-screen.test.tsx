@@ -6,6 +6,8 @@ import { useCardActionsStore } from '@/features/card-actions/index.client';
 import { Toaster } from '@/shared/ui/index.client';
 import { useToastStore } from '@/shared/lib/toast';
 import { CardsScreen } from '@/widgets/cards/index.client';
+import CardSettingsPage from '../app/card/settings/page';
+import { version } from '../package.json';
 
 const { push, notFound } = vi.hoisted(() => ({
   push: vi.fn(),
@@ -53,6 +55,34 @@ function feed() {
 const now = '2026-11-11T01:00:00.000Z';
 
 describe('card screen integration', () => {
+  it('clears saved cards only on confirmation and preserves regeneration state', async () => {
+    const user = userEvent.setup();
+    const [card, other] = getDemoCards();
+    const actions = useCardActionsStore.getState();
+    actions.toggleSave(card!, card!.sentences[0]!, now);
+    actions.toggleSave(other!, other!.sentences[0]!, now);
+    actions.regenerate(card!);
+    const { rerender } = render(<CardSettingsPage />);
+    expect(screen.getByText(`v${version}`)).toBeInTheDocument();
+
+    const clear = screen.getByRole('button', { name: '전체 삭제' });
+    await user.click(clear);
+    const dialog = within(screen.getByRole('dialog'));
+    expect(dialog.getByRole('button', { name: '취소' })).toHaveFocus();
+    await user.click(dialog.getByRole('button', { name: '취소' }));
+    expect(clear).toHaveFocus();
+    expect(useCardActionsStore.getState().saved).toHaveLength(2);
+
+    await user.click(clear);
+    await user.click(dialog.getByRole('button', { name: '삭제' }));
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(clear).toBeDisabled();
+    expect(useCardActionsStore.getState().sentenceIndices[card!.id]).toBe(1);
+    rerender(<CardsScreen view="saved" />);
+    expect(screen.queryByRole('article')).not.toBeInTheDocument();
+    expect(useCardActionsStore.getState().saved).toEqual([]);
+  });
+
   it('provides five detached demo cards with four sentences, without inventing a server source', () => {
     const cards = getDemoCards();
     expect(cards).toHaveLength(5);

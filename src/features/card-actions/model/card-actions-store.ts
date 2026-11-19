@@ -20,6 +20,7 @@ export interface CardActionsState {
   saved: SavedCard[];
   sentenceIndices: Record<string, number>;
   toggleSave: (card: Card, sentence: string, nowISO: string) => ToggleSaveResult;
+  clearSaved: () => void;
   regenerate: (card: Card) => RegenerateResult;
 }
 
@@ -34,6 +35,7 @@ export function createCardActionsStore(): UseBoundStore<StoreApi<CardActionsStat
   return create<CardActionsState>((set, get) => ({
     saved: [],
     sentenceIndices: copyIndices(),
+    clearSaved: () => set({ saved: [] }),
     toggleSave: (card, sentence, nowISO) => {
       const current = get().saved;
       const isSaved = current.some((entry) => entry.card.id === card.id);

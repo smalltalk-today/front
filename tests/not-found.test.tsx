@@ -5,7 +5,7 @@ import { NotFoundContent } from '@/shared/ui';
 it('keeps the home link visible and available to all visitors', () => {
   render(<NotFoundContent />);
 
-  const link = screen.getByRole('link', { name: '홈으로' });
+  const link = screen.getByRole('link', { name: '홈 화면으로 이동' });
   expect(link).toBeVisible();
   expect(link).not.toHaveClass('sr-only');
   expect(link).toHaveAttribute('href', '/');

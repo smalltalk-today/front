@@ -1,0 +1,117 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nMixed\nMulti-edit variants\nContent\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nLayout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nResizing\nResizing\nAuto width\nAuto height\nFixed size\nDimensions\nW\nH\nUnlock aspect ratio\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nTypography\nLabel/14_r\n· 14/14\nAlignment\nHorizontal\nAlign left\nAlign center\nAlign right\nVertical\nAlign top\nAlign middle\nAlign bottom\nFill\nColor/Text/Normal\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Icon/Secondary\nClick to edit color variable\nColor/Text/Normal\nClick to edit color variable\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "Mixed"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "Mixed"
+    },
+    {
+      "name": "Y-position",
+      "value": "Mixed"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "WIDTH_AND_HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "HEIGHT"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": "Width",
+      "value": "Mixed"
+    },
+    {
+      "name": "Height",
+      "value": "Mixed"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "TOP"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

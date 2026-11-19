@@ -11,7 +11,7 @@
     "generate:text-tokens": "node scripts/generate-text-tokens.mjs",
     "dev": "node scripts/generate-text-tokens.mjs --dev",
     "build": "pnpm generate:text-tokens && next build",
-    "start": "pnpm generate:text-tokens && next start",
+    "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -20,7 +20,8 @@
     "test:run": "vitest run",
     "prepare": "husky",
     "test:boundary": "node scripts/check-server-boundary.mjs",
-    "check": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm test:run"
+    "check": "pnpm lint && pnpm format:check && pnpm typecheck && pnpm test:run",
+    "verify": "pnpm check && pnpm test:boundary && pnpm build"
   },
   "lint-staged": {
     "*.{ts,tsx,js,mjs}": [
@@ -34,9 +35,8 @@
     "@tanstack/react-query": "5.104.2",
     "class-variance-authority": "0.7.1",
     "clsx": "2.1.1",
-    "dayjs": "1.11.23",
     "iconoir-react": "7.12.1",
-    "next": "16.4.3",
+    "next": "16.4.6",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "react-error-boundary": "6.1.6",
@@ -63,6 +63,7 @@
     "lint-staged": "17.6.0",
     "msw": "2.15.0",
     "postcss": "8.5.29",
+    "postcss-value-parser": "4.2.0",
     "prettier": "3.9.10",
     "prettier-plugin-tailwindcss": "0.8.1",
     "tailwindcss": "4.3.3",

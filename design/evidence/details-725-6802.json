@@ -1,0 +1,81 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nicon-touchframe\nMulti-edit variants\nCurrent variant\nState\nDefault\nhover\nPressed\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nDimensions\nW\nH\nUnlock aspect ratio\nClip content\nAppearance\nHide\nOpacity\nCorner radius\n8\nFill\nColor/Surface/Secondary-pressed\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Icon/Primary\nClick to edit color variable\nColor/Surface/Secondary-pressed\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "icon-touchframe"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for State",
+      "value": "Pressed"
+    },
+    {
+      "name": "X-position",
+      "value": "20"
+    },
+    {
+      "name": "Y-position",
+      "value": "136"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": "Width",
+      "value": "38"
+    },
+    {
+      "name": "Height",
+      "value": "38"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

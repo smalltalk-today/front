@@ -1,0 +1,85 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n86%\nFrame\nToggle ready for dev status\nPosition\nAlignment\nPosition\nX\nY\nRotation\nLayout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nDimensions\nW\nH\nLock aspect ratio\nSpacing\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nStroke\nEffects\nSelection colors\n+14\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "4453.8"
+    },
+    {
+      "name": "Y-position",
+      "value": "630"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": "Width",
+      "value": "375"
+    },
+    {
+      "name": "Height",
+      "value": "812"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "24"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "name": null,
+      "value": "100"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

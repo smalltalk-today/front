@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "geometry": [],
+  "components": [
+    { "name": "Tabs", "nodeId": "286:1493", "status": "approved" },
+    { "name": "TabList", "nodeId": "713:7856", "status": "approved" },
+    { "name": "TabContent", "nodeId": "286:1493", "status": "approved" }
+  ],
+  "source": {
+    "group": "evidence/cards/component-expanded-tree.json",
+    "mobileBar": "evidence/cards/node-286-788.json",
+    "activeItem": "evidence/cards/node-286-769.json",
+    "inactiveItem": "evidence/cards/node-286-773.json",
+    "bar": { "height": 48, "gap": 16, "mobileHorizontalPadding": 16, "border": "Color/Border/Subtle", "background": "Color/Surface/Default" },
+    "item": { "height": 48, "activeColor": "Color/Text/Blue", "inactiveColor": "Color/Text/Normal", "activeStroke": 2 }
+  },
+  "behavior": {
+    "existingTabs": "evidence/tabs/before-tabs.tsx.txt",
+    "existingTabList": "evidence/tabs/before-tab-list.tsx.txt",
+    "existingTabContent": "evidence/tabs/before-tab-content.tsx.txt",
+    "existingStyles": "evidence/tabs/before-tabs.style.ts.txt",
+    "note": "임의의 label/value와 children 계약을 보존한다. TabContent는 시각 외형이 없는 기존 tabpanel wrapper이며 별도의 Figma 화면 요소로 주장하지 않는다."
+  }
+}

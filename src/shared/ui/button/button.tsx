@@ -2,7 +2,7 @@ import type { ComponentProps } from 'react';
 import { cn } from '@/shared/lib/utils';
 import { buttonVariants } from './button.style';
 
-type ButtonProps = ComponentProps<'button'> &
+type ButtonProps = Omit<ComponentProps<'button'>, 'style' | 'dangerouslySetInnerHTML' | 'color'> &
   (
     | {
         variant?: 'primary' | 'secondary';
@@ -18,7 +18,7 @@ type ButtonProps = ComponentProps<'button'> &
       }
   );
 
-export function Button({ variant, size, className, children, ...props }: ButtonProps) {
+export function Button({ variant = 'primary', size, className, children, ...props }: ButtonProps) {
   const buttonSize =
     variant === 'primary' || variant === 'secondary'
       ? (size ?? 'M')

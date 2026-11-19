@@ -1,0 +1,137 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nbadge\nMulti-edit variants\nCurrent variant\nColor\nBlue\nGreen\nOrange\nRed\nPurple\nDefault\nRename…\nPosition\nIgnore auto layout\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nHug\nH\nHug\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n8\n4\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor/Surface/Badge/Black\nClick to edit color variable\nToggle visibility\nStroke\nEffects\nSelection colors\nColor/Surface/Badge/Black\nClick to edit color variable\nColor/Text/White\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "badge"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Edit property value for Color",
+      "value": "Default"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "21"
+    },
+    {
+      "name": "Y-position",
+      "value": "21"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Horizontal resizing",
+      "value": "40"
+    },
+    {
+      "name": "Vertical resizing",
+      "value": "20"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "name": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "name": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "name": "Horizontal gap between objects",
+      "value": "10"
+    },
+    {
+      "name": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "name": "Vertical padding",
+      "value": ""
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "99%"
+    },
+    {
+      "name": null,
+      "value": "999"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

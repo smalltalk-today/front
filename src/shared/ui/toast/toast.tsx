@@ -1,7 +1,8 @@
 'use client';
 
+/* eslint-disable @next/next/no-img-element -- 원본 SVG의 고유 크기와 경로를 그대로 사용한다. */
+
 import type { Toast as ToastData } from '@/shared/lib/toast';
-import { Check, Xmark } from 'iconoir-react';
 import { useEffect, useState, type FocusEvent } from 'react';
 
 interface ToastProps {
@@ -10,21 +11,13 @@ interface ToastProps {
 }
 
 const styles = {
-  root: 'pointer-events-auto flex min-h-14 w-full items-center justify-between gap-x-2 rounded-control bg-neutral-600 px-3 py-4',
-  statusIcon: 'size-6 shrink-0 rounded-full p-1 text-white',
-};
-
-const statusIcons = {
-  success: <Check className={`${styles.statusIcon} bg-green-600`} aria-hidden="true" />,
-  error: <Xmark className={`${styles.statusIcon} bg-red-600`} aria-hidden="true" />,
-  info: null,
+  root: 'pointer-events-auto flex w-full items-center justify-between gap-2 rounded-control bg-surface-popup px-3 py-4',
 };
 
 export function Toast({ toast, onDismiss }: ToastProps) {
   const { id, message, variant, duration } = toast;
   const [hovered, setHovered] = useState(false);
   const [focused, setFocused] = useState(false);
-  const statusIcon = statusIcons[variant];
 
   useEffect(() => {
     if (duration <= 0 || hovered || focused) return;
@@ -46,15 +39,20 @@ export function Toast({ toast, onDismiss }: ToastProps) {
       onFocusCapture={() => setFocused(true)}
       onBlurCapture={handleBlur}
     >
-      {statusIcon}
+      {variant === 'success' ? (
+        <img src="/design/toast-success.svg" className="shrink-0" alt="" aria-hidden="true" />
+      ) : variant === 'error' ? (
+        <img src="/design/toast-error.svg" className="shrink-0" alt="" aria-hidden="true" />
+      ) : null}
       <p className="min-w-0 flex-1 text-body-14-m wrap-anywhere text-white">{message}</p>
 
       <button
+        type="button"
         aria-label="토스트 닫기"
-        className="flex-center shrink-0 rounded-control text-white"
+        className="flex shrink-0 items-center justify-center"
         onClick={() => onDismiss(id)}
       >
-        <Xmark className="size-6" aria-hidden="true" />
+        <img src="/design/close-s.svg" alt="" aria-hidden="true" />
       </button>
     </div>
   );

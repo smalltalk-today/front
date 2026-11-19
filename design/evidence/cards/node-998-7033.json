@@ -1,0 +1,142 @@
+{
+  "id": "998:7033",
+  "text": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nbtn_,mini\nMulti-edit variants\nCurrent variant\nState\nDefault\nhover\npressed\ndisabled\nRename…\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nResizing\nW\nHug\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\nPadding\n20\nClip content\nAppearance\nHide\nOpacity\nCorner radius\n8\nFill\nColor/Surface/Secondary-hover\nClick to edit color variable\nToggle visibility\nStroke\nColor/Border/Medium\nClick to edit color variable\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nEffects\nSelection colors\nColor/Text/Strong\nClick to edit color variable\nColor/Border/Medium\nClick to edit color variable\nColor/Surface/Secondary-hover\nClick to edit color variable\nLayout guide\nExport",
+  "fields": [
+    {
+      "label": null,
+      "value": "btn_,mini"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Edit property value for State",
+      "value": "hover"
+    },
+    {
+      "label": "X-position",
+      "value": "20"
+    },
+    {
+      "label": "Y-position",
+      "value": "72"
+    },
+    {
+      "label": "Rotation",
+      "value": "0°"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "NONE"
+    },
+    {
+      "label": null,
+      "value": "VERTICAL"
+    },
+    {
+      "label": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "label": null,
+      "value": "GRID"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Horizontal resizing",
+      "value": "69"
+    },
+    {
+      "label": "Vertical resizing",
+      "value": "32"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "label": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "label": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "label": null,
+      "value": "LEFT"
+    },
+    {
+      "label": null,
+      "value": "CENTER"
+    },
+    {
+      "label": null,
+      "value": "RIGHT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "label": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "label": "Horizontal gap between objects",
+      "value": "10"
+    },
+    {
+      "label": "Horizontal padding",
+      "value": ""
+    },
+    {
+      "label": "Vertical padding",
+      "value": "10"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "100%"
+    },
+    {
+      "label": null,
+      "value": ""
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": null,
+      "value": "on"
+    },
+    {
+      "label": "Stroke weight",
+      "value": "1"
+    }
+  ]
+}

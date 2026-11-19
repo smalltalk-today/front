@@ -1,0 +1,293 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n100%\nSection\nToggle ready for dev status\nPosition\nAlignment\nPosition\nX\nY\nLayout\nDimensions\nW\nH\nLock aspect ratio\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nStroke\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nPosition\nStroke align\nInside\nWeight\nSelection colors\n+8\nExport",
+  "fields": [
+    {
+      "aria": null,
+      "value": "on"
+    },
+    {
+      "aria": "X-position",
+      "value": "1800"
+    },
+    {
+      "aria": "Y-position",
+      "value": "-268"
+    },
+    {
+      "aria": "Width",
+      "value": "599"
+    },
+    {
+      "aria": "Height",
+      "value": "184"
+    },
+    {
+      "aria": null,
+      "value": "on"
+    },
+    {
+      "aria": null,
+      "value": "on"
+    },
+    {
+      "aria": null,
+      "value": "100%"
+    },
+    {
+      "aria": null,
+      "value": "2"
+    },
+    {
+      "aria": "Color",
+      "value": "444444"
+    },
+    {
+      "aria": null,
+      "value": "100"
+    },
+    {
+      "aria": null,
+      "value": "on"
+    },
+    {
+      "aria": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "aria": null,
+      "value": "10"
+    },
+    {
+      "aria": null,
+      "value": "on"
+    },
+    {
+      "aria": "Stroke weight",
+      "value": "1"
+    }
+  ],
+  "rows": [
+    {
+      "id": "1128:10831-layers-panel-row",
+      "text": "그래픽",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "998:7098-layers-panel-row",
+      "text": "image 5",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7095-layers-panel-row",
+      "text": "image 4",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7092-layers-panel-row",
+      "text": "image 3",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7089-layers-panel-row",
+      "text": "image 2",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7086-layers-panel-row",
+      "text": "image 1",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7104-layers-panel-row",
+      "text": "Rectangle 111",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7103-layers-panel-row",
+      "text": "Rectangle 110",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7102-layers-panel-row",
+      "text": "Rectangle 109",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7101-layers-panel-row",
+      "text": "Rectangle 108",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7100-layers-panel-row",
+      "text": "Rectangle 107",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7084-layers-panel-row",
+      "text": "Rectangle 106",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7083-layers-panel-row",
+      "text": "Rectangle 105",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7082-layers-panel-row",
+      "text": "Rectangle 104",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7081-layers-panel-row",
+      "text": "Rectangle 103",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7080-layers-panel-row",
+      "text": "Rectangle 102",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7079-layers-panel-row",
+      "text": "Rectangle 101",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7078-layers-panel-row",
+      "text": "Rectangle 100",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7076-layers-panel-row",
+      "text": "Rectangle 99",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7073-layers-panel-row",
+      "text": "Rectangle 98",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "998:7061-layers-panel-row",
+      "text": "Rectangle 97",
+      "level": "0",
+      "expanded": null
+    },
+    {
+      "id": "673:3522-layers-panel-row",
+      "text": "App Bar",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "725:6796-layers-panel-row",
+      "text": "touchframe",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "602:1830-layers-panel-row",
+      "text": "popup",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "602:1749-layers-panel-row",
+      "text": "ㅊ",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "446:3013-layers-panel-row",
+      "text": "Bottomsheet",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "427:1819-layers-panel-row",
+      "text": "Toggle",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "402:1458-layers-panel-row",
+      "text": "Popup ✅",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "335:1262-layers-panel-row",
+      "text": "List",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1493-layers-panel-row",
+      "text": "Tabs",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1491-layers-panel-row",
+      "text": "Navigation Bar",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1490-layers-panel-row",
+      "text": "icon",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1483-layers-panel-row",
+      "text": "iconify 원본",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "1214:9400-layers-panel-row",
+      "text": "Card Feed",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1482-layers-panel-row",
+      "text": "Card Feed",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1481-layers-panel-row",
+      "text": "Badge ✅",
+      "level": "0",
+      "expanded": "false"
+    },
+    {
+      "id": "286:1479-layers-panel-row",
+      "text": "Buttons",
+      "level": "0",
+      "expanded": "false"
+    }
+  ]
+}

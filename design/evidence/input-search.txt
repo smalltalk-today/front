@@ -1,0 +1,395 @@
+[p1 "스몰토크 디자인 공유 파일 – Figma" | space "smart-talk UI migration"(8): 1 managed, 0 untracked — p1* "스몰토크 디자인 공유 파일 – Figma"]
+root
+  container
+    container
+      container
+        canvas
+        toolbar "Navigation Bar"
+          container
+            button "Main menu" [ref=337, loc=css:button[aria-label="Main menu"]]
+              svg_root
+            splitter
+            button "File" [ref=338, loc=css:button[aria-label="File"]]
+              svg_root
+              text "File"
+            button "Agents" [ref=339, loc=css:button[aria-label="Agents"]]
+              svg_root
+              text "Agents"
+            button "Assets" [ref=340, loc=css:button[aria-label="Assets"]]
+              svg_root
+              text "Assets"
+            button "Tools" [ref=341, loc=css:button[aria-label="Tools"]]
+              svg_root
+              text "Tools"
+            splitter
+            button "Variables" [ref=342, loc=css:button[aria-label="Variables"]]
+              svg_root
+              text "Variables"
+          button "Missing fonts" [ref=343, loc=css:button[aria-label="Missing fonts"]]
+            svg_root
+        container
+          container
+            container
+              container
+                button "스몰토크 디자인 공유 파일, file name" [ref=345, loc=css:button[aria-label="스몰토크 디자인 공유 파일, file name"]]
+                  text "스몰토크 디자인 공유 파일"
+                button "Edit file menu" [ref=346, loc=css:button[aria-label="Edit file menu"]]
+                  svg_root
+              button "Minimize UI" [ref=347, loc=css:button[aria-label="Minimize UI"]]
+                svg_root
+            container
+              container
+                container
+                  svg_root
+                  textbox [ref=348, loc=css:textarea[placeholder="Find…"]]
+                    text "Input"
+                button "Settings" [ref=349, loc=css:button[aria-label="Settings"]]
+                  svg_root
+                button "Close" [ref=350]
+                  svg_root
+              container
+                container
+                  container
+                    status
+                      text "9 results"
+                    text "·"
+                    button "Search scope set to All pages" [ref=516, loc=css:button[aria-label="Search scope set to All pages"]]
+                      text "All pages"
+                      svg_root
+                  button "Previous result" [ref=517, loc=css:button[aria-label="Previous result"]]
+                    svg_root
+                  button "Next result" [ref=518, loc=css:button[aria-label="Next result"]]
+                    svg_root
+                listbox "Search results" [ref=519, loc=role:listbox[name="Search results"]]
+                  button "화면, 9 results" [ref=520, loc=css:button[aria-label="화면, 9 results"]]
+                    svg_root
+                    text "화면"
+                    text "9"
+                  listboxoption [ref=521]
+                    image "Section"
+                      svg_root
+                    text "input"
+                  listboxoption [ref=522]
+                    image "Component"
+                      svg_root
+                    text "Input / text field"
+                  listboxoption [ref=523]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input Content"
+                      text "Input / text field"
+                  listboxoption [ref=524]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input Content"
+                      text "Input / text field"
+                  listboxoption [ref=525]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input Content"
+                      text "Input / text field"
+                  listboxoption [ref=526]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input"
+                      text "Input / text field"
+                  listboxoption [ref=527]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input Content"
+                      text "Input / text field"
+                  listboxoption [ref=528]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input Content"
+                      text "Input / text field"
+                  listboxoption [ref=529]
+                    image "Auto layout"
+                      svg_root
+                    container
+                      text "Input Content"
+                      text "Input / text field"
+          slider "Resize handle" [ref=351]
+        container
+          container
+            container
+              button "Multiplayer tools" [ref=352, loc=css:button[aria-label="Multiplayer tools"]]
+                container
+                  container
+                    svg_root
+                    svg_root
+                    image
+                  svg_root
+              container
+                group "Prototype view"
+                  button "Present" [ref=353, loc=css:button[aria-label="Present"]]
+                    svg_root
+                  button "Prototype view" [ref=354, loc=css:button[aria-label="Prototype view"]]
+                    svg_root
+                button [ref=355]
+                  text "Share"
+            container
+              tablist
+                tab [ref=356]
+                  text "Design"
+                  text "Design"
+                tab [ref=357]
+                  text "Prototype"
+                  text "Prototype"
+              button "2%, zoom and view options" [ref=358, loc=css:button[aria-label="2%, zoom and view options"]]
+                text "2%"
+                svg_root
+            container [ref=359]
+              container
+                button "Frame, Frame Dimension Presets" [ref=530, loc=css:button[aria-label="Frame, Frame Dimension Presets"]]
+                  text "Frame"
+                  svg_root
+                container
+                  button "Convert to slot" [ref=531, loc=css:button[aria-label="Convert to slot"]]
+                    svg_root
+                  container
+                    checkbox [ref=532]
+                    svg_root
+                  button "Select matching layers" [ref=533, loc=css:button[aria-label="Select matching layers"]]
+                    svg_root
+                  button "More actions" [ref=534]
+                    svg_root
+              container
+                container
+                  heading
+                    text "Position"
+                  container
+                    checkbox [ref=535]
+                    svg_root
+                group [ref=536]
+                  text "Alignment"
+                  container
+                    button "Align left" [ref=537, loc=css:button[aria-label="Align left"]]
+                      svg_root
+                    button "Align horizontal centers" [ref=538, loc=css:button[aria-label="Align horizontal centers"]]
+                      svg_root
+                    button "Align right" [ref=539, loc=css:button[aria-label="Align right"]]
+                      svg_root
+                  container
+                    button "Align top" [ref=540, loc=css:button[aria-label="Align top"]]
+                      svg_root
+                    button "Align vertical centers" [ref=541, loc=css:button[aria-label="Align vertical centers"]]
+                      svg_root
+                    button "Align bottom" [ref=542, loc=css:button[aria-label="Align bottom"]]
+                      svg_root
+                  button "More actions" [ref=543]
+                    svg_root
+                group [ref=544]
+                  text "Position"
+                  container
+                    text "X"
+                    spinbutton "X-position" [ref=545, loc=css:input[aria-label="X-position"]]
+                      text "16"
+                  container
+                    text "Y"
+                    spinbutton "Y-position" [ref=546, loc=css:input[aria-label="Y-position"]]
+                      text "8"
+                group [ref=547]
+                  text "Rotation"
+                  container
+                    svg_root
+                    spinbutton "Rotation" [ref=548, loc=css:input[aria-label="Rotation"]]
+                      text "0°"
+                  container
+                    button "Rotate 90˚ right" [ref=549, loc=css:button[aria-label="Rotate 90˚ right"]]
+                      svg_root
+                    button "Flip horizontal" [ref=550, loc=css:button[aria-label="Flip horizontal"]]
+                      svg_root
+                    button "Flip vertical" [ref=551, loc=css:button[aria-label="Flip vertical"]]
+                      svg_root
+              container
+                container
+                  heading
+                    text "Auto layout"
+                  container
+                    checkbox [ref=552]
+                    svg_root
+                group [ref=553]
+                  text "Flow"
+                  radiogroup [ref=554]
+                    container
+                      container
+                        radio [ref=555]
+                        svg_root
+                      container
+                        radio [ref=556]
+                        svg_root
+                      container
+                        radio [ref=557]
+                        svg_root
+                      container
+                        radio [ref=558]
+                        svg_root
+                  container
+                    checkbox [ref=559]
+                    svg_root
+                group [ref=560]
+                  text "Resizing"
+                  container
+                    svg_root
+                    container
+                      text "W"
+                      container "Horizontal resizing"
+                        comboboxgrouping "Horizontal resizing" [ref=561, loc=css:input[aria-label="Horizontal resizing"]]
+                          text "342"
+                        text "Fill"
+                  container
+                    text "H"
+                    container "Vertical resizing"
+                      comboboxgrouping "Vertical resizing" [ref=562, loc=css:input[aria-label="Vertical resizing"]]
+                        text "42"
+                      text "Fill"
+                  container
+                    checkbox [ref=563]
+                    svg_root
+                container
+                  text "Alignment"
+                  text "Gap"
+                  radiogroup [ref=564]
+                    container
+                      radio [ref=565]
+                      radio [ref=566]
+                      radio [ref=567]
+                  container
+                    container
+                      svg_root
+                      svg_root
+                    container "Vertical gap between objects"
+                      comboboxgrouping "Vertical gap between objects" [ref=568, loc=css:input[aria-label="Vertical gap between objects"]]
+                        text "Auto"
+                  button "Auto layout settings" [ref=569, loc=css:button[aria-label="Auto layout settings"]]
+                    svg_root
+                container
+                  text "Padding"
+                  container "Horizontal padding"
+                    svg_root
+                    textbox "Horizontal padding" [ref=570, loc=css:input[aria-label="Horizontal padding"]]
+                      text "0"
+                  container "Vertical padding"
+                    svg_root
+                    textbox "Vertical padding" [ref=571, loc=css:input[aria-label="Vertical padding"]]
+                      text "0"
+                  button "Individual padding" [ref=572, loc=css:button[aria-label="Individual padding"]]
+                    svg_root
+                container
+                  checkbox [ref=573]
+                  text "Clip content"
+              container
+                container
+                  heading
+                    text "Appearance"
+                  container
+                    container
+                      checkbox [ref=574]
+                      svg_root
+                    button "Apply variable/property" [ref=575, loc=css:button[aria-label="Apply variable/property"]]
+                      svg_root
+                    button "Apply blend mode" [ref=576, loc=css:button[aria-label="Apply blend mode"]]
+                      svg_root
+                group [ref=577]
+                  text "Opacity"
+                  container
+                    svg_root
+                    textbox [ref=578]
+                      text "100%"
+                  text "Corner radius"
+                  container
+                    svg_root
+                    textbox [ref=579]
+                      text "0"
+                  button "Individual corners" [ref=580, loc=css:button[aria-label="Individual corners"]]
+                    svg_root
+              container
+                button [ref=581]
+                  svg_root
+                  heading
+                    text "Fill"
+                container
+                  button "Fill, Apply styles and variables" [ref=582, loc=css:button[aria-label="Fill, Apply styles and variables"]]
+                    svg_root
+                  button "Add fill" [ref=583, loc=css:button[aria-label="Add fill"]]
+                    svg_root
+              container
+                button [ref=584]
+                  svg_root
+                  heading
+                    text "Stroke"
+                container
+                  button "Stroke, Apply styles and variables" [ref=585, loc=css:button[aria-label="Stroke, Apply styles and variables"]]
+                    svg_root
+                  button "Add stroke" [ref=586, loc=css:button[aria-label="Add stroke"]]
+                    svg_root
+              container
+                button [ref=587]
+                  svg_root
+                  heading
+                container
+                  button "Effects, Apply styles" [ref=588, loc=css:button[aria-label="Effects, Apply styles"]]
+                    svg_root
+                  button "Add effect" [ref=589, loc=css:button[aria-label="Add effect"]]
+                    svg_root
+          slider "Resize handle" [ref=416]
+      toolbar "Editor"
+        container
+          group "Move"
+            button "Move" [ref=417]
+              svg_root
+            button "Move tools" [ref=418]
+              svg_root
+          group "Frame"
+            button "Frame" [ref=419]
+              svg_root
+            button "Region tools" [ref=420]
+              svg_root
+          group "Rectangle"
+            button "Rectangle" [ref=421]
+              svg_root
+            button "Shape tools" [ref=422]
+              svg_root
+          group "Pen"
+            button "Pen" [ref=423, loc=css:button[aria-label="Pen"]]
+              svg_root
+            button "Creation tools" [ref=424, loc=css:button[aria-label="Creation tools"]]
+              svg_root
+          group "Text"
+            button "Text" [ref=425]
+              svg_root
+            button "Type tools" [ref=426]
+              svg_root
+          group "Code"
+            button "Code" [ref=427]
+              svg_root
+            button "Code tools" [ref=428]
+              svg_root
+          button "Comment (1 unread)" [ref=429]
+            svg_root
+          button "Actions" [ref=430]
+            svg_root
+        radiogroup [ref=431]
+          container
+            container
+              radio [ref=432]
+              svg_root
+            container
+              radio [ref=433]
+              svg_root
+            container
+              radio [ref=434]
+              svg_root
+            container
+              radio [ref=435]
+              svg_root
+    toolbar "Help/zoom toolbar"
+      button "Help" [ref=436, loc=css:button[aria-label="Help"]]
+        svg_root

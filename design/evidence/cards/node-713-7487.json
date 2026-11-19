@@ -1,0 +1,133 @@
+{
+  "panel": "Share\nDesign\nDesign\nPrototype\nPrototype\n52%\nFrame\nToggle ready for dev status\nPosition\nAlignment\nPosition\nX\nY\nRotation\nAuto layout\nToggle auto layout\nFlow\nLayout\nFreeform\nVertical\nHorizontal\nGrid\nWrap\nDimensions\nW\nH\nLock aspect ratio\nAlignment\nGap\nAlignment\nAlign top left\nAlign top center\nAlign top right\nAlign left\nAlign center\nAlign right\nAlign bottom left\nAlign bottom center\nAlign bottom right\n20\nPadding\nClip content\nAppearance\nHide\nOpacity\nCorner radius\nFill\nColor\nAutofill available. Type to see suggestions.\n%\nToggle visibility\nStroke\nEffects\nSelection colors\n+15\nLayout guide\nExport",
+  "fields": [
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "X-position",
+      "value": "411"
+    },
+    {
+      "name": "Y-position",
+      "value": "604"
+    },
+    {
+      "name": "Rotation",
+      "value": "0°"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "NONE"
+    },
+    {
+      "name": null,
+      "value": "VERTICAL"
+    },
+    {
+      "name": null,
+      "value": "HORIZONTAL"
+    },
+    {
+      "name": null,
+      "value": "GRID"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": "Width",
+      "value": "1280"
+    },
+    {
+      "name": "Height",
+      "value": "800"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "TOP_LEFT"
+    },
+    {
+      "name": null,
+      "value": "TOP_CENTER"
+    },
+    {
+      "name": null,
+      "value": "TOP_RIGHT"
+    },
+    {
+      "name": null,
+      "value": "LEFT"
+    },
+    {
+      "name": null,
+      "value": "CENTER"
+    },
+    {
+      "name": null,
+      "value": "RIGHT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_LEFT"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_CENTER"
+    },
+    {
+      "name": null,
+      "value": "BOTTOM_RIGHT"
+    },
+    {
+      "name": "Vertical gap between objects",
+      "value": ""
+    },
+    {
+      "name": "Horizontal padding",
+      "value": "0"
+    },
+    {
+      "name": "Vertical padding",
+      "value": "0"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "on"
+    },
+    {
+      "name": null,
+      "value": "100%"
+    },
+    {
+      "name": null,
+      "value": "0"
+    },
+    {
+      "name": "Color",
+      "value": "FFFFFF"
+    },
+    {
+      "name": null,
+      "value": "100"
+    },
+    {
+      "name": null,
+      "value": "on"
+    }
+  ]
+}

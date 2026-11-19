@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { expect, it } from 'vitest';
+import { expect, it, vi } from 'vitest';
 import { Modal } from '@/shared/ui/index.client';
 
 function Harness() {
@@ -37,4 +37,46 @@ it('focuses textarea and cycles all native controls and links', async () => {
   expect(screen.getByRole('button', { name: '닫기' })).toHaveFocus();
   await user.keyboard('{Escape}');
   expect(screen.getByRole('button', { name: '열기' })).toHaveFocus();
+});
+
+it('uses its existing controlled callback for native cancellation and the close button', async () => {
+  const user = userEvent.setup();
+  const onClose = vi.fn();
+  render(
+    <Modal open title="확인" onClose={onClose}>
+      설명
+    </Modal>,
+  );
+  const cancel = new Event('cancel', { bubbles: false, cancelable: true });
+  fireEvent(screen.getByRole('dialog', { name: '확인' }), cancel);
+  expect(cancel.defaultPrevented).toBe(true);
+  expect(onClose).toHaveBeenCalledOnce();
+  await user.click(screen.getByRole('button', { name: '닫기' }));
+  expect(onClose).toHaveBeenCalledTimes(2);
+});
+
+it('does not interpret content or internal padding as a backdrop click', () => {
+  const onClose = vi.fn();
+  render(
+    <Modal open title="확인" onClose={onClose}>
+      설명
+    </Modal>,
+  );
+  const dialog = screen.getByRole('dialog', { name: '확인' });
+  vi.spyOn(dialog, 'getBoundingClientRect').mockReturnValue({
+    x: 16,
+    y: 316,
+    top: 316,
+    right: 359,
+    bottom: 495,
+    left: 16,
+    width: 343,
+    height: 179,
+    toJSON: () => ({}),
+  });
+  fireEvent.click(dialog, { clientX: 20, clientY: 320 });
+  fireEvent.click(screen.getByText('설명'), { clientX: 36, clientY: 350 });
+  expect(onClose).not.toHaveBeenCalled();
+  fireEvent.click(dialog, { clientX: 1, clientY: 1 });
+  expect(onClose).toHaveBeenCalledOnce();
 });

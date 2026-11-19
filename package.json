@@ -8,8 +8,9 @@
     "pnpm": ">=10 <11"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "generate:text-tokens": "node scripts/generate-text-tokens.mjs",
+    "dev": "node scripts/generate-text-tokens.mjs --dev",
+    "build": "pnpm generate:text-tokens && next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "format": "prettier --write .",
